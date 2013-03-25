@@ -1,0 +1,40 @@
+1	Obsidian Skin	Immune to lava	14400	True
+2	Regeneration	Provides life regeneration	18000	True
+3	Swiftness	25% increased movement speed	14400	True
+4	Gills	Breathe water instead of air	7200	True
+5	Ironskin	Increase defense by 8	18000	True
+6	Mana Regeneration	Increased mana regeneration	7200	True
+7	Magic Power	20% increased magic damage	7200	True
+8	Featherfall	Press UP or DOWN to control speed of descent	18000	True
+9	Spelunker	Shows the location of treasure and ore	18000	True
+10	Invisibility	Grants invisibility	7200	True
+11	Shine	Emitting light	18000	True
+12	Night Owl	Increased night vision	14400	True
+13	Battle	Increased enemy spawn rate	25200	True
+14	Thorns	Attackers also take damage	7200	True
+15	Water Walking	Press DOWN to enter water	18000	True
+16	Archery	20% increased arrow damage and speed	14400	True
+17	Hunter	Shows the location of enemies	18000	True
+18	Gravitation	Press UP or DOWN to reverse gravity	10800	True
+19	Orb of Light	A magical orb that provides light	18000	True
+20	Poisoned	Slowly losing life	600	False
+21	Potion Sickness	Cannot consume anymore healing items	3600	False
+22	Darkness	Decreased light vision	900	False
+23	Cursed	Cannot use any items	600	False
+24	On Fire!	Slowly losing life	600	False
+25	Tipsy	Increased melee abilities, lowered defense	7200	Null
+26	Well Fed	Minor improvements to all stats	36000	True
+27	Fairy	A fairy is following you	14400	True
+28	Werewolf	Physical abilities are increased	14400	True
+29	Clairvoyance	Magic powers are increased	14400	True
+30	Bleeding	Cannot regenerate life	14400	False
+31	Confused	Movement is reversed	14400	False
+32	Slow	Movement speed is reduced	14400	False
+33	Weak	Physical abilities are decreased	14400	False
+34	Merfolk	Can breathe and move easily underwater	14400	True
+35	Silenced	Cannot use items that require mana	14400	False
+36	Broken Armor	Defense is cut in half	14400	False
+37	Horrified	You have seen something nasty, there is no escape.	14400	False
+38	The Tongue	You are being sucked into the mouth	14400	False
+39	Cursed Inferno	Losing life	14400	False
+40	Pet Bunny	I think it wants your carrot	14400	True
