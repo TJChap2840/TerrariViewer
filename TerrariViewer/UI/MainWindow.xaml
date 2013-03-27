@@ -21,7 +21,7 @@
             </MenuItem>
         </Menu>
         
-        <TabControl Grid.Row="1" Margin="0,30,0,0">
+        <TabControl Name="tabControl" Grid.Row="1" Margin="0,30,0,0" SelectionChanged="tabControl_SelectionChanged">
             <TabItem Header="Character">
                 <Grid>
                     <my:CharacterControl />

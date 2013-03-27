@@ -22,6 +22,33 @@ namespace TerrariViewer.UI
         public EquipmentControl()
         {
             InitializeComponent();
+
+            for (int i = 0; i < vanity_Grid.RowDefinitions.Count; i++)
+            {
+                ItemControl itemControl = new ItemControl();
+                itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Vanity[{0}]", i));
+
+                Grid.SetRow(itemControl, i);
+                vanity_Grid.Children.Add(itemControl);
+            }
+
+            for (int i = 0; i < armor_Grid.RowDefinitions.Count; i++)
+            {
+                ItemControl itemControl = new ItemControl();
+                itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Armor[{0}]", i));
+
+                Grid.SetRow(itemControl, i);
+                armor_Grid.Children.Add(itemControl);
+            }
+
+            for (int i = 0; i < accessory_Grid.RowDefinitions.Count; i++)
+            {
+                ItemControl itemControl = new ItemControl();
+                itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Accessories[{0}]", i));
+
+                Grid.SetRow(itemControl, i);
+                accessory_Grid.Children.Add(itemControl);
+            }
         }
     }
 }
