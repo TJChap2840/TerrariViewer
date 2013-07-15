@@ -1,3 +1,4 @@
+0	No Item
 -13	Copper Pickaxe
 -1	Silver Pickaxe
 -7	Gold Pickaxe
@@ -213,7 +214,7 @@
 195	Jungle Grass Seeds
 196	Wooden Hammer
 197	Star Cannon
--19	Blue Phasesaber
+-19	Blue Phasesaber	
 198	Blue Phaseblade
 -20	Red Phasesaber
 199	Red Phaseblade

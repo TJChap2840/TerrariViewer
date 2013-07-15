@@ -38,6 +38,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -49,12 +51,25 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="UI\AccessoryControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\BuffControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\BuffPreview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UI\CharacterControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -64,6 +79,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UI\HairPreviewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\InventoryControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -81,10 +100,21 @@
     </Compile>
     <Compile Include="Converters\FillColorConverter.cs" />
     <Compile Include="Converters\HairConverter.cs" />
+    <Compile Include="Converters\PrefixConverter.cs" />
+    <Compile Include="Converters\StackConverter.cs" />
     <Compile Include="ShaderSource\EffectLibrary.cs" />
     <Compile Include="ShaderSource\MonochromeEffect.cs" />
     <Compile Include="TerrariaObjects\Item.cs" />
     <Compile Include="TerrariaObjects\Player.cs" />
+    <Compile Include="UI\AccessoryControl.xaml.cs">
+      <DependentUpon>AccessoryControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BuffControl.xaml.cs">
+      <DependentUpon>BuffControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BuffPreview.xaml.cs">
+      <DependentUpon>BuffPreview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\CharacterControl.xaml.cs">
       <DependentUpon>CharacterControl.xaml</DependentUpon>
     </Compile>
@@ -93,6 +123,9 @@
     </Compile>
     <Compile Include="UI\HairPreviewControl.xaml.cs">
       <DependentUpon>HairPreviewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\InventoryControl.xaml.cs">
+      <DependentUpon>InventoryControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\ItemControl.xaml.cs">
       <DependentUpon>ItemControl.xaml</DependentUpon>
@@ -133,7 +166,6 @@
   <ItemGroup>
     <Resource Include="TerrariaObjects\Data\Buffs.txt" />
     <Resource Include="TerrariaObjects\Data\ItemPrefixes.txt" />
-    <Resource Include="TerrariaObjects\Data\Items_Copy.txt" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Hair\Hair_1.png" />
@@ -784,6 +816,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="TerrariaObjects\Data\Items.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Hair_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

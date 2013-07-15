@@ -8,6 +8,8 @@
         <!-- Converters -->
         <cv:HairConverter x:Key="HairConverter" />
         <cv:FillColorConverter x:Key="FillColorConverter" />
+        <cv:PrefixConverter x:Key="PrefixConverter" />
+        <cv:StackConverter x:Key="StackConverter" />
         
     </Application.Resources>
 </Application>

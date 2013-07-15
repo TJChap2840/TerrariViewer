@@ -35,7 +35,7 @@ namespace TerrariViewer.UI
             player = new Player();
             this.DataContext = player;
             playerPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
-                .TrimEnd('\\') + @"\My Games\Terraria\Players\";
+                + @"My Games\Terraria\Players\";
         }
 
         //public void Load(string File)
@@ -93,22 +93,6 @@ namespace TerrariViewer.UI
             if (openFileDialog.ShowDialog() == true)
             {
                 player.Load(openFileDialog.FileName);
-            }
-        }
-
-        private void tabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            switch (tabControl.SelectedIndex)
-            {
-                case 0:
-                    this.Width = 483;
-                    this.Height = 456;
-                    break;
-
-                case 1:
-                    this.Width = 483;
-                    this.Height = 500;
-                    break;
             }
         }
     }
