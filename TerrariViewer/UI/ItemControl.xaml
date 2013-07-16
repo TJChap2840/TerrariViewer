@@ -5,6 +5,15 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="50" d:DesignWidth="50" BorderBrush="#14000000" BorderThickness="0.5" Margin="2">
+    
+    <!--<UserControl.Resources>
+        <Style TargetType="Image">
+            <Setter Property="RenderOptions.BitmapScalingMode" Value="NearestNeighbor" />
+        </Style>
+        <ToolTip x:Key="ItemToolTip" DataContext="{Binding Path=PlacementTarget.DataContext, RelativeSource={x:Static RelativeSource.Self}}">
+            <TextBlock Text="{Binding ToolTip}" />
+        </ToolTip>
+    </UserControl.Resources>-->
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -17,5 +26,5 @@
         <Label Content="{Binding Name}" HorizontalContentAlignment="Center" Margin="5" Grid.Row="1" FontWeight="SemiBold" />-->
         <Label Content="{Binding StackSize, Converter={StaticResource StackConverter}}" 
                Visibility="{Binding Path=Text, RelativeSource={RelativeSource Self}}" Grid.RowSpan="2" FontWeight="SemiBold"/>
-    </Grid>
+     </Grid>
 </UserControl>

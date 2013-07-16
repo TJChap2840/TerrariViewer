@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:my="clr-namespace:TerrariViewer.UI"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
-        Title="MainWindow" Height="456" Width="486" Icon="/TerrariViewer;component/Images/TVicon.ico" SizeToContent="WidthAndHeight">
+        Title="MainWindow" Height="456" Width="486" Icon="/TerrariViewer;component/Images/TVicon.ico" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
     
     <Window.CommandBindings>
         <CommandBinding Command="my:MainWindow.FileOpenCommand" Executed="FileOpenCommand_Executed" />
@@ -28,12 +28,6 @@
                 </Grid>
             </TabItem>
 
-            <!--<TabItem Header="Buffs">
-                <Grid>
-                    <my:BuffControl />
-                </Grid>
-            </TabItem>-->
-
             <TabItem Header="Equipment">
                 <Grid>
                     <my:EquipmentControl /> 
@@ -43,6 +37,18 @@
             <TabItem Header="Inventory">
                 <Grid>
                     <my:InventoryControl />
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Bank/Safe">
+                <Grid>
+                    <my:BankControl />
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Buffs">
+                <Grid>
+                    <my:BuffControl />
                 </Grid>
             </TabItem>
         </TabControl>

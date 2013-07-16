@@ -62,6 +62,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UI\BankControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UI\BuffControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -104,10 +108,14 @@
     <Compile Include="Converters\StackConverter.cs" />
     <Compile Include="ShaderSource\EffectLibrary.cs" />
     <Compile Include="ShaderSource\MonochromeEffect.cs" />
+    <Compile Include="TerrariaObjects\Buff.cs" />
     <Compile Include="TerrariaObjects\Item.cs" />
     <Compile Include="TerrariaObjects\Player.cs" />
     <Compile Include="UI\AccessoryControl.xaml.cs">
       <DependentUpon>AccessoryControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BankControl.xaml.cs">
+      <DependentUpon>BankControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\BuffControl.xaml.cs">
       <DependentUpon>BuffControl.xaml</DependentUpon>
@@ -819,6 +827,51 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Hair_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Buffs\Buff_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Buffs\Buff_1.png" />
+    <Resource Include="Images\Buffs\Buff_10.png" />
+    <Resource Include="Images\Buffs\Buff_11.png" />
+    <Resource Include="Images\Buffs\Buff_12.png" />
+    <Resource Include="Images\Buffs\Buff_13.png" />
+    <Resource Include="Images\Buffs\Buff_14.png" />
+    <Resource Include="Images\Buffs\Buff_15.png" />
+    <Resource Include="Images\Buffs\Buff_16.png" />
+    <Resource Include="Images\Buffs\Buff_17.png" />
+    <Resource Include="Images\Buffs\Buff_18.png" />
+    <Resource Include="Images\Buffs\Buff_19.png" />
+    <Resource Include="Images\Buffs\Buff_2.png" />
+    <Resource Include="Images\Buffs\Buff_20.png" />
+    <Resource Include="Images\Buffs\Buff_21.png" />
+    <Resource Include="Images\Buffs\Buff_22.png" />
+    <Resource Include="Images\Buffs\Buff_23.png" />
+    <Resource Include="Images\Buffs\Buff_24.png" />
+    <Resource Include="Images\Buffs\Buff_25.png" />
+    <Resource Include="Images\Buffs\Buff_26.png" />
+    <Resource Include="Images\Buffs\Buff_27.png" />
+    <Resource Include="Images\Buffs\Buff_28.png" />
+    <Resource Include="Images\Buffs\Buff_29.png" />
+    <Resource Include="Images\Buffs\Buff_3.png" />
+    <Resource Include="Images\Buffs\Buff_30.png" />
+    <Resource Include="Images\Buffs\Buff_31.png" />
+    <Resource Include="Images\Buffs\Buff_32.png" />
+    <Resource Include="Images\Buffs\Buff_33.png" />
+    <Resource Include="Images\Buffs\Buff_34.png" />
+    <Resource Include="Images\Buffs\Buff_35.png" />
+    <Resource Include="Images\Buffs\Buff_36.png" />
+    <Resource Include="Images\Buffs\Buff_37.png" />
+    <Resource Include="Images\Buffs\Buff_38.png" />
+    <Resource Include="Images\Buffs\Buff_39.png" />
+    <Resource Include="Images\Buffs\Buff_4.png" />
+    <Resource Include="Images\Buffs\Buff_40.png" />
+    <Resource Include="Images\Buffs\Buff_5.png" />
+    <Resource Include="Images\Buffs\Buff_6.png" />
+    <Resource Include="Images\Buffs\Buff_7.png" />
+    <Resource Include="Images\Buffs\Buff_8.png" />
+    <Resource Include="Images\Buffs\Buff_9.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

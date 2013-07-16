@@ -4,8 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             d:DesignHeight="100" d:DesignWidth="100">
+             d:DesignHeight="50" d:DesignWidth="50" BorderBrush="#14000000" BorderThickness="0.5" Margin="2">
     <Grid>
-        <Image Source="{Binding Image}" Margin="5" Opacity="1" />
+        <Image Source="{Binding Image}" Margin="5" Opacity=".35" />
     </Grid>
 </UserControl>

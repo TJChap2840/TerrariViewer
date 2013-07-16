@@ -23,16 +23,16 @@ namespace TerrariViewer.UI
         {
             InitializeComponent();
 
-            for (int i = 0; i < main_Grid.RowDefinitions.Count; i++)
+            for (int i = 0; i < buff_Grid.RowDefinitions.Count; i++)
             {
-                for (int j = 0; j < main_Grid.ColumnDefinitions.Count; j++)
+                for (int j = 0; j < buff_Grid.ColumnDefinitions.Count; j++)
                 {
                     BuffPreview buffPreview = new BuffPreview();
-                    buffPreview.SetBinding(BuffPreview.DataContextProperty, string.Format("Buffs[{0}]", i * (j + 1)));
+                    buffPreview.SetBinding(BuffPreview.DataContextProperty, string.Format("Buffs[{0}]", (i * 5) + j));
 
                     Grid.SetRow(buffPreview, i);
                     Grid.SetColumn(buffPreview, j);
-                    main_Grid.Children.Add(buffPreview);
+                    buff_Grid.Children.Add(buffPreview);
                 }
                 //AccessoryControl accessoryControl = new AccessoryControl();
                 //accessoryControl.SetBinding(AccessoryControl.DataContextProperty, string.Format("Vanity[{0}]", i));

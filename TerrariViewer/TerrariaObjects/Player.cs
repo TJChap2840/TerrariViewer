@@ -213,6 +213,9 @@ namespace TerrariViewer.TerrariaObjects
         public Item[] Inventory { get; set; }
         public Item[] Coins { get; set; }
         public Item[] Ammo { get; set; }
+        public Item[] Bank { get; set; }
+        public Item[] Safe { get; set; }
+        public Buff[] Buffs { get; set; }
 
         #endregion
 
@@ -252,6 +255,24 @@ namespace TerrariViewer.TerrariaObjects
             for (int i = 0; i < Ammo.Length; i++)
             {
                 Ammo[i] = new Item();
+            }
+
+            Bank = new Item[20];
+            for (int i = 0; i < Bank.Length; i++)
+            {
+                Bank[i] = new Item();
+            }
+
+            Safe = new Item[20];
+            for (int i = 0; i < Safe.Length; i++)
+            {
+                Safe[i] = new Item();
+            }
+
+            Buffs = new Buff[10];
+            for (int i = 0; i < Buffs.Length; i++)
+            {
+                Buffs[i] = new Buff();
             }
         }
 
@@ -430,6 +451,51 @@ namespace TerrariViewer.TerrariaObjects
                                     Ammo[i].Prefix = reader.ReadByte();
                                 }
                             } 
+                        }
+
+                        for (int i = 0; i < Bank.Length; i++)
+                        {
+                            if (release >= 38)
+                            {
+                                Bank[i].SetFromID(reader.ReadInt32());
+                            }
+                            else
+                            {
+                                Bank[i].SetFromName(reader.ReadString());
+                            }
+                            Bank[i].StackSize = reader.ReadInt32();
+                            if (release >= 36)
+                            {
+                                Bank[i].Prefix = reader.ReadByte();
+                            }
+                        }
+
+                        if (release >= 20)
+                        {
+                            for (int i = 0; i < Safe.Length; i++)
+                            {
+                                if (release >= 38)
+                                {
+                                    Safe[i].SetFromID(reader.ReadInt32());
+                                }
+                                else
+                                {
+                                    Safe[i].SetFromName(reader.ReadString());
+                                }
+                                Safe[i].StackSize = reader.ReadInt32();
+                                if (release >= 36)
+                                {
+                                    Safe[i].Prefix = reader.ReadByte();
+                                }
+                            }
+                        }
+
+                        if (release >= 11)
+                        {
+                            for (int i = 0; i < Buffs.Length; i++)
+                            {
+                                Buffs[i].SetFromID(reader.ReadInt32(), reader.ReadInt32());
+                            }
                         }
                         
                     }
