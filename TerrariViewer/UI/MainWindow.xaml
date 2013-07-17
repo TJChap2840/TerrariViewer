@@ -7,6 +7,9 @@
     
     <Window.CommandBindings>
         <CommandBinding Command="my:MainWindow.FileOpenCommand" Executed="FileOpenCommand_Executed" />
+        <CommandBinding Command="my:MainWindow.FileNewCommand" Executed="FileNewCommand_Executed" />
+        <CommandBinding Command="my:MainWindow.FileDelCommand" Executed="FileDelCommand_Executed" />
+        <CommandBinding Command="my:MainWindow.LaunchCommand" Executed="LaunchCommand_Executed" />
     </Window.CommandBindings>
     
     <Grid>
@@ -18,6 +21,9 @@
         <Menu Height="25"> 
             <MenuItem Header="_File">
                 <MenuItem Header="_Open" Command="my:MainWindow.FileOpenCommand" />
+                <MenuItem Header="_New" Command="my:MainWindow.FileNewCommand" />
+                <MenuItem Header="_Delete" Command="my:MainWindow.FileDelCommand" />
+                <MenuItem Header="_Launch Terraria" Command="my:MainWindow.LaunchCommand" />
             </MenuItem>
         </Menu>
         

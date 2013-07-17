@@ -38,18 +38,6 @@ namespace TerrariViewer.UI
                 + @"My Games\Terraria\Players\";
         }
 
-        //public void Load(string File)
-        //{
-        //    if (player.Load(File))
-        //    {
-        //        lastFileName = File;
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show(this, "An error occurred while trying to load.", "Loading error", MessageBoxButton.OK, MessageBoxImage.Error);
-        //    }
-        //}
-
         #region Commands
 
         public static RoutedCommand FileOpenCommand = new RoutedCommand("FileOpenCommand", typeof(MainWindow),
@@ -58,25 +46,23 @@ namespace TerrariViewer.UI
                 new KeyGesture(Key.O, ModifierKeys.Control)
             });
 
-        public static RoutedCommand FileSaveCommand = new RoutedCommand("FileSaveCommand", typeof(MainWindow),
+        public static RoutedCommand FileNewCommand = new RoutedCommand("FileNewCommand", typeof(MainWindow),
             new InputGestureCollection()
             {
-                new KeyGesture(Key.S, ModifierKeys.Control)
+                new KeyGesture(Key.N, ModifierKeys.Control)
             });
 
-        public static RoutedCommand FileSaveAsCommand = new RoutedCommand("FileSaveAsCommand", typeof(MainWindow));
+        public static RoutedCommand FileDelCommand = new RoutedCommand("FileDelCommand", typeof(MainWindow),
+            new InputGestureCollection()
+            {
+                new KeyGesture(Key.Delete)
+            });
 
-        //public static RoutedCommand EditSpawnPositionsCommand = new RoutedCommand("EditSpawnPositionsCommand", typeof(MainWindow),
-        //    new InputGestureCollection() 
-        //    {
-        //        new KeyGesture(Key.P, ModifierKeys.Control)
-        //    });
-
-        //public static RoutedCommand DirectoryOpenCommand = new RoutedCommand("DirectoryOpenCommand", typeof(MainWindow),
-        //    new InputGestureCollection()
-        //    {
-        //        new KeyGesture(Key.D, ModifierKeys.Control)
-        //    });
+        public static RoutedCommand LaunchCommand = new RoutedCommand("LaunchCommand", typeof(MainWindow),
+            new InputGestureCollection()
+            {
+                new KeyGesture(Key.L, ModifierKeys.Control)
+            });
 
         #endregion
 
@@ -89,10 +75,68 @@ namespace TerrariViewer.UI
                 openFileDialog.InitialDirectory = playerPath;
             }
 
-            openFileDialog.FileName = "player1.plr";
+            //openFileDialog.FileName = "player1.plr";
             if (openFileDialog.ShowDialog() == true)
             {
                 player.Load(openFileDialog.FileName);
+                playerPath = openFileDialog.FileName;
+            }
+        }
+
+        private void FileNewCommand_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            player = new Player();
+            this.DataContext = player;
+            playerPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
+                + @"My Games\Terraria\Players\";
+        }
+
+        private void FileDelCommand_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            if (File.Exists(playerPath))
+            {
+                MessageBoxResult result = MessageBox.Show("Are you sure you want to delete" +
+                    "\n'" + System.IO.Path.GetFileName(playerPath) + "'?",
+                    "Delete Player", MessageBoxButton.YesNo);
+
+                if (result == MessageBoxResult.Yes)
+                {
+                    File.Delete(playerPath);
+                    MessageBox.Show("Player Deleted!", "Oh goodness...");
+
+                    player = new Player();
+                    this.DataContext = player;
+                    playerPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
+                        + @"My Games\Terraria\Players\";
+                }
+            }
+        }
+
+        private void LaunchCommand_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            try
+            {
+                //StringBuilder str = new StringBuilder("steam: \"");
+                //str.AppendFormat("-applaunch {0}", 105600);
+                //str.Append("\"");
+                string str = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86)
+                    + @"\Steam\Steam.exe";
+                if (!File.Exists(str))
+	            {
+		           str = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles)
+                    + @"\Steam\Steam.exe"; 
+	            }
+                string arg = "-applaunch 105600";
+                MessageBox.Show(str);
+                if (File.Exists(str))
+                {
+                    System.Diagnostics.Process.Start(str, arg);    
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
             }
         }
     }

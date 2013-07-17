@@ -1,0 +1,12 @@
+﻿Overall
+	Menu Items
+		Save
+		Save As
+	Pop Up Box 
+
+Character Tab
+	Hook up GUI
+
+Armor Tab
+	Fix Preview
+

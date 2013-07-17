@@ -216,6 +216,21 @@ namespace TerrariViewer.TerrariaObjects
         public Item[] Bank { get; set; }
         public Item[] Safe { get; set; }
         public Buff[] Buffs { get; set; }
+        public int[] spX { get; set; }
+        public int[] spY { get; set; }
+        public int[] spI { get; set; }
+        public string[] spN { get; set; }
+
+        private bool hotbarLocked = false;
+        public bool HotbarLocked
+        {
+            get { return hotbarLocked; }
+            set
+            {
+                hotbarLocked = value;
+                OnPropertyChanged("HotbarLocked");
+            }
+        }
 
         #endregion
 
@@ -273,6 +288,15 @@ namespace TerrariViewer.TerrariaObjects
             for (int i = 0; i < Buffs.Length; i++)
             {
                 Buffs[i] = new Buff();
+            }
+
+            spX = new int[200];
+            spY = new int[200];
+            spI = new int[200];
+            spN = new string[200]; 
+            for (int i = 0; i < 200; i++)
+            {
+                spN[i] = "";
             }
         }
 
@@ -497,7 +521,24 @@ namespace TerrariViewer.TerrariaObjects
                                 Buffs[i].SetFromID(reader.ReadInt32(), reader.ReadInt32());
                             }
                         }
-                        
+
+                        for (int i = 0; i < 200; i++)
+                        {
+                            int num = reader.ReadInt32();
+                            if (num == 01)
+                            {
+                                break;
+                            }
+                            spX[i] = num;
+                            spY[i] = reader.ReadInt32();
+                            spI[i] = reader.ReadInt32();
+                            spN[i] = reader.ReadString();
+                        }
+
+                        if (release >= 16)
+                        {
+                            HotbarLocked = reader.ReadBoolean();
+                        }
                     }
                     File.Delete(outputFile);
                     OnPropertyChanged(null);
