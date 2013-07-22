@@ -22,7 +22,7 @@ namespace TerrariViewer.UI
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Player player;
+        public static Player player;
         private string playerPath;
         //private string lastFileName = null;
 
@@ -52,18 +52,6 @@ namespace TerrariViewer.UI
                 new KeyGesture(Key.N, ModifierKeys.Control)
             });
 
-        public static RoutedCommand FileDelCommand = new RoutedCommand("FileDelCommand", typeof(MainWindow),
-            new InputGestureCollection()
-            {
-                new KeyGesture(Key.Delete)
-            });
-
-        public static RoutedCommand LaunchCommand = new RoutedCommand("LaunchCommand", typeof(MainWindow),
-            new InputGestureCollection()
-            {
-                new KeyGesture(Key.L, ModifierKeys.Control)
-            });
-
         #endregion
 
         private void FileOpenCommand_Executed(object sender, ExecutedRoutedEventArgs e)
@@ -91,7 +79,7 @@ namespace TerrariViewer.UI
                 + @"My Games\Terraria\Players\";
         }
 
-        private void FileDelCommand_Executed(object sender, ExecutedRoutedEventArgs e)
+        private void Delete_Clicked(object sender, RoutedEventArgs e)
         {
             if (File.Exists(playerPath))
             {
@@ -112,32 +100,43 @@ namespace TerrariViewer.UI
             }
         }
 
-        private void LaunchCommand_Executed(object sender, ExecutedRoutedEventArgs e)
+        private void Launch_Clicked(object sender, RoutedEventArgs e)
         {
             try
             {
-                //StringBuilder str = new StringBuilder("steam: \"");
-                //str.AppendFormat("-applaunch {0}", 105600);
-                //str.Append("\"");
                 string str = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86)
                     + @"\Steam\Steam.exe";
                 if (!File.Exists(str))
-	            {
-		           str = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles)
-                    + @"\Steam\Steam.exe"; 
-	            }
+                {
+                    str = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles)
+                     + @"\Steam\Steam.exe";
+                }
                 string arg = "-applaunch 105600";
-                MessageBox.Show(str);
                 if (File.Exists(str))
                 {
-                    System.Diagnostics.Process.Start(str, arg);    
+                    System.Diagnostics.Process.Start(str, arg);
                 }
-                
+
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
+        }
+
+        private void Exit_Clicked(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void Twitter_Clicked(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://twitter.com/#!/tjchap2840");
+        }
+
+        private void Donate_Clicked(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=74TENM4NF4DUN&lc=US&item_name=TerrariViewer&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted");
         }
     }
 }

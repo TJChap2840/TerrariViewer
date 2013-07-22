@@ -27,8 +27,8 @@ namespace TerrariViewer.UI
             {
                 for (int j = 0; j < bank_Grid.ColumnDefinitions.Count; j++)
                 {
-                    ItemControl itemControl = new ItemControl();
-                    itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Bank[{0}]", (i * 4) + j));
+                    ItemControl itemControl = new ItemControl((i * 4) + j);
+                    itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Bank[{0}]", itemControl.Index));
 
                     Grid.SetRow(itemControl, i);
                     Grid.SetColumn(itemControl, j);
@@ -40,8 +40,8 @@ namespace TerrariViewer.UI
             {
                 for (int j = 0; j < safe_Grid.ColumnDefinitions.Count; j++)
                 {
-                    ItemControl itemControl = new ItemControl();
-                    itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Safe[{0}]", (i * 4) + j));
+                    ItemControl itemControl = new ItemControl((i * 4) + j);
+                    itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Safe[{0}]", itemControl.Index));
 
                     Grid.SetRow(itemControl, i);
                     Grid.SetColumn(itemControl, j);

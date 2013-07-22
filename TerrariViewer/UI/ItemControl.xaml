@@ -4,23 +4,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             d:DesignHeight="50" d:DesignWidth="50" BorderBrush="#14000000" BorderThickness="0.5" Margin="2">
+             d:DesignHeight="50" d:DesignWidth="50" BorderBrush="#14000000" BorderThickness="0.5" Margin="2" AllowDrop="True">
     
-    <!--<UserControl.Resources>
-        <Style TargetType="Image">
-            <Setter Property="RenderOptions.BitmapScalingMode" Value="NearestNeighbor" />
-        </Style>
-        <ToolTip x:Key="ItemToolTip" DataContext="{Binding Path=PlacementTarget.DataContext, RelativeSource={x:Static RelativeSource.Self}}">
-            <TextBlock Text="{Binding ToolTip}" />
+       <UserControl.Resources>
+        <ToolTip x:Key="ItemToolTip" MaxWidth="150"  DataContext="{Binding Path=PlacementTarget.DataContext, RelativeSource={x:Static RelativeSource.Self}}">
+            <TextBlock Text="{Binding ItemText}" />
         </ToolTip>
-    </UserControl.Resources>-->
-    <Grid>
+    </UserControl.Resources>
+    <Grid ToolTip="{Binding Source={StaticResource ItemToolTip}}">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
 
-        <Image Source="{Binding Image}" Margin="5" Grid.RowSpan="2" Opacity="0.35"/>
+        <Image Source="{Binding Image}" Margin="5" Grid.RowSpan="2" Opacity="0.35" />
         <!--<Label Content="{Binding Prefix, Converter={StaticResource PrefixConverter}}" HorizontalContentAlignment="Center" 
                Visibility="{Binding Path=Text, RelativeSource={RelativeSource Self}}" FontWeight="SemiBold" />
         <Label Content="{Binding Name}" HorizontalContentAlignment="Center" Margin="5" Grid.Row="1" FontWeight="SemiBold" />-->

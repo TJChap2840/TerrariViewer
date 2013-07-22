@@ -90,7 +90,8 @@ namespace TerrariViewer.TerrariaObjects
             set
             {
                 name = value;
-                OnPropertyChanged("Name");
+                ItemText = this.ToString();
+                OnPropertyChanged("Name");                
             }
         }
         
@@ -101,6 +102,7 @@ namespace TerrariViewer.TerrariaObjects
             set
             {
                 stackSize = value;
+                ItemText = this.ToString();
                 OnPropertyChanged("StackSize");
             }
         }
@@ -122,14 +124,14 @@ namespace TerrariViewer.TerrariaObjects
             get { return image; }
         }
 
-        private string toolTip;
-        public string ToolTip
+        private string itemText;
+        public string ItemText
         {
-            get { return toolTip; }
+            get { return itemText; }
             set
             {
-                toolTip = string.Format("{0} {1}", StackSize, Name);
-                OnPropertyChanged("ToolTip");
+                itemText = value;
+                OnPropertyChanged("ItemText");
             }
         }
 
@@ -141,6 +143,7 @@ namespace TerrariViewer.TerrariaObjects
         public Item()
         {
             ItemImage();
+            ItemText = this.ToString();
         }
 
         public void SetFromID(int id)

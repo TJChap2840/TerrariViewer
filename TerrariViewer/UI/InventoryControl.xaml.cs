@@ -27,8 +27,8 @@ namespace TerrariViewer.UI
             {
                 for (int j = 0; j < inv_Grid.ColumnDefinitions.Count; j++)
                 {                    
-                    ItemControl itemControl = new ItemControl();
-                    itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Inventory[{0}]", (i * 10) + j));
+                    ItemControl itemControl = new ItemControl((i * 10) + j);
+                    itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Inventory[{0}]", itemControl.Index));
 
                     Grid.SetRow(itemControl, i);
                     Grid.SetColumn(itemControl, j);
@@ -38,8 +38,8 @@ namespace TerrariViewer.UI
 
             for (int i = 0; i < coin_Grid.RowDefinitions.Count; i++)
             {
-                ItemControl itemControl = new ItemControl();
-                itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Coins[{0}]", i));
+                ItemControl itemControl = new ItemControl(i);
+                itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Coins[{0}]", itemControl.Index));
 
                 Grid.SetRow(itemControl, i);
                 coin_Grid.Children.Add(itemControl);
@@ -47,8 +47,8 @@ namespace TerrariViewer.UI
 
             for (int i = 0; i < ammo_Grid.RowDefinitions.Count; i++)
             {
-                ItemControl itemControl = new ItemControl();
-                itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Ammo[{0}]", i));
+                ItemControl itemControl = new ItemControl(i);
+                itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Ammo[{0}]", itemControl.Index));
 
                 Grid.SetRow(itemControl, i);
                 ammo_Grid.Children.Add(itemControl);
