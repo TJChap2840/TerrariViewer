@@ -31,11 +31,12 @@
                     <RowDefinition Height="50" />
                     <RowDefinition Height="50" />
                     <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
                 </Grid.RowDefinitions>
             </Grid>
         </GroupBox>
         
-        <GroupBox Header="Coins" Grid.Column="1" >
+        <GroupBox Header="Coins" Grid.Column="1">
             <Grid Name="coin_Grid">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50" />

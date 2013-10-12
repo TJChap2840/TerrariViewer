@@ -3,10 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:my="clr-namespace:TerrariViewer.UI"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
+    <UserControl.Resources>
+        <ToolTip x:Key="ItemToolTip" MaxWidth="150"  DataContext="{Binding Path=PlacementTarget.DataContext, RelativeSource={x:Static RelativeSource.Self}}">
+            <TextBlock Text="{Binding ItemText}" />
+        </ToolTip>
+    </UserControl.Resources>
+    <Grid ToolTip="{Binding ItemToolTip}" MouseDown="AccessoryControl_MouseDown" MouseUp="AccessoryControl_MouseUp">
+        <Popup Name="Pop_Up" PlacementTarget="{Binding ElementName=Item_Image}" Placement="Bottom" AllowsTransparency="True" PopupAnimation="Fade" MouseEnter="PopUp_MouseEnter">
+            <Border Name="Popup_Border" CornerRadius="2.5" Background="White" BorderThickness="0.5" BorderBrush="Black">
+                <my:ItemPicker DataContext="{Binding}" x:Name="Item_Picker" />
+            </Border>
+        </Popup>
         <Image Source="{Binding Image}" Margin="5" Opacity="1"/>
-        <!--<Label Content="{Binding Name}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="5" Grid.Row="1" FontWeight="SemiBold" />-->
     </Grid>
 </UserControl>

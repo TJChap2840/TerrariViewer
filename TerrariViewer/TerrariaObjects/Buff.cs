@@ -12,16 +12,17 @@ namespace TerrariViewer.TerrariaObjects
 {
     public class Buff : INotifyPropertyChanged
     {
-        private static Dictionary<int, string> buffDictionary = new Dictionary<int, string>();
-        public static Dictionary<int, string> BuffDictionary
+        private static Dictionary<int, Buff> buffDictionary = new Dictionary<int, Buff>();
+        public static Dictionary<int, Buff> BuffDictionary
         {
             get { return buffDictionary; }
         }
 
         static Buff()
         {
+            Buff buff;
+
             string uri = "/TerrariViewer;component/TerrariaObjects/Data/Buffs.txt";
-            BuffDictionary[0] = "";
 
             using (StreamReader reader = new StreamReader(Application.GetResourceStream(new Uri(uri, UriKind.RelativeOrAbsolute)).Stream))
             {
@@ -29,9 +30,15 @@ namespace TerrariViewer.TerrariaObjects
                 {
                     try
                     {
+                        buff = new Buff();
                         string line = reader.ReadLine();
                         string[] parts = line.Split('\t');
-                        BuffDictionary[int.Parse(parts[0])] = parts[1];
+
+                        buff.Id = int.Parse(parts[0]);
+                        buff.Name = parts[1];
+                        buff.maxDuration = int.Parse(parts[3]);
+                        buff.BuffImage();
+                        BuffDictionary[int.Parse(parts[0])] = buff;
                     }
                     catch
                     {
@@ -40,6 +47,9 @@ namespace TerrariViewer.TerrariaObjects
                 }
             }
         }
+
+
+        #region Properties
 
         private int id = 0;
         public int Id 
@@ -59,6 +69,7 @@ namespace TerrariViewer.TerrariaObjects
             set
             {
                 name = value;
+                BuffText = this.ToString();
                 OnPropertyChanged("Name");
             }
         }
@@ -77,6 +88,7 @@ namespace TerrariViewer.TerrariaObjects
                 {
                     gameDuration = int.MaxValue;
                 }
+                BuffText = this.ToString();
                 OnPropertyChanged("GameDuration");
             }
         }
@@ -87,16 +99,44 @@ namespace TerrariViewer.TerrariaObjects
             get { return image; } 
         }
 
+        private string buffText;
+        public string BuffText 
+        {
+            get { return buffText; }
+            set
+            {
+                buffText = value;
+                OnPropertyChanged("BuffText");
+            }
+        }
+
+        private int maxDuration;
+        public int MaxDuration 
+        {
+            get { return maxDuration; }
+            set
+            {
+                maxDuration = value;
+            }
+        }
+
+        #endregion
+
         public Buff()
         {
             BuffImage();
+            Id = 0;
+            GameDuration = 0;
+            Name = "No Buff";
+            BuffText = this.ToString();
         }
 
         public void SetFromID(int id, int duration)
         {
             this.Id = id;
-            this.Name = BuffDictionary[id];
-            this.GameDuration = duration;            
+            this.Name = BuffDictionary[id].Name;
+            this.GameDuration = duration;
+            OnPropertyChanged("Name");
         }
 
         private void BuffImage()
@@ -112,6 +152,11 @@ namespace TerrariViewer.TerrariaObjects
             }
 
             OnPropertyChanged("Image");
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0} [{1} Seconds]", Name, GameDuration);
         }
 
         #region PropertyChanged

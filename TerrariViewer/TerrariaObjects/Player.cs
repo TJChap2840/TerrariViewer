@@ -12,7 +12,7 @@ namespace TerrariViewer.TerrariaObjects
 {
     public class Player : INotifyPropertyChanged
     {
-        private const int CurrentRelease = 39;
+        private const int CurrentRelease = 69;
 
         #region Properties
 
@@ -210,6 +210,7 @@ namespace TerrariViewer.TerrariaObjects
         public Item[] Armor { get; set; }
         public Item[] Accessories { get; set; }
         public Item[] Vanity { get; set; }
+        public Item[] Dye { get; set; }
         public Item[] Inventory { get; set; }
         public Item[] Coins { get; set; }
         public Item[] Ammo { get; set; }
@@ -254,7 +255,13 @@ namespace TerrariViewer.TerrariaObjects
                 Vanity[i] = new Item();
             }
 
-            Inventory = new Item[40];
+            Dye = new Item[3];
+            for (int i = 0; i < Dye.Length; i++)
+            {
+                Dye[i] = new Item();
+            }
+
+            Inventory = new Item[50];
             for (int i = 0; i < Inventory.Length; i++)
             {
                 Inventory[i] = new Item();
@@ -272,13 +279,13 @@ namespace TerrariViewer.TerrariaObjects
                 Ammo[i] = new Item();
             }
 
-            Bank = new Item[20];
+            Bank = new Item[40];
             for (int i = 0; i < Bank.Length; i++)
             {
                 Bank[i] = new Item();
             }
 
-            Safe = new Item[20];
+            Safe = new Item[40];
             for (int i = 0; i < Safe.Length; i++)
             {
                 Safe[i] = new Item();
@@ -300,8 +307,6 @@ namespace TerrariViewer.TerrariaObjects
             }
         }
 
-        #region Load
-
         public void Load(string path)
         {
             bool decryptionCheck;
@@ -316,6 +321,7 @@ namespace TerrariViewer.TerrariaObjects
                     using (BinaryReader reader = new BinaryReader(stream))
                     {
                         int release = reader.ReadInt32();
+                        Console.WriteLine("Release: " + release.ToString());
                         Name = reader.ReadString();
 
                         if (release >= 10)
@@ -331,7 +337,6 @@ namespace TerrariViewer.TerrariaObjects
                         }
 
                         Hair = reader.ReadInt32();
-
                         if (release <= 17)
                         {
                             if (Hair == 5 || Hair == 6 || Hair == 9 || Hair == 11)
@@ -381,135 +386,216 @@ namespace TerrariViewer.TerrariaObjects
                         shoeColor.G = reader.ReadByte();
                         shoeColor.B = reader.ReadByte();
 
-                        for (int i = 0; i < Armor.Length; i++)
+                        if (release >= 38)
                         {
-                            if (release >= 38)
+                            for (int i = 0; i < Armor.Length; i++)
                             {
                                 Armor[i].SetFromID(reader.ReadInt32());
+                                Armor[i].Prefix = reader.ReadByte();
                             }
-                            else
-                            {
-                                Armor[i].SetFromName(reader.ReadString());
-                            }
-                            if (release >= 36) Armor[i].Prefix = reader.ReadByte();
-                        }
 
-                        for (int i = 0; i < Accessories.Length; i++)
-                        {
-                            if (release >= 38)
+                            for (int i = 0; i < Accessories.Length; i++)
                             {
                                 Accessories[i].SetFromID(reader.ReadInt32());
+                                Accessories[i].Prefix = reader.ReadByte();
                             }
-                            else
-                            {
-                                Accessories[i].SetFromName(reader.ReadString());
-                            }
-                            if (release >= 36) Accessories[i].Prefix = reader.ReadByte();
-                        }
 
-                        if (release >= 6)
-                        {
                             for (int i = 0; i < Vanity.Length; i++)
                             {
-                                if (release >= 38)
+                                Vanity[i].SetFromID(reader.ReadInt32());
+                                Vanity[i].Prefix = reader.ReadByte();
+                            }
+
+                            if (release >= 47)
+                            {
+                                for (int i = 0; i < Dye.Length; i++)
                                 {
-                                    Vanity[i].SetFromID(reader.ReadInt32());
+                                    Dye[i].SetFromID(reader.ReadInt32());
+                                    Dye[i].Prefix = reader.ReadByte();
+                                }
+                            }
+
+                            if (release >= 58)
+                            {
+                                for (int i = 0; i < Inventory.Length; i++)
+                                {
+                                    int id = reader.ReadInt32();
+                                    if (id >= 1615)
+                                    {
+                                        Inventory[i].SetFromID(0);
+                                    }
+                                    else
+                                    {
+                                        Inventory[i].SetFromID(id);
+                                        Inventory[i].StackSize = reader.ReadInt32();
+                                        Inventory[i].Prefix = reader.ReadByte();
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                for (int i = 0; i < 40; i++)
+                                {
+                                    int id = reader.ReadInt32();
+                                    if (id >= 1615)
+                                    {
+                                        Inventory[i].SetFromID(0);
+                                    }
+                                    else
+                                    {
+                                        Inventory[i].SetFromID(id);
+                                        Inventory[i].StackSize = reader.ReadInt32();
+                                        Inventory[i].Prefix = reader.ReadByte();
+                                    }
+                                }
+                            }
+
+                            for (int i = 0; i < Coins.Length; i++)
+                            {
+                                int id = reader.ReadInt32();
+                                if (id >= 1615)
+                                {
+                                    Coins[i].SetFromID(0);
                                 }
                                 else
                                 {
-                                    Vanity[i].SetFromName(reader.ReadString());
+                                    Coins[i].SetFromID(id);
+                                    Coins[i].StackSize = reader.ReadInt32();
+                                    Coins[i].Prefix = reader.ReadByte();
                                 }
-                                if (release >= 36) Vanity[i].Prefix = reader.ReadByte();
                             }
-                        }
 
-                        for (int i = 0; i < Inventory.Length; i++)
-                        {
-                            if (release >= 38)
-                            {
-                                Inventory[i].SetFromID(reader.ReadInt32());
-                            }
-                            else
-                            {
-                                Inventory[i].SetFromName(reader.ReadString());
-                            }
-                            Inventory[i].StackSize = reader.ReadInt32();
-                            if (release >= 36)
-                            {
-                                Inventory[i].Prefix = reader.ReadByte();
-                            }
-                        }
-
-                        for (int i = 0; i < Coins.Length; i++)
-                        {
-                            if (release >= 38)
-                            {
-                                Coins[i].SetFromID(reader.ReadInt32());
-                            }
-                            else
-                            {
-                                Coins[i].SetFromName(reader.ReadString());
-                            }
-                            Coins[i].StackSize = reader.ReadInt32();
-                            if (release >= 36)
-                            {
-                                Coins[i].Prefix = reader.ReadByte();
-                            }
-                        }
-
-                        if (release >= 15)
-                        {
                             for (int i = 0; i < Ammo.Length; i++)
                             {
-                                if (release >= 38)
+                                int id = reader.ReadInt32();
+                                if (id >= 1615)
                                 {
-                                    Ammo[i].SetFromID(reader.ReadInt32());
+                                    Ammo[i].SetFromID(0);
                                 }
                                 else
                                 {
-                                    Ammo[i].SetFromName(reader.ReadString());
-                                }
-                                Ammo[i].StackSize = reader.ReadInt32();
-                                if (release >= 36)
-                                {
+                                    Ammo[i].SetFromID(id);
+                                    Ammo[i].StackSize = reader.ReadInt32();
                                     Ammo[i].Prefix = reader.ReadByte();
                                 }
-                            } 
-                        }
+                            }
 
-                        for (int i = 0; i < Bank.Length; i++)
-                        {
-                            if (release >= 38)
+                            if (release >= 58)
                             {
-                                Bank[i].SetFromID(reader.ReadInt32());
+                                for (int i = 0; i < Bank.Length; i++)
+                                {
+                                    Bank[i].SetFromID(reader.ReadInt32());
+                                    Bank[i].StackSize = reader.ReadInt32();
+                                    Bank[i].Prefix = reader.ReadByte();
+                                }
+                                for (int i = 0; i < Safe.Length; i++)
+                                {
+                                    Safe[i].SetFromID(reader.ReadInt32());
+                                    Safe[i].StackSize = reader.ReadInt32();
+                                    Safe[i].Prefix = reader.ReadByte();
+                                }
                             }
                             else
                             {
-                                Bank[i].SetFromName(reader.ReadString());
-                            }
-                            Bank[i].StackSize = reader.ReadInt32();
-                            if (release >= 36)
-                            {
-                                Bank[i].Prefix = reader.ReadByte();
-                            }
-                        }
-
-                        if (release >= 20)
-                        {
-                            for (int i = 0; i < Safe.Length; i++)
-                            {
-                                if (release >= 38)
+                                for (int i = 0; i < 20; i++)
+                                {
+                                    Bank[i].SetFromID(reader.ReadInt32());
+                                    Bank[i].StackSize = reader.ReadInt32();
+                                    Bank[i].Prefix = reader.ReadByte();
+                                }
+                                for (int i = 0; i < 20; i++)
                                 {
                                     Safe[i].SetFromID(reader.ReadInt32());
+                                    Safe[i].StackSize = reader.ReadInt32();
+                                    Safe[i].Prefix = reader.ReadByte();
                                 }
-                                else
-                                {
-                                    Safe[i].SetFromName(reader.ReadString());
-                                }
-                                Safe[i].StackSize = reader.ReadInt32();
+                            }
+                        }
+                        else
+                        {
+                            for (int i = 0; i < Armor.Length; i++)
+                            {
+                                Armor[i].SetFromName(reader.ReadString());
                                 if (release >= 36)
                                 {
-                                    Safe[i].Prefix = reader.ReadByte();
+                                    Armor[i].Prefix = reader.ReadByte();
+                                }
+                            }
+
+                            for (int i = 0; i < Accessories.Length; i++)
+                            {
+                                Accessories[i].SetFromName(reader.ReadString());
+                                if (release >= 36)
+                                {
+                                    Accessories[i].Prefix = reader.ReadByte();
+                                }
+                            }
+
+                            if (release >= 6)
+                            {
+                                for (int i = 0; i < Vanity.Length; i++)
+                                {
+                                    Vanity[i].SetFromName(reader.ReadString());
+                                    if (release >= 36)
+                                    {
+                                        Vanity[i].Prefix = reader.ReadByte();
+                                    }
+                                }
+                            }
+
+                            for (int i = 0; i < 40; i++)
+                            {
+                                Inventory[i].SetFromName(reader.ReadString());
+                                Inventory[i].StackSize = reader.ReadInt32();
+                                if (release >= 36)
+                                {
+                                    Inventory[i].Prefix = reader.ReadByte();
+                                }
+                            }
+
+                            for (int i = 0; i < Coins.Length; i++)
+                            {
+                                Coins[i].SetFromName(reader.ReadString());
+                                Coins[i].StackSize = reader.ReadInt32();
+                                if (release >= 36)
+                                {
+                                    Coins[i].Prefix = reader.ReadByte();
+                                }
+                            }
+
+                            if (release >= 15)
+                            {
+                                for (int i = 0; i < Ammo.Length; i++)
+                                {
+                                    Ammo[i].SetFromName(reader.ReadString());
+                                    Ammo[i].StackSize = reader.ReadInt32();
+                                    if (release >= 36)
+                                    {
+                                        Ammo[i].Prefix = reader.ReadByte();
+                                    }
+                                }
+                            }
+
+                            for (int i = 0; i < 20; i++)
+                            {
+                                Bank[i].SetFromName(reader.ReadString());
+                                Bank[i].StackSize = reader.ReadInt32();
+                                if (release >= 36)
+                                {
+                                    Bank[i].Prefix = reader.ReadByte();
+                                }
+                            }
+
+                            if (release >= 20)
+                            {
+                                for (int i = 0; i < 20; i++)
+                                {
+                                    Safe[i].SetFromName(reader.ReadString());
+                                    Safe[i].StackSize = reader.ReadInt32();
+                                    if (release >= 36)
+                                    {
+                                        Safe[i].Prefix = reader.ReadByte();
+                                    }
                                 }
                             }
                         }
@@ -525,7 +611,7 @@ namespace TerrariViewer.TerrariaObjects
                         for (int i = 0; i < 200; i++)
                         {
                             int num = reader.ReadInt32();
-                            if (num == 01)
+                            if (num == -1)
                             {
                                 break;
                             }
@@ -539,31 +625,182 @@ namespace TerrariViewer.TerrariaObjects
                         {
                             HotbarLocked = reader.ReadBoolean();
                         }
+                        reader.Close();
                     }
                     File.Delete(outputFile);
                     OnPropertyChanged(null);
                 }
             }
-            catch //(Exception exception)
+            catch
             {
-                //Console.WriteLine(exception);
-                decryptionCheck = true;
-            }
-
-            if (decryptionCheck)
-            {
-                string backupPlayerFile = path + ".bak";
-
-                if (File.Exists(backupPlayerFile))
-                {
-                    File.Delete(path);
-                    File.Move(backupPlayerFile, path);
-                    this.Load(path);
-                }
+                return;
             }
         }
 
-        #endregion
+        public void Save(string path)
+        {
+            string destFileName = path + ".bak";
+            if (File.Exists(path))
+            {
+                File.Copy(path, destFileName, true);
+            }
+
+            string tempFile = path + ".dat";
+            using (FileStream stream = new FileStream(tempFile, FileMode.Create))
+            using (BinaryWriter writer = new BinaryWriter(stream)) 
+            {
+                writer.Write(CurrentRelease);
+                writer.Write(Name);
+                writer.Write(Difficulty);
+                writer.Write(Hair);
+                writer.Write(Gender);
+                writer.Write(CurrentHealth);
+                writer.Write(MaximumHealth);
+                writer.Write(CurrentMana);
+                writer.Write(MaximumMana);
+                writer.Write(HairColor.R);
+                writer.Write(HairColor.G);
+                writer.Write(HairColor.B);
+                writer.Write(SkinColor.R);
+                writer.Write(SkinColor.G);
+                writer.Write(SkinColor.B);
+                writer.Write(EyeColor.R);
+                writer.Write(EyeColor.G);
+                writer.Write(EyeColor.B);
+                writer.Write(ShirtColor.R);
+                writer.Write(ShirtColor.G);
+                writer.Write(ShirtColor.B);
+                writer.Write(UnderShirtColor.R);
+                writer.Write(UnderShirtColor.G);
+                writer.Write(UnderShirtColor.B);
+                writer.Write(PantsColor.R);
+                writer.Write(PantsColor.G);
+                writer.Write(PantsColor.B);
+                writer.Write(ShoeColor.R);
+                writer.Write(ShoeColor.G);
+                writer.Write(ShoeColor.B);
+
+                for (int i = 0; i < Armor.Length; i++)
+                {
+                    if (Armor[i].Name == null)
+                    {
+                        Armor[i].Name = "";
+                    }
+                    writer.Write(Armor[i].Id);
+                    writer.Write((byte)Armor[i].Prefix);
+                }
+
+                for (int i = 0; i < Accessories.Length; i++)
+                {
+                    if (Accessories[i].Name == null)
+                    {
+                        Accessories[i].Name = "";
+                    }
+                    writer.Write(Accessories[i].Id);
+                    writer.Write((byte)Accessories[i].Prefix);
+                }
+
+                for (int i = 0; i < Vanity.Length; i++)
+                {
+                    if (Vanity[i].Name == null)
+                    {
+                        Vanity[i].Name = "";
+                    }
+                    writer.Write(Vanity[i].Id);
+                    writer.Write((byte)Vanity[i].Prefix);
+                }
+
+                for (int i = 0; i < Dye.Length; i++)
+                {
+                    if (Dye[i].Name == null)
+                    {
+                        Dye[i].Name = "";
+                    }
+                    writer.Write(Dye[i].Id);
+                    writer.Write((byte)Dye[i].Prefix);
+                }
+
+                for (int i = 0; i < Inventory.Length; i++)
+                {
+                    if (Inventory[i].Name == null)
+                    {
+                        Inventory[i].Name = "";
+                    }
+                    writer.Write(Inventory[i].Id);
+                    writer.Write(Inventory[i].StackSize);
+                    writer.Write((byte)Inventory[i].Prefix);
+                }
+
+                for (int i = 0; i < Coins.Length; i++)
+                {
+                    if (Coins[i].Name == null)
+                    {
+                        Coins[i].Name = "";
+                    }
+                    writer.Write(Coins[i].Id);
+                    writer.Write(Coins[i].StackSize);
+                    writer.Write((byte)Coins[i].Prefix);
+                }
+
+                for (int i = 0; i < Ammo.Length; i++)
+                {
+                    if (Ammo[i].Name == null)
+                    {
+                        Ammo[i].Name = "";
+                    }
+                    writer.Write(Ammo[i].Id);
+                    writer.Write(Ammo[i].StackSize);
+                    writer.Write((byte)Ammo[i].Prefix);
+                }
+
+                for (int i = 0; i < Bank.Length; i++)
+                {
+                    if (Bank[i].Name == null)
+                    {
+                        Bank[i].Name = "";
+                    }
+                    writer.Write(Bank[i].Id);
+                    writer.Write(Bank[i].StackSize);
+                    writer.Write((byte)Bank[i].Prefix);
+                }
+
+                for (int i = 0; i < Safe.Length; i++)
+                {
+                    if (Safe[i].Name == null)
+                    {
+                        Safe[i].Name = "";
+                    }
+                    writer.Write(Safe[i].Id);
+                    writer.Write(Safe[i].StackSize);
+                    writer.Write((byte)Safe[i].Prefix);
+                }
+
+                for (int i = 0; i < Buffs.Length; i++)
+                {
+                    writer.Write(Buffs[i].Id);
+                    writer.Write(Buffs[i].GameDuration);
+                }
+
+                for (int i = 0; i < 200; i++)
+                {
+                    if (spN[i] == null)
+                    {
+                        writer.Write(-1);
+                        break;
+                    }
+
+                    writer.Write(spX[i]);
+                    writer.Write(spY[i]);
+                    writer.Write(spI[i]);
+                    writer.Write(spN[i]);
+                }
+                writer.Write(HotbarLocked);
+                writer.Close();
+            }
+            Player.EncryptFile(tempFile, path);
+            //File.Delete(tempFile);
+            
+        }
 
         #region Decrypt / Encrypt File
 

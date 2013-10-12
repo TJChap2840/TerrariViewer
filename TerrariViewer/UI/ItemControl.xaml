@@ -3,25 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:my="clr-namespace:TerrariViewer.UI"
              mc:Ignorable="d" 
-             d:DesignHeight="50" d:DesignWidth="50" BorderBrush="#14000000" BorderThickness="0.5" Margin="2" AllowDrop="True">
+             d:DesignHeight="50" d:DesignWidth="50" BorderBrush="#14000000" BorderThickness="0.5" Margin="2">
     
-       <UserControl.Resources>
+    <UserControl.Resources>
         <ToolTip x:Key="ItemToolTip" MaxWidth="150"  DataContext="{Binding Path=PlacementTarget.DataContext, RelativeSource={x:Static RelativeSource.Self}}">
             <TextBlock Text="{Binding ItemText}" />
         </ToolTip>
     </UserControl.Resources>
-    <Grid ToolTip="{Binding Source={StaticResource ItemToolTip}}">
+    <Grid MouseDown="ItemControl_MouseDown" MouseUp="ItemControl_MouseUp">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
+        
+        <Popup Name="Pop_Up" PlacementTarget="{Binding ElementName=Item_Image}" Placement="Bottom" AllowsTransparency="True" PopupAnimation="Fade" MouseEnter="PopUp_MouseEnter">
+            <Border Name="Popup_Border" CornerRadius="2.5" Background="White" BorderThickness="0.5" BorderBrush="Black">
+                <my:ItemPicker DataContext="{Binding}" x:Name="Item_Picker" />
+            </Border>
+        </Popup>
 
-        <Image Source="{Binding Image}" Margin="5" Grid.RowSpan="2" Opacity="0.35" />
+        <Image Name="Item_Image" Source="{Binding Image}" Margin="5" Grid.RowSpan="2" Opacity="0.35" />
         <!--<Label Content="{Binding Prefix, Converter={StaticResource PrefixConverter}}" HorizontalContentAlignment="Center" 
                Visibility="{Binding Path=Text, RelativeSource={RelativeSource Self}}" FontWeight="SemiBold" />
         <Label Content="{Binding Name}" HorizontalContentAlignment="Center" Margin="5" Grid.Row="1" FontWeight="SemiBold" />-->
         <Label Content="{Binding StackSize, Converter={StaticResource StackConverter}}" 
-               Visibility="{Binding Path=Text, RelativeSource={RelativeSource Self}}" Grid.RowSpan="2" FontWeight="SemiBold"/>
+               ToolTip="{Binding Source={StaticResource ItemToolTip}}"
+               Visibility="{Binding Path=Text, RelativeSource={RelativeSource Self}}" Grid.RowSpan="2" FontWeight="SemiBold" />
      </Grid>
 </UserControl>

@@ -10,6 +10,8 @@
         <cv:FillColorConverter x:Key="FillColorConverter" />
         <cv:PrefixConverter x:Key="PrefixConverter" />
         <cv:StackConverter x:Key="StackConverter" />
-        
+        <cv:ItemConverter x:Key="ItemConverter" />
+        <cv:BuffConverter x:Key="BuffConverter" />
+
     </Application.Resources>
 </Application>

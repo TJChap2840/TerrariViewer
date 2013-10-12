@@ -3,11 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:my="clr-namespace:TerrariViewer.UI"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
-        Title="MainWindow" Height="456" Width="486" Icon="/TerrariViewer;component/Images/TVicon.ico" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
+        Title="TerrariViewer" Height="456" Width="486" Icon="/TerrariViewer;component/Images/TVicon.ico" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
     
     <Window.CommandBindings>
         <CommandBinding Command="my:MainWindow.FileOpenCommand" Executed="FileOpenCommand_Executed" />
         <CommandBinding Command="my:MainWindow.FileNewCommand" Executed="FileNewCommand_Executed" />
+        <CommandBinding Command="my:MainWindow.FileSaveCommand" Executed="FileSaveCommand_Executed" />
     </Window.CommandBindings>
     
     <Grid>
@@ -20,6 +21,7 @@
             <MenuItem Header="_File">
                 <MenuItem Header="_Open" Command="my:MainWindow.FileOpenCommand" />
                 <MenuItem Header="_New" Command="my:MainWindow.FileNewCommand" />
+                <MenuItem Header="_Save" Command="my:MainWindow.FileSaveCommand" />
                 <MenuItem Header="Delete" Click="Delete_Clicked" />
                 <MenuItem Header="Launch Terraria" Click="Launch_Clicked" />
                 <MenuItem Header="Exit" Click="Exit_Clicked" />
@@ -30,34 +32,34 @@
             </MenuItem>
         </Menu>
         
-        <TabControl Name="tabControl" Grid.Row="1" Margin="0,30,0,0">
+        <TabControl Grid.Row="1" Margin="0,15,0,0">
             <TabItem Header="Character">
                 <Grid>
-                    <my:CharacterControl />
+                    <my:CharacterControl DataContext="{Binding}"/>
                 </Grid>
             </TabItem>
 
             <TabItem Header="Equipment">
                 <Grid>
-                    <my:EquipmentControl /> 
+                    <my:EquipmentControl DataContext="{Binding}" /> 
                 </Grid>
             </TabItem>
 
             <TabItem Header="Inventory">
                 <Grid>
-                    <my:InventoryControl />
+                    <my:InventoryControl DataContext="{Binding}" />
                 </Grid>
             </TabItem>
 
             <TabItem Header="Bank/Safe">
                 <Grid>
-                    <my:BankControl />
+                    <my:BankControl DataContext="{Binding}" />
                 </Grid>
             </TabItem>
 
             <TabItem Header="Buffs">
                 <Grid>
-                    <my:BuffControl />
+                    <my:BuffControl DataContext="{Binding}" />
                 </Grid>
             </TabItem>
         </TabControl>

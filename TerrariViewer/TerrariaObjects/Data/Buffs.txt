@@ -1,3 +1,4 @@
+0	[No Buff]	No Buff	0	False
 1	Obsidian Skin	Immune to lava	14400	True
 2	Regeneration	Provides life regeneration	18000	True
 3	Swiftness	25% increased movement speed	14400	True
@@ -15,8 +16,8 @@
 15	Water Walking	Press DOWN to enter water	18000	True
 16	Archery	20% increased arrow damage and speed	14400	True
 17	Hunter	Shows the location of enemies	18000	True
-18	Gravitation	Press UP or DOWN to reverse gravity	10800	True
-19	Orb of Light	A magical orb that provides light	18000	True
+18	Gravitation	Press UP to reverse gravity	10800	True
+19	Shadow Orb	A magical orb that provides light	18000	True
 20	Poisoned	Slowly losing life	600	False
 21	Potion Sickness	Cannot consume anymore healing items	3600	False
 22	Darkness	Decreased light vision	900	False
@@ -38,3 +39,43 @@
 38	The Tongue	You are being sucked into the mouth	14400	False
 39	Cursed Inferno	Losing life	14400	False
 40	Pet Bunny	I think it wants your carrot	14400	True
+41	Baby Penguin	I think it wants your fish	0	True
+42	Pet Turtle	Happy turtle time!	0	True
+43	Paladin's Shield	25% of damage taken will be redirected to another player	0	True
+44	Frostburn	It's either really hot or really cold. Either way it REALLY hurts	0	True
+45	Baby Eater	A baby Eater of Souls is following you	0	True
+46	Chilled	Your movement speed has been reduced	0	True
+47	Frozen	You can't move!	0	True
+48	Honey	Life regeneration is increased	0	True
+49	Pygmies	The pygmies will fight for you	0	True
+50	Baby Skeletron Head	Don't even ask...	0	True
+51	Baby Hornet	It thinks you are its mother	0	True
+52	Tiki Spirit	A friendly spirit is following you	0	True
+53	Pet Lizard	Chillin' like a reptilian	0	True
+54	Pet Parrot	Polly want's the cracker	0	True
+55	Baby Truffle	Isn't this just soooo cute?	0	True
+56	Pet Sapling	A little sapling is following you	0	True
+57	Wisp	A wisp is following you	0	True
+58	Rapid Healing	Life regeneration is greatly increased	0	True
+59	Shadow Dodge	You will dodge the next attack	0	True
+60	Leaf Crystal	Shoots crystal leaves at nearby enemies	0	True
+61	Baby Dinosaur	A baby dinosaur is following you	0	True
+62	Ice Barrier	Defense is increased by 30	0	True
+63	Panic!	Movement speed is increased	0	True
+64	Baby Slime	The baby slime will fight for you	0	True
+65	Eyeball Spring	An eyeball spring is following you	0	True
+66	Baby Snowman	A baby snowman is following you	0	True
+67	Burning	Losing life and slowed movement	0	True
+68	Suffocation	Losing life	0	True
+69	Ichor	Reduced defense	0	True
+70	Venom	Losing life	0	True
+71	Weapon Imbue: Venom	Melee attacks inflict venom on your targets	0	True
+72	Midas	Drop more money on death	0	True
+73	Weapon Imbue: Cursed Flames	Melee attacks inflict enemies with cursed flames	0	True
+74	Weapon Imbue: Fire	Melee attacks set enemies on fire	0	True
+75	Weapon Imbue: Gold	Melee attacks make enemies drop more gold	0	True
+76	Weapon Imbue: Ichor	Melee attacks decrease enemies defense	0	True
+77	Weapon Imbue: Nanites	Melee attacks confuse enemies	0	True
+78	Weapon Imbue: Confetti	Melee attacks cause confetti to appear	0	True
+79	Weapon Imbue: Poison	Melee attacks poison enemies	0	True
+80	Blackout	Light vision severely reduced	0	True

@@ -3,10 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:sh="clr-namespace:ShaderEffectLibrary" 
              xmlns:my="clr-namespace:TerrariViewer.UI"
-             mc:Ignorable="d" 
-             d:DesignHeight="335" d:DesignWidth="460">
+             mc:Ignorable="d">
     <Grid Height="335">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
@@ -32,15 +30,14 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    
-                    <TextBox Margin="5" Width="200" Text="{Binding Name}"/>
-                    <ComboBox Margin="5" Width="200" Grid.Row="1" SelectedIndex="{Binding Difficulty}">
+
+                    <TextBox Margin="5" Width="200" Text="{my:TwoWayBinding Name}" />
+                    <ComboBox Margin="5" Width="200" Grid.Row="1" SelectedIndex="{my:TwoWayBinding Difficulty, Mode=TwoWay}">
                         <ComboBoxItem ToolTip="Softcore characters drop money on death">Softcore</ComboBoxItem>
                         <ComboBoxItem ToolTip="Mediumcore characters drop items on death">Mediumcore</ComboBoxItem>
                         <ComboBoxItem ToolTip="Hardcore characters die for good">Hardcore</ComboBoxItem>
                     </ComboBox>
-                    <!--<Label Content="v1.0.6" Margin="15,5,5,5" Grid.Column="1" Content=""/>-->
-                    <CheckBox Content="Male?" Margin="15,5,5,5" Grid.Column="1" Grid.Row="1" IsChecked="{Binding Male}"/>
+                    <CheckBox Content="Male?" Margin="15,5,5,5" Grid.Column="1" Grid.Row="1" IsChecked="{my:TwoWayBinding Gender, Mode=TwoWay}"/>
                 </Grid>
             </GroupBox>
             <GroupBox Header="Stats" Grid.Row="1">
@@ -57,17 +54,17 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
-                    
-                    <TextBox Margin="5" Width="50" Text="{Binding CurrentHealth}"/>
-                    <ProgressBar Margin="5" Width="150" Grid.Column="1" Grid.ColumnSpan="2" Value="{Binding CurrentHealth}" Maximum="{Binding MaximumHealth}"/>
-                    <TextBox Margin="5" Width="50" Grid.Column="3" Text="{Binding MaximumHealth}"/>
 
-                    <TextBox Margin="5" Width="50" Grid.Row="1" Text="{Binding CurrentMana}" />
+                    <TextBox Margin="5" Width="50" Text="{Binding CurrentHealth, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" />
+                    <ProgressBar Margin="5" Width="150" Grid.Column="1" Grid.ColumnSpan="2" Value="{Binding CurrentHealth}" Maximum="{Binding MaximumHealth}"/>
+                    <TextBox Margin="5" Width="50" Grid.Column="3" Text="{Binding MaximumHealth, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" />
+
+                    <TextBox Margin="5" Width="50" Grid.Row="1" Text="{Binding CurrentMana, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" />
                     <ProgressBar Margin="5" Width="150" Foreground="Blue" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Value="{Binding CurrentMana}" Maximum="{Binding MaximumMana}" />
-                    <TextBox Margin="5" Width="50" Grid.Column="3" Grid.Row="1" Text="{Binding MaximumMana}" />
+                    <TextBox Margin="5" Width="50" Grid.Column="3" Grid.Row="1" Text="{Binding MaximumMana, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" />
                     
-                    <Button Content="Restore to Full" Margin="5" Height="25" Grid.Row="3" Grid.ColumnSpan="2" />
-                    <Button Content="Give Max" Margin="5" Height="25" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" />
+                    <Button Content="Restore to Full" Margin="5" Height="25" Grid.Row="3" Grid.ColumnSpan="2" Click="Restore_Click"/>
+                    <Button Content="Give Max" Margin="5" Height="25" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Click="Max_Click" />
                 </Grid>
             </GroupBox>
             <GroupBox Header="Hair Type" Grid.Row="2">
@@ -83,7 +80,7 @@
 
                     <Button Content="&lt;" Margin="5,0,5,0" Height="40" Width="25" Name="hairMinus_Button" Click="hairMinus_Button_Click" />
                     <Grid Grid.Column="1">
-                        <my:HairPreviewControl DataContext="{Binding}" />
+                        <my:HairPreviewControl DataContext="{Binding}"/>
                     </Grid>
                     <Button Content="&gt;" Margin="5,0,5,0" Height="40" Width="25" Grid.Column="2" Name="hairPlus_Button" Click="hairPlus_Button_Click" />
                     <!--<Button Margin="5" Height="25" Grid.Row="1" Grid.ColumnSpan="3" />-->
@@ -111,7 +108,7 @@
                         </Grid.ColumnDefinitions>
                         
                         <Label Content="Hair" Height="25" Margin="5,0" FontWeight="Bold" />
-                        <Rectangle Fill="{Binding HairColor, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" />
+                        <Rectangle Fill="{Binding HairColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown"/>
                     </Grid>
 
                     <Grid Grid.Row="1">
@@ -121,7 +118,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Label Content="Skin" Height="25" Margin="5,0" FontWeight="Bold" />
-                        <Rectangle Fill="{Binding SkinColor, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" />
+                        <Rectangle Fill="{Binding SkinColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown" />
                     </Grid>
                     <Grid Grid.Row="2">
                         <Grid.ColumnDefinitions>
@@ -130,7 +127,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Label Content="Eyes" Height="25" Margin="5,0" FontWeight="Bold" />
-                        <Rectangle Fill="{Binding EyesColor, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" />
+                        <Rectangle Fill="{Binding EyesColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown" />
                     </Grid>
                     <Grid Grid.Row="3">
                         <Grid.ColumnDefinitions>
@@ -139,7 +136,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Label Content="Shirt" Height="25" Margin="5,0" FontWeight="Bold" />
-                        <Rectangle Fill="{Binding ShirtColor, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" />
+                        <Rectangle Fill="{Binding ShirtColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown" />
                     </Grid>
                     <Grid Grid.Row="4">
                         <Grid.ColumnDefinitions>
@@ -148,7 +145,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Label Content="UnderShirt" Height="25" Margin="5,0" FontWeight="Bold" />
-                        <Rectangle Fill="{Binding UnderShirtColor, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" />
+                        <Rectangle Fill="{Binding UnderShirtColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown" />
                     </Grid>
                     <Grid Grid.Row="5">
                         <Grid.ColumnDefinitions>
@@ -157,7 +154,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Label Content="Pants" Height="25" Margin="5,0" FontWeight="Bold" />
-                        <Rectangle Fill="{Binding PantsColor, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" />
+                        <Rectangle Fill="{Binding PantsColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown" />
                     </Grid>
                     <Grid Grid.Row="6">
                         <Grid.ColumnDefinitions>
@@ -166,7 +163,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Label Content="Shoes" Height="25" Margin="5,0" FontWeight="Bold" />
-                        <Rectangle Fill="{Binding ShoesColor, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" />
+                        <Rectangle Fill="{Binding ShoesColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown" />
                     </Grid>
                 </Grid>
             </GroupBox>

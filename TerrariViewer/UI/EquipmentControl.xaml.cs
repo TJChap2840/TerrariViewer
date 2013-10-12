@@ -41,6 +41,15 @@ namespace TerrariViewer.UI
                 armor_Grid.Children.Add(accessoryControl);
             }
 
+            for (int i = 0; i < dye_Grid.RowDefinitions.Count; i++)
+            {
+                AccessoryControl accessoryControl = new AccessoryControl();
+                accessoryControl.SetBinding(AccessoryControl.DataContextProperty, string.Format("Dye[{0}]", i));
+
+                Grid.SetRow(accessoryControl, i);
+                dye_Grid.Children.Add(accessoryControl);
+            }
+
             for (int i = 0; i < accessory_Grid.ColumnDefinitions.Count; i++)
             {
                 AccessoryControl accessoryControl = new AccessoryControl();

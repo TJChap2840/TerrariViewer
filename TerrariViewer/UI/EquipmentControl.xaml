@@ -9,7 +9,8 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="75" />
-            <ColumnDefinition Width="150" />
+            <ColumnDefinition Width="75" />
+            <ColumnDefinition Width="75" />
             <ColumnDefinition Width="75" />
             <!--<ColumnDefinition Width="Auto" />-->
         </Grid.ColumnDefinitions>
@@ -17,8 +18,8 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="85" />
         </Grid.RowDefinitions>
-        
-        <GroupBox Header="Vanity">
+
+        <GroupBox Header="Vanity" Grid.Column="1">
             <Grid Name="vanity_Grid" Margin="5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
@@ -28,7 +29,7 @@
             </Grid>
         </GroupBox>
 
-        <GroupBox Header="Armor" Grid.Column="2">
+        <GroupBox Header="Armor" Grid.Column="0">
             <Grid Name="armor_Grid" Margin="5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
@@ -38,15 +39,25 @@
             </Grid>
         </GroupBox>
         
-        <GroupBox Header="Preview" Grid.Column="1">
+        <!--<GroupBox Header="Preview" Grid.Column="1">
             <Grid Name="preview_Grid" Margin="5"> 
                 <WindowsFormsHost Name="previewHost" Panel.ZIndex="500">
                     <wf:PictureBox Name="previewDrawBox" Paint="Preivew_Paint"/>
                 </WindowsFormsHost>
             </Grid>
+        </GroupBox>-->
+
+        <GroupBox Header="Dye" Grid.Column="2">
+            <Grid Name="dye_Grid" Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+            </Grid>
         </GroupBox>
 
-        <GroupBox Header="Accessories" Grid.ColumnSpan="3" Grid.Row="1">
+        <GroupBox Header="Accessories" Grid.ColumnSpan="4" Grid.Row="1">
             <Grid Name="accessory_Grid" Margin="5">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />

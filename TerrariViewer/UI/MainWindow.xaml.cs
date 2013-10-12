@@ -24,7 +24,7 @@ namespace TerrariViewer.UI
     {
         public static Player player;
         private string playerPath;
-        //private string lastFileName = null;
+        // private string lastFileName = null;
 
         private const string dialogFilter = "Player Files (*.plr, *.plr.bak)|*.plr;*.plr.bak";
 
@@ -52,7 +52,15 @@ namespace TerrariViewer.UI
                 new KeyGesture(Key.N, ModifierKeys.Control)
             });
 
+        public static RoutedCommand FileSaveCommand = new RoutedCommand("FileSaveCommand", typeof(MainWindow),
+            new InputGestureCollection()
+            {
+                new KeyGesture(Key.S, ModifierKeys.Control)
+            });
+
         #endregion
+
+        #region Command Functions
 
         private void FileOpenCommand_Executed(object sender, ExecutedRoutedEventArgs e)
         {
@@ -66,9 +74,11 @@ namespace TerrariViewer.UI
             //openFileDialog.FileName = "player1.plr";
             if (openFileDialog.ShowDialog() == true)
             {
+                Console.WriteLine(openFileDialog.FileName);
                 player.Load(openFileDialog.FileName);
                 playerPath = openFileDialog.FileName;
             }
+            Console.WriteLine("Load Name:" + player.Name);
         }
 
         private void FileNewCommand_Executed(object sender, ExecutedRoutedEventArgs e)
@@ -77,6 +87,29 @@ namespace TerrariViewer.UI
             this.DataContext = player;
             playerPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
                 + @"My Games\Terraria\Players\";
+        }
+
+        private void FileSaveCommand_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            Console.WriteLine("Save Name:" + player.Name);
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = dialogFilter;
+
+            if (e.Command == FileSaveCommand && playerPath != Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"My Games\Terraria\Players\")
+            {
+                player.Save(playerPath);
+            }
+            else if (saveFileDialog.ShowDialog() == true)
+            {
+                player.Save(saveFileDialog.FileName);
+                playerPath = saveFileDialog.FileName;
+            }
+            else
+            {
+                return;
+            }
+            string file = System.IO.Path.GetFileName(playerPath);
+            MessageBox.Show("Saved " + file + "!", "File Saved");
         }
 
         private void Delete_Clicked(object sender, RoutedEventArgs e)
@@ -137,6 +170,14 @@ namespace TerrariViewer.UI
         private void Donate_Clicked(object sender, RoutedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=74TENM4NF4DUN&lc=US&item_name=TerrariViewer&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted");
+        }
+
+        #endregion
+
+        private void Window_Deactivaged(object sender, EventArgs e)
+        {
+            ItemControl.CloseAllPopups();
+            //BuffControl.CloseAllPopups();
         }
     }
 }
