@@ -9,6 +9,7 @@
         <CommandBinding Command="my:MainWindow.FileOpenCommand" Executed="FileOpenCommand_Executed" />
         <CommandBinding Command="my:MainWindow.FileNewCommand" Executed="FileNewCommand_Executed" />
         <CommandBinding Command="my:MainWindow.FileSaveCommand" Executed="FileSaveCommand_Executed" />
+        <CommandBinding Command="my:MainWindow.FileSaveAsCommand" Executed="FileSaveAsCommand_Executed" />
     </Window.CommandBindings>
     
     <Grid>
@@ -17,11 +18,12 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         
-        <Menu Height="25"> 
+        <Menu Height="25">
             <MenuItem Header="_File">
                 <MenuItem Header="_Open" Command="my:MainWindow.FileOpenCommand" />
                 <MenuItem Header="_New" Command="my:MainWindow.FileNewCommand" />
                 <MenuItem Header="_Save" Command="my:MainWindow.FileSaveCommand" />
+                <MenuItem Header="Save As" Command="my:MainWindow.FileSaveAsCommand" />
                 <MenuItem Header="Delete" Click="Delete_Clicked" />
                 <MenuItem Header="Launch Terraria" Click="Launch_Clicked" />
                 <MenuItem Header="Exit" Click="Exit_Clicked" />

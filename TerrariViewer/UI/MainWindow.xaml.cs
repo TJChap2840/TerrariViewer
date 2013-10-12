@@ -35,7 +35,7 @@ namespace TerrariViewer.UI
             player = new Player();
             this.DataContext = player;
             playerPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
-                + @"My Games\Terraria\Players\";
+                + @"\My Games\Terraria\Players\";
         }
 
         #region Commands
@@ -58,6 +58,11 @@ namespace TerrariViewer.UI
                 new KeyGesture(Key.S, ModifierKeys.Control)
             });
 
+        public static RoutedCommand FileSaveAsCommand = new RoutedCommand("FileSaveAsCommand", typeof(MainWindow),
+            new InputGestureCollection()
+            {
+            });
+
         #endregion
 
         #region Command Functions
@@ -78,7 +83,6 @@ namespace TerrariViewer.UI
                 player.Load(openFileDialog.FileName);
                 playerPath = openFileDialog.FileName;
             }
-            Console.WriteLine("Load Name:" + player.Name);
         }
 
         private void FileNewCommand_Executed(object sender, ExecutedRoutedEventArgs e)
@@ -91,11 +95,10 @@ namespace TerrariViewer.UI
 
         private void FileSaveCommand_Executed(object sender, ExecutedRoutedEventArgs e)
         {
-            Console.WriteLine("Save Name:" + player.Name);
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = dialogFilter;
 
-            if (e.Command == FileSaveCommand && playerPath != Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"My Games\Terraria\Players\")
+            if (e.Command == FileSaveCommand && playerPath != Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\My Games\Terraria\Players\")
             {
                 player.Save(playerPath);
             }
@@ -110,6 +113,32 @@ namespace TerrariViewer.UI
             }
             string file = System.IO.Path.GetFileName(playerPath);
             MessageBox.Show("Saved " + file + "!", "File Saved");
+        }
+
+        private void FileSaveAsCommand_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            string path;
+            string playerDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\My Games\Terraria\Players\";
+            bool fileExists = Directory.Exists(playerDirectory);
+
+            if (fileExists)
+                path = playerDirectory;
+            else
+                path = System.Windows.Forms.Application.StartupPath;
+
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.InitialDirectory = path;
+            saveFileDialog.Filter = dialogFilter;
+
+            if (saveFileDialog.ShowDialog() == true)
+            {
+                player.Save(saveFileDialog.FileName);
+                playerPath = saveFileDialog.FileName;
+                saveFileDialog.InitialDirectory = System.IO.Path.GetFullPath(playerPath);
+
+                string file = System.IO.Path.GetFileName(playerPath);
+                MessageBox.Show("Saved " + file + "!", "File Saved");
+            }
         }
 
         private void Delete_Clicked(object sender, RoutedEventArgs e)
