@@ -131,7 +131,8 @@ namespace TerrariViewer.UI
         private void ItemStack_PreviewKeyDown(object sender, KeyEventArgs e)
         {
             string[] nums = { "D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D0",
-                              "NumPad1", "NumPad2", "NumPad3", "NumPad4", "NumPad5", "NumPad6", "NumPad7", "NumPad8", "NumPad9", "NumPad0" };
+                              "NumPad1", "NumPad2", "NumPad3", "NumPad4", "NumPad5", "NumPad6", "NumPad7", "NumPad8", "NumPad9", "NumPad0", 
+                              "Back" };
 
             if (!nums.Contains(e.Key.ToString()))
                 e.Handled = true;
