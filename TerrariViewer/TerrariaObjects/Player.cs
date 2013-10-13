@@ -420,7 +420,7 @@ namespace TerrariViewer.TerrariaObjects
                                 for (int i = 0; i < Inventory.Length; i++)
                                 {
                                     int id = reader.ReadInt32();
-                                    if (id >= 1615)
+                                    if (id >= 1725)
                                     {
                                         Inventory[i].SetFromID(0);
                                     }
@@ -437,7 +437,7 @@ namespace TerrariViewer.TerrariaObjects
                                 for (int i = 0; i < 40; i++)
                                 {
                                     int id = reader.ReadInt32();
-                                    if (id >= 1615)
+                                    if (id >= 1725)
                                     {
                                         Inventory[i].SetFromID(0);
                                     }
@@ -453,7 +453,7 @@ namespace TerrariViewer.TerrariaObjects
                             for (int i = 0; i < Coins.Length; i++)
                             {
                                 int id = reader.ReadInt32();
-                                if (id >= 1615)
+                                if (id >= 1725)
                                 {
                                     Coins[i].SetFromID(0);
                                 }
@@ -468,7 +468,7 @@ namespace TerrariViewer.TerrariaObjects
                             for (int i = 0; i < Ammo.Length; i++)
                             {
                                 int id = reader.ReadInt32();
-                                if (id >= 1615)
+                                if (id >= 1725)
                                 {
                                     Ammo[i].SetFromID(0);
                                 }
