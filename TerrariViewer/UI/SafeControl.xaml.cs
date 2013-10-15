@@ -15,24 +15,24 @@ using System.Windows.Shapes;
 namespace TerrariViewer.UI
 {
     /// <summary>
-    /// Interaction logic for BankControl.xaml
+    /// Interaction logic for SafeControl.xaml
     /// </summary>
-    public partial class BankControl : UserControl
+    public partial class SafeControl : UserControl
     {
-        public BankControl()
+        public SafeControl()
         {
             InitializeComponent();
 
-            for (int i = 0; i < bank_Grid.RowDefinitions.Count; i++)
+            for (int i = 0; i < safe_Grid.RowDefinitions.Count; i++)
             {
-                for (int j = 0; j < bank_Grid.ColumnDefinitions.Count; j++)
+                for (int j = 0; j < safe_Grid.ColumnDefinitions.Count; j++)
                 {
                     ItemControl itemControl = new ItemControl((i * 8) + j);
-                    itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Bank[{0}]", itemControl.Index));
+                    itemControl.SetBinding(ItemControl.DataContextProperty, string.Format("Safe[{0}]", itemControl.Index));
 
                     Grid.SetRow(itemControl, i);
                     Grid.SetColumn(itemControl, j);
-                    bank_Grid.Children.Add(itemControl);
+                    safe_Grid.Children.Add(itemControl);
                 }
             }
         }

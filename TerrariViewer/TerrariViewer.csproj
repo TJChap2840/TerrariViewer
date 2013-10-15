@@ -140,6 +140,9 @@
     <Compile Include="UI\BuffPicker.xaml.cs">
       <DependentUpon>BuffPicker.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UI\SafeControl.xaml.cs">
+      <DependentUpon>SafeControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\TwoWayBinding.cs" />
     <Compile Include="ShaderSource\EffectLibrary.cs" />
     <Compile Include="ShaderSource\MonochromeEffect.cs" />
@@ -180,6 +183,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UI\SafeControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

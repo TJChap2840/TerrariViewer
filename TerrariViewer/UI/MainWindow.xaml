@@ -54,9 +54,15 @@
                 </Grid>
             </TabItem>
 
-            <TabItem Header="Bank/Safe">
+            <TabItem Header="Bank">
                 <Grid>
                     <my:BankControl DataContext="{Binding}" />
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Safe">
+                <Grid>
+                     <my:SafeControl DataContext="{Binding}" /> 
                 </Grid>
             </TabItem>
 
