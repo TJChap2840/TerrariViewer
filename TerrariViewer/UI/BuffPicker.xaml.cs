@@ -117,7 +117,14 @@ namespace TerrariViewer.UI
 
         private void BuffStack_TextChanged(object sender, TextChangedEventArgs e)
         {
-            buff.GameDuration = int.Parse(Buff_Stack.Text);
+            if (Buff_Stack.Text == "")
+            {
+                buff.GameDuration = 0;
+            }
+            else
+            {
+                buff.GameDuration = int.Parse(Buff_Stack.Text);
+            }
         }
 
         private void BuffStack_PreviewKeyDown(object sender, KeyEventArgs e)
