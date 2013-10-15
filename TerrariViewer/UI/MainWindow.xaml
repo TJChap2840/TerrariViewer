@@ -29,6 +29,7 @@
                 <MenuItem Header="Exit" Click="Exit_Clicked" />
             </MenuItem>
             <MenuItem Header="About">
+                <MenuItem Header="Submit a Bug" Click="SubmitBug_Clicked"/>
                 <MenuItem Header="Twitter" Click="Twitter_Clicked"/>
                 <MenuItem Header="Donate" Click="Donate_Clicked"/>
                 <MenuItem Header="About" Click="About_Clicked" />

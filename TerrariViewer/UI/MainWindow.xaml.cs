@@ -215,5 +215,10 @@ namespace TerrariViewer.UI
                             "Version 7.1\n" +
                             "Created by TJChap2840", "About TerrariViewer");
         }
+
+        private void SubmitBug_Clicked(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/TJChap2840/TerrariViewer/issues");
+        }
     }
 }
