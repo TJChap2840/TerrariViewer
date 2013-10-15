@@ -2104,6 +2104,58 @@
   <ItemGroup>
     <Resource Include="TVicon.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Items\Item_-1.png" />
+    <Resource Include="Images\Items\Item_-13.png" />
+    <Resource Include="Images\Items\Item_-25.png" />
+    <Resource Include="Images\Items\Item_-31.png" />
+    <Resource Include="Images\Items\Item_-37.png" />
+    <Resource Include="Images\Items\Item_-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Items\Item_-10.png" />
+    <Resource Include="Images\Items\Item_-11.png" />
+    <Resource Include="Images\Items\Item_-12.png" />
+    <Resource Include="Images\Items\Item_-14.png" />
+    <Resource Include="Images\Items\Item_-15.png" />
+    <Resource Include="Images\Items\Item_-16.png" />
+    <Resource Include="Images\Items\Item_-17.png" />
+    <Resource Include="Images\Items\Item_-18.png" />
+    <Resource Include="Images\Items\Item_-19.png" />
+    <Resource Include="Images\Items\Item_-2.png" />
+    <Resource Include="Images\Items\Item_-20.png" />
+    <Resource Include="Images\Items\Item_-21.png" />
+    <Resource Include="Images\Items\Item_-22.png" />
+    <Resource Include="Images\Items\Item_-23.png" />
+    <Resource Include="Images\Items\Item_-24.png" />
+    <Resource Include="Images\Items\Item_-26.png" />
+    <Resource Include="Images\Items\Item_-27.png" />
+    <Resource Include="Images\Items\Item_-28.png" />
+    <Resource Include="Images\Items\Item_-29.png" />
+    <Resource Include="Images\Items\Item_-3.png" />
+    <Resource Include="Images\Items\Item_-30.png" />
+    <Resource Include="Images\Items\Item_-32.png" />
+    <Resource Include="Images\Items\Item_-33.png" />
+    <Resource Include="Images\Items\Item_-34.png" />
+    <Resource Include="Images\Items\Item_-35.png" />
+    <Resource Include="Images\Items\Item_-36.png" />
+    <Resource Include="Images\Items\Item_-38.png" />
+    <Resource Include="Images\Items\Item_-39.png" />
+    <Resource Include="Images\Items\Item_-4.png" />
+    <Resource Include="Images\Items\Item_-40.png" />
+    <Resource Include="Images\Items\Item_-41.png" />
+    <Resource Include="Images\Items\Item_-42.png" />
+    <Resource Include="Images\Items\Item_-43.png" />
+    <Resource Include="Images\Items\Item_-44.png" />
+    <Resource Include="Images\Items\Item_-45.png" />
+    <Resource Include="Images\Items\Item_-46.png" />
+    <Resource Include="Images\Items\Item_-47.png" />
+    <Resource Include="Images\Items\Item_-48.png" />
+    <Resource Include="Images\Items\Item_-5.png" />
+    <Resource Include="Images\Items\Item_-6.png" />
+    <Resource Include="Images\Items\Item_-8.png" />
+    <Resource Include="Images\Items\Item_-9.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -31,6 +31,7 @@
             <MenuItem Header="About">
                 <MenuItem Header="Twitter" Click="Twitter_Clicked"/>
                 <MenuItem Header="Donate" Click="Donate_Clicked"/>
+                <MenuItem Header="About" Click="About_Clicked" />
             </MenuItem>
         </Menu>
         

@@ -206,7 +206,14 @@ namespace TerrariViewer.UI
         private void Window_Deactivaged(object sender, EventArgs e)
         {
             ItemControl.CloseAllPopups();
-            //BuffControl.CloseAllPopups();
+            BuffPreview.CloseAllPopups();
+        }
+
+        private void About_Clicked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("TerrariViewer\n" +
+                            "Version 7.1\n" +
+                            "Created by TJChap2840", "About TerrariViewer");
         }
     }
 }

@@ -55,13 +55,13 @@
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
 
-                    <TextBox Margin="5" Width="50" Text="{Binding CurrentHealth, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" />
+                    <TextBox Margin="5" Width="50" Text="{Binding CurrentHealth, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" MaxLength="7" />
                     <ProgressBar Margin="5" Width="150" Grid.Column="1" Grid.ColumnSpan="2" Value="{Binding CurrentHealth}" Maximum="{Binding MaximumHealth}"/>
-                    <TextBox Margin="5" Width="50" Grid.Column="3" Text="{Binding MaximumHealth, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" />
+                    <TextBox Margin="5" Width="50" Grid.Column="3" Text="{Binding MaximumHealth, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" MaxLength="7" />
 
-                    <TextBox Margin="5" Width="50" Grid.Row="1" Text="{Binding CurrentMana, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" />
+                    <TextBox Margin="5" Width="50" Grid.Row="1" Text="{Binding CurrentMana, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" MaxLength="7" />
                     <ProgressBar Margin="5" Width="150" Foreground="Blue" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Value="{Binding CurrentMana}" Maximum="{Binding MaximumMana}" />
-                    <TextBox Margin="5" Width="50" Grid.Column="3" Grid.Row="1" Text="{Binding MaximumMana, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" />
+                    <TextBox Margin="5" Width="50" Grid.Column="3" Grid.Row="1" Text="{Binding MaximumMana, Mode=TwoWay}" PreviewKeyDown="TextBox_PreviewKeyDown" MaxLength="7" />
                     
                     <Button Content="Restore to Full" Margin="5" Height="25" Grid.Row="3" Grid.ColumnSpan="2" Click="Restore_Click"/>
                     <Button Content="Give Max" Margin="5" Height="25" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Click="Max_Click" />
@@ -127,7 +127,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Label Content="Eyes" Height="25" Margin="5,0" FontWeight="Bold" />
-                        <Rectangle Fill="{Binding EyesColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown" />
+                        <Rectangle Fill="{Binding EyeColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown" />
                     </Grid>
                     <Grid Grid.Row="3">
                         <Grid.ColumnDefinitions>
@@ -163,7 +163,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Label Content="Shoes" Height="25" Margin="5,0" FontWeight="Bold" />
-                        <Rectangle Fill="{Binding ShoesColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown" />
+                        <Rectangle Fill="{Binding ShoeColor, Mode=TwoWay, Converter={StaticResource FillColorConverter}}" Height="25" Width="50" Margin="10" Stroke="Black" Cursor="Hand" Grid.Column="1" MouseDown="Color_MouseDown" />
                     </Grid>
                 </Grid>
             </GroupBox>
