@@ -1119,7 +1119,7 @@ namespace TerrariViewer.AppUpdater.Wpf
             {
                 if (IsUpdateAvailable())
                 {
-                    System.Diagnostics.Process.Start("https://terrariviewer.codeplex.com/releases/view/113343#DownloadId=742775");
+                    System.Diagnostics.Process.Start("https://terrariviewer.codeplex.com/releases/view/113551");
                     button1.Visibility = Visibility.Collapsed;
                     button2.Content = "Close";
                 }

@@ -25,7 +25,7 @@ namespace TerrariViewer.UI
         // Updater Info
         private TerrariViewer.AppUpdater.Wpf.Updater _updater;
         private string _manifestURL = "https://dl.dropboxusercontent.com/u/15236565/Manifest.xml";
-        private string _infoURL = "https://terrariviewer.codeplex.com/downloads/get/742775";
+        private string _infoURL = "https://terrariviewer.codeplex.com/releases/view/113551";
         private string _description = "This program allows you to edit Terraria characters.";
 
         public static Player player;
