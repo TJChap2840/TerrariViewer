@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:my="clr-namespace:TerrariViewer.UI"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
-        Title="TerrariViewer v7.1" Height="456" Width="486" Icon="/TerrariViewer;component/Images/TVicon.ico" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
+        Height="456" Width="486" Icon="/TerrariViewer;component/Images/TVicon.ico" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
     
     <Window.CommandBindings>
         <CommandBinding Command="my:MainWindow.FileOpenCommand" Executed="FileOpenCommand_Executed" />

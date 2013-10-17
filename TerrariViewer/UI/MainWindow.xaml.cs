@@ -22,6 +22,12 @@ namespace TerrariViewer.UI
     /// </summary>
     public partial class MainWindow : Window
     {
+        // Updater Info
+        private TerrariViewer.AppUpdater.Wpf.Updater _updater;
+        private string _manifestURL = "https://dl.dropboxusercontent.com/u/15236565/Manifest.xml";
+        private string _infoURL = "https://terrariviewer.codeplex.com/downloads/get/742775";
+        private string _description = "This program allows you to edit Terraria characters.";
+
         public static Player player;
         private string playerPath;
         // private string lastFileName = null;
@@ -31,11 +37,32 @@ namespace TerrariViewer.UI
         public MainWindow()
         {
             InitializeComponent();
+            SetTitle();
+
+            if (UpdateCheck())
+            {
+                this.Hide();
+            }
 
             player = new Player();
             this.DataContext = player;
             playerPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
                 + @"\My Games\Terraria\Players\";
+        }
+
+        private void SetTitle()
+        {
+            var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            var assemblyAttributes = (System.Reflection.AssemblyTitleAttribute)
+                                      System.Reflection.AssemblyTitleAttribute.GetCustomAttribute(assembly, typeof(System.Reflection.AssemblyTitleAttribute));
+            this.Title = assemblyAttributes.Title + " v" + assembly.GetName().Version.ToString();
+        }
+
+        private bool UpdateCheck()
+        {
+            _updater = new TerrariViewer.AppUpdater.Wpf.Updater("An update is available for TerrariViewer", _infoURL, _description, _manifestURL);
+
+            return _updater.Status.IsUpdating;
         }
 
         #region Commands
@@ -201,24 +228,27 @@ namespace TerrariViewer.UI
             System.Diagnostics.Process.Start("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=74TENM4NF4DUN&lc=US&item_name=TerrariViewer&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted");
         }
 
-        #endregion
-
-        private void Window_Deactivaged(object sender, EventArgs e)
-        {
-            ItemControl.CloseAllPopups();
-            BuffPreview.CloseAllPopups();
-        }
-
         private void About_Clicked(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TerrariViewer\n" +
-                            "Version 7.1\n" +
+            var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            var assemblyAttributes = (System.Reflection.AssemblyTitleAttribute)
+                                      System.Reflection.AssemblyTitleAttribute.GetCustomAttribute(assembly, typeof(System.Reflection.AssemblyTitleAttribute));
+            MessageBox.Show(assemblyAttributes.Title + "\n" +
+                            "Version " + assembly.GetName().Version.ToString() + "\n" +
                             "Created by TJChap2840", "About TerrariViewer");
         }
 
         private void SubmitBug_Clicked(object sender, RoutedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/TJChap2840/TerrariViewer/issues");
+        }
+
+        #endregion
+
+        private void Window_Deactivated(object sender, EventArgs e)
+        {
+            ItemControl.CloseAllPopups();
+            BuffPreview.CloseAllPopups();
         }
     }
 }
