@@ -154,7 +154,6 @@ namespace TerrariViewer.AppUpdater.Wpf
         /// </param>
         ///
         public Updater(string intro,
-                       string infoUrl,
                        string description,
                        string manifestUrl)
         {
@@ -163,7 +162,6 @@ namespace TerrariViewer.AppUpdater.Wpf
             Trace("hello");
 
             _manifestUrl = manifestUrl;
-            _infoUrl = infoUrl;
             _intro = intro;
             _description = description;
 
@@ -754,7 +752,7 @@ namespace TerrariViewer.AppUpdater.Wpf
 
                 string s = _XamlTemplate;
                 s = s.Replace("@@TITLE", _AppName + " " + version);
-                s = s.Replace("@@INFOURL", _infoUrl);
+                s = s.Replace("@@INFOURL", _info.DownloadLocation);
                 s = s.Replace("@@INTRO", _intro);
                 s = s.Replace("@@DESCRIPTION", _description);
 
@@ -1119,7 +1117,7 @@ namespace TerrariViewer.AppUpdater.Wpf
             {
                 if (IsUpdateAvailable())
                 {
-                    System.Diagnostics.Process.Start("https://terrariviewer.codeplex.com/releases/view/113551");
+                    System.Diagnostics.Process.Start(_info.DownloadLocation);
                     button1.Visibility = Visibility.Collapsed;
                     button2.Content = "Close";
                 }
