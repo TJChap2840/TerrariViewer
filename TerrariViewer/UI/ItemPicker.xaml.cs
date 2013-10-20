@@ -125,7 +125,14 @@ namespace TerrariViewer.UI
 
         private void ItemStack_TextChanged(object sender, TextChangedEventArgs e)
         {
-            item.StackSize = int.Parse(Item_Stack.Text);
+            if (Item_Stack.Text == "")
+            {
+                item.StackSize = 0;
+            }
+            else
+            {
+                item.StackSize = int.Parse(Item_Stack.Text);
+            }            
         }
 
         private void ItemStack_PreviewKeyDown(object sender, KeyEventArgs e)

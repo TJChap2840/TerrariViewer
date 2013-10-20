@@ -97,7 +97,6 @@ namespace TerrariViewer.AppUpdater.Wpf
         private bool cancelAction;
         private string _manifestUrl;
         private System.Reflection.Assembly _a;
-        private String _infoUrl;
         private String _intro;
         private String _description;
         private UpdateStatus _status;
