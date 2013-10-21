@@ -41,10 +41,10 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Security.Cryptography;
 using System.Security.Cryptography.Xml;
-using System.Diagnostics;                   // Process, ConditionalAttribute
+using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;  // Hyperlink
+using System.Windows.Documents;
 
 
 namespace TerrariViewer.AppUpdater.Wpf
