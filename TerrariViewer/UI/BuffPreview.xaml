@@ -7,16 +7,16 @@
              mc:Ignorable="d" 
              d:DesignHeight="50" d:DesignWidth="50" BorderBrush="#14000000" BorderThickness="0.5" Margin="2">
     <UserControl.Resources>
-        <ToolTip x:Key="BuffToolTip" MaxWidth="150"  DataContext="{Binding Path=PlacementTarget.DataContext, RelativeSource={x:Static RelativeSource.Self}}">
+        <ToolTip x:Key="BuffToolTip"  DataContext="{Binding Path=PlacementTarget.DataContext, RelativeSource={x:Static RelativeSource.Self}}">
             <TextBlock Text="{Binding BuffText}" />
         </ToolTip>
     </UserControl.Resources>
     <Grid MouseDown="BuffControl_MouseDown" MouseUp="BuffControl_MouseUp">
-        <Popup Name="Pop_Up" PlacementTarget="{Binding ElementName=Item_Image}" Placement="Bottom" AllowsTransparency="True" PopupAnimation="Fade" MouseEnter="PopUp_MouseEnter">
+        <Popup Name="Pop_Up" PlacementTarget="{Binding ElementName=Buff_Image}" Placement="Bottom" AllowsTransparency="True" PopupAnimation="Fade" MouseEnter="PopUp_MouseEnter">
             <Border Name="Popup_Border" CornerRadius="2.5" Background="White" BorderThickness="0.5" BorderBrush="Black">
                 <my:BuffPicker DataContext="{Binding}" x:Name="BuffPicker" />
             </Border>
         </Popup>
-        <Image Source="{Binding Image}" Margin="5" Opacity=".35" ToolTip="{Binding Source={StaticResource BuffToolTip}}" />
+        <Image Name="Buff_Image" Source="{Binding Image}" Margin="5" Opacity=".35" ToolTip="{Binding Source={StaticResource BuffToolTip}}" />
     </Grid>
 </UserControl>

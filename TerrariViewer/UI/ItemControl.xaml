@@ -30,6 +30,6 @@
         <Label Content="{Binding Name}" HorizontalContentAlignment="Center" Margin="5" Grid.Row="1" FontWeight="SemiBold" />-->
         <Label Content="{Binding StackSize, Converter={StaticResource StackConverter}}" 
                ToolTip="{Binding Source={StaticResource ItemToolTip}}"
-               Visibility="{Binding Path=Text, RelativeSource={RelativeSource Self}}" Grid.RowSpan="2" FontWeight="SemiBold" />
+               Grid.RowSpan="2" FontWeight="SemiBold" />
      </Grid>
 </UserControl>

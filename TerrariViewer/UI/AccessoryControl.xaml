@@ -11,12 +11,12 @@
             <TextBlock Text="{Binding ItemText}" />
         </ToolTip>
     </UserControl.Resources>
-    <Grid ToolTip="{Binding ItemToolTip}" MouseDown="AccessoryControl_MouseDown" MouseUp="AccessoryControl_MouseUp">
+    <Grid ToolTip="{Binding Source={StaticResource ItemToolTip}}" MouseDown="AccessoryControl_MouseDown" MouseUp="AccessoryControl_MouseUp">
         <Popup Name="Pop_Up" PlacementTarget="{Binding ElementName=Item_Image}" Placement="Bottom" AllowsTransparency="True" PopupAnimation="Fade" MouseEnter="PopUp_MouseEnter">
             <Border Name="Popup_Border" CornerRadius="2.5" Background="White" BorderThickness="0.5" BorderBrush="Black">
                 <my:ItemPicker DataContext="{Binding}" x:Name="Item_Picker" />
             </Border>
         </Popup>
-        <Image Source="{Binding Image}" Margin="5" Opacity="1"/>
+        <Image Name="Item_Image" Source="{Binding Image}" Margin="5" Opacity="1"/>
     </Grid>
 </UserControl>

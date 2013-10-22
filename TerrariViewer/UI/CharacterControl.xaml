@@ -31,13 +31,13 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <TextBox Margin="5" Width="200" Text="{my:TwoWayBinding Name}" />
-                    <ComboBox Margin="5" Width="200" Grid.Row="1" SelectedIndex="{my:TwoWayBinding Difficulty, Mode=TwoWay}">
+                    <TextBox Margin="5" Width="200" Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <ComboBox Margin="5" Width="200" Grid.Row="1" SelectedIndex="{Binding Difficulty, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                         <ComboBoxItem ToolTip="Softcore characters drop money on death">Softcore</ComboBoxItem>
                         <ComboBoxItem ToolTip="Mediumcore characters drop items on death">Mediumcore</ComboBoxItem>
                         <ComboBoxItem ToolTip="Hardcore characters die for good">Hardcore</ComboBoxItem>
                     </ComboBox>
-                    <CheckBox Content="Male?" Margin="15,5,5,5" Grid.Column="1" Grid.Row="1" IsChecked="{my:TwoWayBinding Gender, Mode=TwoWay}"/>
+                    <CheckBox Content="Male?" Margin="15,5,5,5" Grid.Column="1" Grid.Row="1" IsChecked="{Binding Gender, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                 </Grid>
             </GroupBox>
             <GroupBox Header="Stats" Grid.Row="1">

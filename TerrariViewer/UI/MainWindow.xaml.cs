@@ -23,9 +23,9 @@ namespace TerrariViewer.UI
     public partial class MainWindow : Window
     {
         // Updater Info
-        private TerrariViewer.AppUpdater.Wpf.Updater _updater;
-        private string _manifestURL = "https://dl.dropboxusercontent.com/u/15236565/Manifest.xml";
-        private string _description = "This program allows you to edit Terraria characters.";
+        private Updater updater;
+        //private string _manifestURL = "https://dl.dropboxusercontent.com/u/15236565/Manifest.xml";
+        //private string _description = "This program allows you to edit Terraria characters.";
 
         public static Player player;
         private string playerPath;
@@ -38,10 +38,7 @@ namespace TerrariViewer.UI
             InitializeComponent();
             SetTitle();
 
-            if (UpdateCheck())
-            {
-                this.Hide();
-            }
+            updater = new Updater();
 
             player = new Player();
             this.DataContext = player;
@@ -57,12 +54,12 @@ namespace TerrariViewer.UI
             this.Title = assemblyAttributes.Title + " v" + assembly.GetName().Version.ToString();
         }
 
-        private bool UpdateCheck()
-        {
-            _updater = new TerrariViewer.AppUpdater.Wpf.Updater("An update is available for TerrariViewer", _description, _manifestURL);
+        //private bool UpdateCheck()
+        //{
+        //    updater = new TerrariViewer.AppUpdater.Wpf.Updater("An update is available for TerrariViewer", _description, _manifestURL);
 
-            return _updater.Status.IsUpdating;
-        }
+        //    return _updater.Status.IsUpdating;
+        //}
 
         #region Commands
 

@@ -156,7 +156,7 @@ namespace TerrariViewer.TerrariaObjects
 
         public override string ToString()
         {
-            return string.Format("{0} [{1} Seconds]", Name, GameDuration);
+            return string.Format("{0}\n[{1} Seconds]", Name, GameDuration);
         }
 
         #region PropertyChanged
