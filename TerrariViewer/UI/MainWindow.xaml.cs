@@ -44,7 +44,7 @@ namespace TerrariViewer.UI
             this.DataContext = player;
             playerPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
                 + @"\My Games\Terraria\Players\";
-        }
+        }       
 
         private void SetTitle()
         {
@@ -239,6 +239,14 @@ namespace TerrariViewer.UI
             System.Diagnostics.Process.Start("https://github.com/TJChap2840/TerrariViewer/issues");
         }
 
+        private void Update_Clicked(object sender, RoutedEventArgs e)
+        {
+            if (updater.CheckforUpdate())
+            {
+                updater.ShowUpdateWindow();
+            }
+        }
+
         #endregion
 
         private void Window_Deactivated(object sender, EventArgs e)
@@ -246,5 +254,7 @@ namespace TerrariViewer.UI
             ItemControl.CloseAllPopups();
             BuffPreview.CloseAllPopups();
         }
+
+        
     }
 }

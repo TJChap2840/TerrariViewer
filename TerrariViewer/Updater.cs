@@ -63,7 +63,7 @@ namespace TerrariViewer
             } 
         }
 
-        private bool CheckforUpdate()
+        public bool CheckforUpdate()
         {
             var currentVersionInts = appCurrentVersion.Split(".".ToCharArray()).ToList<String>().ConvertAll(s => Convert.ToInt32(s));
             GetUpdateInfo();
@@ -122,9 +122,9 @@ namespace TerrariViewer
             return result;
         }
 
-        private void ShowUpdateWindow()
+        public void ShowUpdateWindow()
         {
-            window = new UpdateWindow();
+            window = new UpdateWindow(info.DownloadLocation);
             window.Show();
         }
 

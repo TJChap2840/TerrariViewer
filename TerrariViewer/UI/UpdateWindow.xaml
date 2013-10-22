@@ -8,7 +8,7 @@
             <Hyperlink NavigateUri="http://terrariviewer.codeplex.com/">http://terrariviewer.codeplex.com/</Hyperlink>
         </TextBlock>
         <TextBlock>Would you like to download the latest version?</TextBlock>
-        <Button Name="yesButton" Margin="5" Height="25">Yes</Button>
-        <Button Name="noButton" Margin="5" Height="25">No</Button>
+        <Button Name="yesButton" Margin="5" Height="25" Click="yesButton_Click">Yes</Button>
+        <Button Name="noButton" Margin="5" Height="25" Click="noButton_Click">No</Button>
     </StackPanel>
 </Window>
