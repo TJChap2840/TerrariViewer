@@ -105,10 +105,12 @@ namespace TerrariViewer.UI
             {
                 buff.GameDuration = 0;
                 buff.Name = "No Buff";
+                buff.Description = "No Buff";
             }
             else
             {
                 buff.GameDuration = Buff.BuffDictionary[selected.Id].MaxDuration;
+                buff.Description = Buff.BuffDictionary[selected.Id].Description;
                 buff.Name = Buff.BuffDictionary[selected.Id].Name;
             }
 

@@ -31,6 +31,7 @@ namespace TerrariViewer.UI
             InitializeComponent();
 
             Prefix_List.ItemsSource = Item.PrefixDictionary;
+            Category_ComboBox.ItemsSource = Item.CategoryDictionary;
 
             if (itemsSource == null)
             {
@@ -59,6 +60,7 @@ namespace TerrariViewer.UI
         {   
             itemsSource = Item.ItemDictionary.Values
                 .Where(info => HandleFilter(info))
+                .Where(info => HandleCategory(info))
                 .OrderBy(info => info.Name)
                 .ThenBy(info => info.Name)
                 .ToList();
@@ -89,6 +91,19 @@ namespace TerrariViewer.UI
             foreach (string filterPart in filterParts)
             {
                 if (targetName.IndexOf(filterPart, StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        private bool HandleCategory(Item item)
+        {
+            foreach (string category in item.Categories)
+            {
+                string currentCategory = Category_ComboBox.SelectedValue as string;
+                if (currentCategory == category)
                 {
                     return true;
                 }
@@ -152,6 +167,11 @@ namespace TerrariViewer.UI
             item.Name = "No Item";
             item.StackSize = 0;
             item.Prefix = 0;
+        }
+
+        private void CategoryComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            SetNewItemsSource();
         }
     }
 }

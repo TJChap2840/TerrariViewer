@@ -14,6 +14,12 @@ namespace TerrariViewer.TerrariaObjects
     {
         #region Item Dictionaries
 
+        private static List<string> categoryDictionary = new List<string> { "All", "Accessory", "Ammunition", "Armor/Vanity", "Buildable", "Consumable", "Miscellaneous", "Ore/Bar", "Tool", "Weapon" };
+        public static List<string> CategoryDictionary
+        {
+            get { return categoryDictionary; }
+        }
+
         private static Dictionary<int, Item> itemDictionary = new Dictionary<int, Item>();
         public static Dictionary<int, Item> ItemDictionary
         {
@@ -47,6 +53,10 @@ namespace TerrariViewer.TerrariaObjects
                         item.Id = int.Parse(parts[0]);
                         item.Name = parts[1];
                         item.ItemImage();
+                        if (parts.Length > 2)
+                        {                            
+                            item.Categories = parts[2].Split(',');
+                        }
                         ItemDictionary[int.Parse(parts[0])] = item;
                     }
                     catch
@@ -146,6 +156,8 @@ namespace TerrariViewer.TerrariaObjects
         }
 
         #endregion
+
+        public string[] Categories = { };
 
         public Item()
         {

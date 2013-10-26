@@ -1,1773 +1,1905 @@
-﻿-1	Gold Pickaxe
--2	Gold Broadsword
--3	Gold Shortsword
--4	Gold Axe
--5	Gold Hammer
--6	Gold Bow
--7	Silver Pickaxe
--8	Silver Broadsword
--9	Silver Shortsword
--10	Silver Axe
--11	Silver Hammer
--12	Silver Bow
--13	Copper Pickaxe
--14	Copper Broadsword
--15	Copper Shortsword
--16	Copper Axe
--17	Copper Hammer
--18	Copper Bow
--19	Blue Phasesaber
--20	Red Phasesaber
--21	Green Phasesaber
--22	Purple Phasesaber
--23	White Phasesaber
--24	Yellow Phasesaber
--25	Tin Pickaxe
--26	Tin Broadsword
--27	Tin Shortsword
--28	Tin Axe
--29	Tin Hammer
--30	Tin Bow
--31	Lead Pickaxe
--32	Lead Broadsword
--33	Lead Shortsword
--34	Lead Axe
--35	Lead Hammer
--36	Lead Bow
--37	Tungsten Pickaxe
--38	Tungsten Broadsword
--39	Tungsten Shortsword
--40	Tungsten Axe
--41	Tungsten Hammer
--42	Tungsten Bow
--43	Platinum Pickaxe
--44	Platinum Broadsword
--45	Platinum Shortsword
--46	Platinum Axe
--47	Platinum Hammer
--48	Platinum Bow
-0	[No Item]
-1	Iron Pickaxe
-2	Dirt Block
-3	Stone Block
-4	Iron Broadsword
-5	Mushroom
-6	Iron Shortsword
-7	Iron Hammer
-8	Torch
-9	Wood
-10	Iron Axe
-11	Iron Ore
-12	Copper Ore
-13	Gold Ore
-14	Silver Ore
-15	Copper Watch
-16	Silver Watch
-17	Gold Watch
-18	Depth Meter
-19	Gold Bar
-20	Copper Bar
-21	Silver Bar
-22	Iron Bar
-23	Gel
-24	Wooden Sword
-25	Wooden Door
-26	Stone Wall
-27	Acorn
-28	Lesser Healing Potion
-29	Life Crystal
-30	Dirt Wall
-31	Bottle
-32	Wooden Table
-33	Furnace
-34	Wooden Chair
-35	Iron Anvil
-36	Work Bench
-37	Goggles
-38	Lens
-39	Wooden Bow
-40	Wooden Arrow
-41	Flaming Arrow
-42	Shuriken
-43	Suspicious Looking Eye
-44	Demon Bow
-45	War Axe of the Night
-46	Light's Bane
-47	Unholy Arrow
-48	Chest
-49	Band of Regeneration
-50	Magic Mirror
-51	Jester's Arrow
-52	Angel Statue
-53	Cloud in a Bottle
-54	Hermes Boots
-55	Enchanted Boomerang
-56	Demonite Ore
-57	Demonite Bar
-58	Heart
-59	Corrupt Seeds
-60	Vile Mushroom
-61	Ebonstone Block
-62	Grass Seeds
-63	Sunflower
-64	Vilethorn
-65	Starfury
-66	Purification Powder
-67	Vile Powder
-68	Rotten Chunk
-69	Worm Tooth
-70	Worm Food
-71	Copper Coin
-72	Silver Coin
-73	Gold Coin
-74	Platinum Coin
-75	Fallen Star
-76	Copper Greaves
-77	Iron Greaves
-78	Silver Greaves
-79	Gold Greaves
-80	Copper Chainmail
-81	Iron Chainmail
-82	Silver Chainmail
-83	Gold Chainmail
-84	Grappling Hook
-85	Iron Chain
-86	Shadow Scale
-87	Piggy Bank
-88	Mining Helmet
-89	Copper Helmet
-90	Iron Helmet
-91	Silver Helmet
-92	Gold Helmet
-93	Wood Wall
-94	Wood Platform
-95	Flintlock Pistol
-96	Musket
-97	Musket Ball
-98	Minishark
-99	Iron Bow
-100	Shadow Greaves
-101	Shadow Scalemail
-102	Shadow Helmet
-103	Nightmare Pickaxe
-104	The Breaker
-105	Candle
-106	Copper Chandelier
-107	Silver Chandelier
-108	Gold Chandelier
-109	Mana Crystal
-110	Lesser Mana Potion
-111	Band of Starpower
-112	Flower of Fire
-113	Magic Missile
-114	Dirt Rod
-115	Orb of Light
-116	Meteorite
-117	Meteorite Bar
-118	Hook
-119	Flamarang
-120	Molten Fury
-121	Fiery Greatsword
-122	Molten Pickaxe
-123	Meteor Helmet
-124	Meteor Suit
-125	Meteor Leggings
-126	Bottled Water
-127	Space Gun
-128	Rocket Boots
-129	Gray Brick
-130	Gray Brick Wall
-131	Red Brick
-132	Red Brick Wall
-133	Clay Block
-134	Blue Brick
-135	Blue Brick Wall
-136	Chain Lantern
-137	Green Brick
-138	Green Brick Wall
-139	Pink Brick
-140	Pink Brick Wall
-141	Gold Brick
-142	Gold Brick Wall
-143	Silver Brick
-144	Silver Brick Wall
-145	Copper Brick
-146	Copper Brick Wall
-147	Spike
-148	Water Candle
-149	Book
-150	Cobweb
-151	Necro Helmet
-152	Necro Breastplate
-153	Necro Greaves
-154	Bone
-155	Muramasa
-156	Cobalt Shield
-157	Aqua Scepter
-158	Lucky Horseshoe
-159	Shiny Red Balloon
-160	Harpoon
-161	Spiky Ball
-162	Ball O' Hurt
-163	Blue Moon
-164	Handgun
-165	Water Bolt
-166	Bomb
-167	Dynamite
-168	Grenade
-169	Sand Block
-170	Glass
-171	Sign
-172	Ash Block
-173	Obsidian
-174	Hellstone
-175	Hellstone Bar
-176	Mud Block
-177	Sapphire
-178	Ruby
-179	Emerald
-180	Topaz
-181	Amethyst
-182	Diamond
-183	Glowing Mushroom
-184	Star
-185	Ivy Whip
-186	Breathing Reed
-187	Flipper
-188	Healing Potion
-189	Mana Potion
-190	Blade of Grass
-191	Thorn Chakram
-192	Obsidian Brick
-193	Obsidian Skull
-194	Mushroom Grass Seeds
-195	Jungle Grass Seeds
-196	Wooden Hammer
-197	Star Cannon
-198	Blue Phaseblade
-199	Red Phaseblade
-200	Green Phaseblade
-201	Purple Phaseblade
-202	White Phaseblade
-203	Yellow Phaseblade
-204	Meteor Hamaxe
-205	Empty Bucket
-206	Water Bucket
-207	Lava Bucket
-208	Jungle Rose
-209	Stinger
-210	Vine
-211	Feral Claws
-212	Anklet of the Wind
-213	Staff of Regrowth
-214	Hellstone Brick
-215	Whoopie Cushion
-216	Shackle
-217	Molten Hamaxe
-218	Flamelash
-219	Phoenix Blaster
-220	Sunfury
-221	Hellforge
-222	Clay Pot
-223	Nature's Gift
-224	Bed
-225	Silk
-226	Lesser Restoration Potion
-227	Restoration Potion
-228	Jungle Hat
-229	Jungle Shirt
-230	Jungle Pants
-231	Molten Helmet
-232	Molten Breastplate
-233	Molten Greaves
-234	Meteor Shot
-235	Sticky Bomb
-236	Black Lens
-237	Sunglasses
-238	Wizard Hat
-239	Top Hat
-240	Tuxedo Shirt
-241	Tuxedo Pants
-242	Summer Hat
-243	Bunny Hood
-244	Plumber's Hat
-245	Plumber's Shirt
-246	Plumber's Pants
-247	Hero's Hat
-248	Hero's Shirt
-249	Hero's Pants
-250	Fish Bowl
-251	Archaeologist's Hat
-252	Archaeologist's Jacket
-253	Archaeologist's Pants
-254	Black Dye
-255	Green Dye
-256	Ninja Hood
-257	Ninja Shirt
-258	Ninja Pants
-259	Leather
-260	Red Hat
-261	Goldfish
-262	Robe
-263	Robot Hat
-264	Gold Crown
-265	Hellfire Arrow
-266	Sandgun
-267	Guide Voodoo Doll
-268	Diving Helmet
-269	Familiar Shirt
-270	Familiar Pants
-271	Familiar Wig
-272	Demon Scythe
-273	Night's Edge
-274	Dark Lance
-275	Coral
-276	Cactus
-277	Trident
-278	Silver Bullet
-279	Throwing Knife
-280	Spear
-281	Blowpipe
-282	Glowstick
-283	Seed
-284	Wooden Boomerang
-285	Aglet
-286	Sticky Glowstick
-287	Poisoned Knife
-288	Obsidian Skin Potion
-289	Regeneration Potion
-290	Swiftness Potion
-291	Gills Potion
-292	Ironskin Potion
-293	Mana Regeneration Potion
-294	Magic Power Potion
-295	Featherfall Potion
-296	Spelunker Potion
-297	Invisibility Potion
-298	Shine Potion
-299	Night Owl Potion
-300	Battle Potion
-301	Thorns Potion
-302	Water Walking Potion
-303	Archery Potion
-304	Hunter Potion
-305	Gravitation Potion
-306	Gold Chest
-307	Daybloom Seeds
-308	Moonglow Seeds
-309	Blinkroot Seeds
-310	Deathweed Seeds
-311	Waterleaf Seeds
-312	Fireblossom Seeds
-313	Daybloom
-314	Moonglow
-315	Blinkroot
-316	Deathweed
-317	Waterleaf
-318	Fireblossom
-319	Shark Fin
-320	Feather
-321	Tombstone
-322	Mime Mask
-323	Antlion Mandible
-324	Illegal Gun Parts
-325	The Doctor's Shirt
-326	The Doctor's Pants
-327	Golden Key
-328	Shadow Chest
-329	Shadow Key
-330	Obsidian Brick Wall
-331	Jungle Spores
-332	Loom
-333	Piano
-334	Dresser
-335	Bench
-336	Bathtub
-337	Red Banner
-338	Green Banner
-339	Blue Banner
-340	Yellow Banner
-341	Lamp Post
-342	Tiki Torch
-343	Barrel
-344	Chinese Lantern
-345	Cooking Pot
-346	Safe
-347	Skull Lantern
-348	Trash Can
-349	Candelabra
-350	Pink Vase
-351	Mug
-352	Keg
-353	Ale
-354	Bookcase
-355	Throne
-356	Bowl
-357	Bowl of Soup
-358	Toilet
-359	Grandfather Clock
-360	Armor Statue
-361	Goblin Battle Standard
-362	Tattered Cloth
-363	Sawmill
-364	Cobalt Ore
-365	Mythril Ore
-366	Adamantite Ore
-367	Pwnhammer
-368	Excalibur
-369	Hallowed Seeds
-370	Ebonsand Block
-371	Cobalt Hat
-372	Cobalt Helmet
-373	Cobalt Mask
-374	Cobalt Breastplate
-375	Cobalt Leggings
-376	Mythril Hood
-377	Mythril Helmet
-378	Mythril Hat
-379	Mythril Chainmail
-380	Mythril Greaves
-381	Cobalt Bar
-382	Mythril Bar
-383	Cobalt Chainsaw
-384	Mythril Chainsaw
-385	Cobalt Drill
-386	Mythril Drill
-387	Adamantite Chainsaw
-388	Adamantite Drill
-389	Dao of Pow
-390	Mythril Halberd
-391	Adamantite Bar
-392	Glass Wall
-393	Compass
-394	Diving Gear
-395	GPS
-396	Obsidian Horseshoe
-397	Obsidian Shield
-398	Tinkerer's Workshop
-399	Cloud in a Balloon
-400	Adamantite Headgear
-401	Adamantite Helmet
-402	Adamantite Mask
-403	Adamantite Breastplate
-404	Adamantite Leggings
-405	Spectre Boots
-406	Adamantite Glaive
-407	Toolbelt
-408	Pearlsand Block
-409	Pearlstone Block
-410	Mining Shirt
-411	Mining Pants
-412	Pearlstone Brick
-413	Iridescent Brick
-414	Mudstone Block
-415	Cobalt Brick
-416	Mythril Brick
-417	Pearlstone Brick Wall
-418	Iridescent Brick Wall
-419	Mudstone Brick Wall
-420	Cobalt Brick Wall
-421	Mythril Brick Wall
-422	Holy Water
-423	Unholy Water
-424	Silt Block
-425	Fairy Bell
-426	Breaker Blade
-427	Blue Torch
-428	Red Torch
-429	Green Torch
-430	Purple Torch
-431	White Torch
-432	Yellow Torch
-433	Demon Torch
-434	Clockwork Assault Rifle
-435	Cobalt Repeater
-436	Mythril Repeater
-437	Dual Hook
-438	Star Statue
-439	Sword Statue
-440	Slime Statue
-441	Goblin Statue
-442	Shield Statue
-443	Bat Statue
-444	Fish Statue
-445	Bunny Statue
-446	Skeleton Statue
-447	Reaper Statue
-448	Woman Statue
-449	Imp Statue
-450	Gargoyle Statue
-451	Gloom Statue
-452	Hornet Statue
-453	Bomb Statue
-454	Crab Statue
-455	Hammer Statue
-456	Potion Statue
-457	Spear Statue
-458	Cross Statue
-459	Jellyfish Statue
-460	Bow Statue
-461	Boomerang Statue
-462	Boot Statue
-463	Chest Statue
-464	Bird Statue
-465	Axe Statue
-466	Corrupt Statue
-467	Tree Statue
-468	Anvil Statue
-469	Pickaxe Statue
-470	Mushroom Statue
-471	Eyeball Statue
-472	Pillar Statue
-473	Heart Statue
-474	Pot Statue
-475	Sunflower Statue
-476	King Statue
-477	Queen Statue
-478	Piranha Statue
-479	Planked Wall
-480	Wooden Beam
-481	Adamantite Repeater
-482	Adamantite Sword
-483	Cobalt Sword
-484	Mythril Sword
-485	Moon Charm
-486	Ruler
-487	Crystal Ball
-488	Disco Ball
-489	Sorcerer Emblem
-490	Warrior Emblem
-491	Ranger Emblem
-492	Demon Wings
-493	Angel Wings
-494	Magical Harp
-495	Rainbow Rod
-496	Ice Rod
-497	Neptune's Shell
-498	Mannequin
-499	Greater Healing Potion
-500	Greater Mana Potion
-501	Pixie Dust
-502	Crystal Shard
-503	Clown Hat
-504	Clown Shirt
-505	Clown Pants
-506	Flamethrower
-507	Bell
-508	Harp
-509	Wrench
-510	Wire Cutter
-511	Active Stone Block
-512	Inactive Stone Block
-513	Lever
-514	Laser Rifle
-515	Crystal Bullet
-516	Holy Arrow
-517	Magic Dagger
-518	Crystal Storm
-519	Cursed Flames
-520	Soul of Light
-521	Soul of Night
-522	Cursed Flame
-523	Cursed Torch
-524	Adamantite Forge
-525	Mythril Anvil
-526	Unicorn Horn
-527	Dark Shard
-528	Light Shard
-529	Red Pressure Plate
-530	Wire
-531	Spell Tome
-532	Star Cloak
-533	Megashark
-534	Shotgun
-535	Philosopher's Stone
-536	Titan Glove
-537	Cobalt Naginata
-538	Switch
-539	Dart Trap
-540	Boulder
-541	Green Pressure Plate
-542	Gray Pressure Plate
-543	Brown Pressure Plate
-544	Mechanical Eye
-545	Cursed Arrow
-546	Cursed Bullet
-547	Soul of Fright
-548	Soul of Might
-549	Soul of Sight
-550	Gungnir
-551	Hallowed Plate Mail
-552	Hallowed Greaves
-553	Hallowed Helmet
-554	Cross Necklace
-555	Mana Flower
-556	Mechanical Worm
-557	Mechanical Skull
-558	Hallowed Headgear
-559	Hallowed Mask
-560	Slime Crown
-561	Light Disc
-562	Music Box (Overworld Day)
-563	Music Box (Eerie)
-564	Music Box (Night)
-565	Music Box (Title)
-566	Music Box (Underground)
-567	Music Box (Boss 1)
-568	Music Box (Jungle)
-569	Music Box (Corruption)
-570	Music Box (Underground Corruption)
-571	Music Box (The Hallow)
-572	Music Box (Boss 2)
-573	Music Box (Underground Hallow)
-574	Music Box (Boss 3)
-575	Soul of Flight
-576	Music Box
-577	Demonite Brick
-578	Hallowed Repeater
-579	Hamdrax
-580	Explosives
-581	Inlet Pump
-582	Outlet Pump
-583	1 Second Timer
-584	3 Second Timer
-585	5 Second Timer
-586	Candy Cane Block
-587	Candy Cane Wall
-588	Santa Hat
-589	Santa Shirt
-590	Santa Pants
-591	Green Candy Cane Block
-592	Green Candy Cane Wall
-593	Snow Block
-594	Snow Brick
-595	Snow Brick Wall
-596	Blue Light
-597	Red Light
-598	Green Light
-599	 Blue Present
-600	 Green Present
-601	 Yellow Present
-602	Snow Globe
-603	Carrot
-604	Adamantite Beam
-605	Adamantite Beam Wall
-606	Demonite Brick Wall
-607	Sandstone Brick
-608	Sandstone Brick Wall
-609	Ebonstone Brick
-610	Ebonstone Brick Wall
-611	Red Stucco
-612	Yellow Stucco
-613	Green Stucco
-614	Gray Stucco
-615	Red Stucco Wall
-616	Yellow Stucco Wall
-617	Green Stucco Wall
-618	Gray Stucco Wall
-619	Ebonwood
-620	Rich Mahogany
-621	Pearlwood
-622	Ebonwood Wall
-623	Rich Mahogany Wall
-624	Pearlwood Wall
-625	Ebonwood Chest
-626	Rich Mahogany Chest
-627	Pearlwood Chest
-628	Ebonwood Chair
-629	Rich Mahogany Chair
-630	Pearlwood Chair
-631	Ebonwood Platform
-632	Rich Mahogany Platform
-633	Pearlwood Platform
-634	Bone Platform
-635	Ebonwood Work Bench
-636	Rich Mahogany Work Bench
-637	Pearlwood Work Bench
-638	Ebonwood Table
-639	Rich Mahogany Table
-640	Pearlwood Table
-641	Ebonwood Piano
-642	Rich Mahogany Piano
-643	Pearlwood Piano
-644	Ebonwood Bed
-645	Rich Mahogany Bed
-646	Pearlwood Bed
-647	Ebonwood Dresser
-648	Rich Mahogany Dresser
-649	Pearlwood Dresser
-650	Ebonwood Door
-651	Rich Mahogany Door
-652	Pearlwood Door
-653	Ebonwood Sword
-654	Ebonwood Hammer
-655	Ebonwood Bow
-656	Rich Mahogany Sword
-657	Rich Mahogany Hammer
-658	Rich Mahogany Bow
-659	Pearlwood Sword
-660	Pearlwood Hammer
-661	Pearlwood Bow
-662	Rainbow Brick
-663	Rainbow Brick Wall
-664	Ice Block
-665	Red's Wings
-666	Red's Helmet
-667	Red's Breastplate
-668	Red's Leggings
-669	Fish
-670	Ice Boomerang
-671	Keybrand
-672	Cutlass
-673	Icemourne
-674	True Excalibur
-675	True Night's Edge
-676	Frostbrand
-677	Scythe
-678	Soul Scythe
-679	Tactical Shotgun
-680	Ivy Chest
-681	Ice Chest
-682	Marrow
-683	Unholy Trident
-684	Frost Helmet
-685	Frost Breastplate
-686	Frost Leggings
-687	Tin Helmet
-688	Tin Chainmail
-689	Tin Greaves
-690	Lead Helmet
-691	Lead Chainmail
-692	Lead Greaves
-693	Tungsten Helmet
-694	Tungsten Chainmail
-695	Tungsten Greaves
-696	Platinum Helmet
-697	Platinum Chainmail
-698	Platinum Greaves
-699	Tin Ore
-700	Lead Ore
-701	Tungsten Ore
-702	Platinum Ore
-703	Tin Bar
-704	Lead Bar
-705	Tungsten Bar
-706	Platinum Bar
-707	Tin Watch
-708	Tungsten Watch
-709	Platinum Watch
-710	Tin Chandelier
-711	Tungsten Chandelier
-712	Platinum Chandelier
-713	Platinum Candle
-714	Platinum Candelabra
-715	Platinum Crown
-716	Lead Anvil
-717	Tin Brick
-718	Tungsten Brick
-719	Platinum Brick
-720	Tin Brick Wall
-721	Tungsten Brick Wall
-722	Platinum Brick Wall
-723	Beam Sword
-724	Ice Blade
-725	Ice Bow
-726	Frost Staff
-727	Wood Helmet
-728	Wood Breastplate
-729	Wood Greaves
-730	Ebonwood Helmet
-731	Ebonwood Breastplate
-732	Ebonwood Greaves
-733	Rich Mahogany Helmet
-734	Rich Mahogany Breastplate
-735	Rich Mahogany Greaves
-736	Pearlwood Helmet
-737	Pearlwood Breastplate
-738	Pearlwood Greaves
-739	Amethyst Staff
-740	Topaz Staff
-741	Sapphire Staff
-742	Emerald Staff
-743	Ruby Staff
-744	Diamond Staff
-745	Grass Wall
-746	Jungle Wall
-747	Flower Wall
-748	Jetpack
-749	Butterfly Wings
-750	Cactus Wall
-751	Cloud
-752	Cloud Wall
-753	Seaweed
-754	Rune Hat
-755	Rune Robe
-756	Mushroom Spear
-757	Terra Blade
-758	Grenade Launcher
-759	Rocket Launcher
-760	Proximity Mine Launcher
-761	Fairy Wings
-762	Slime Block
-763	Flesh Block
-764	Mushroom Wall
-765	Rain Cloud
-766	Bone Block
-767	Frozen Slime Block
-768	Bone Block Wall
-769	Slime Block Wall
-770	Flesh Block Wall
-771	Rocket I
-772	Rocket II
-773	Rocket III
-774	Rocket IV
-775	Asphalt Block
-776	Cobalt Pickaxe
-777	Mythril Pickaxe
-778	Adamantite Pickaxe
-779	Clentaminator
-780	Green Solution
-781	Blue Solution
-782	Purple Solution
-783	Dark Blue Solution
-784	Red Solution
-785	Harpy Wings
-786	Bone Wings
-787	Hammush
-788	Nettle Burst
-789	Ankh Banner
-790	Snake Banner
-791	Omega Banner
-792	Crimson Helmet
-793	Crimson Scalemail
-794	Crimson Greaves
-795	Blood Butcherer
-796	Tendon Bow
-797	Meat Grinder
-798	Deathbringer Pickaxe
-799	Blood Lust Cluster
-800	The Undertaker
-801	The Meatball
-802	The Rotted Fork
-803	Eskimo Hood
-804	Eskimo Coat
-805	Eskimo Pants
-806	Living Wood Chair
-807	Cactus Chair
-808	Bone Chair
-809	Flesh Chair
-810	Mushroom Chair
-811	Bone Work Bench
-812	Cactus Work Bench
-813	Flesh Work Bench
-814	Mushroom Work Bench
-815	Slime Work Bench
-816	Cactus Door
-817	Flesh Door
-818	Mushroom Door
-819	Living Wood Door
-820	Bone Door
-821	Flame Wings
-822	Frozen Wings
-823	Ghost Wings
-824	Sunplate Block
-825	Disc Wall
-826	Skyware Chair
-827	Bone Table
-828	Flesh Table
-829	Living Wood Table
-830	Skyware Table
-831	Living Wood Chest
-832	Living Wood Wand
-833	Purple Ice Block
-834	Pink Ice Block
-835	Red Ice Block
-836	Crimstone Block
-837	Skyware Door
-838	Skyware Chest
-839	Steampunk Hat
-840	Steampunk Shirt
-841	Steampunk Pants
-842	Bee Hat
-843	Bee Shirt
-844	Bee Pants
-845	World Banner
-846	Sun Banner
-847	Gravity Banner
-848	Pharaoh's Mask
-849	Actuator
-850	Blue Wrench
-851	Green Wrench
-852	Blue Pressure Plate
-853	Yellow Pressure Plate
-854	Discount Card
-855	Lucky Coin
-856	Unicorn on a Stick
-857	Sandstorm in a Bottle
-858	Blizzard in a Bottle
-859	Beach Ball
-860	Charm of Myths
-861	Moon Shell
-862	Star Veil
-863	Water Walking Boots
-864	Tiara
-865	Princess Dress
-866	Pharaoh's Robe
-867	Green Cap
-868	Mushroom Cap
-869	Tam O' Shanter
-870	Mummy Mask
-871	Mummy Shirt
-872	Mummy Pants
-873	Cowboy Hat
-874	Cowboy Jacket
-875	Cowboy Pants
-876	Pirate Hat
-877	Pirate Shirt
-878	Pirate Pants
-879	Viking Helmet
-880	Crimtane Ore
-881	Cactus Sword
-882	Cactus Pickaxe
-883	Ice Brick
-884	Ice Brick Wall
-885	Adhesive Bandage
-886	Armor Polish
-887	Bezoar
-888	Blindfold
-889	Fast Clock
-890	Megaphone
-891	Nazar
-892	Vitamins
-893	Trifold Map
-894	Cactus Helmet
-895	Cactus Breastplate
-896	Cactus Leggings
-897	Power Glove
-898	Lightning Boots
-899	Sun Stone
-900	Moon Stone
-901	Armor Bracing
-902	Medicated Bandage
-903	The Plan
-904	Countercurse Mantra
-905	Coin Gun
-906	Lava Charm
-907	Obsidian Water Walking Boots
-908	Lava Waders
-909	Pure Water Fountain
-910	Desert Water Fountain
-911	Shadewood
-912	Shadewood Door
-913	Shadewood Platform
-914	Shadewood Chest
-915	Shadewood Chair
-916	Shadewood Work Bench
-917	Shadewood Table
-918	Shadewood Dresser
-919	Shadewood Piano
-920	Shadewood Bed
-921	Shadewood Sword
-922	Shadewood Hammer
-923	Shadewood Bow
-924	Shadewood Helmet
-925	Shadewood Breastplate
-926	Shadewood Greaves
-927	Shadewood Wall
-928	Cannon
-929	Cannonball
-930	Flare Gun
-931	Flare
-932	Bone Wand
-933	Leaf Wand
-934	Flying Carpet
-935	Avenger Emblem
-936	Mechanical Glove
-937	Land Mine
-938	Paladin's Shield
-939	Web Slinger
-940	Jungle Water Fountain
-941	Icy Water Fountain
-942	Corrupt Water Fountain
-943	Crimson Water Fountain
-944	Hallowed Water Fountain
-945	Blood Water Fountain
-946	Umbrella
-947	Chlorophyte Ore
-948	Steampunk Wings
-949	Snowball
-950	Ice Skates
-951	Snowball Launcher
-952	Web Covered Chest
-953	Climbing Claws
-954	Ancient Iron Helmet
-955	Ancient Gold Helmet
-956	Ancient Shadow Helmet
-957	Ancient Shadow Scalemail
-958	Ancient Shadow Greaves
-959	Ancient Necro Helmet
-960	Ancient Cobalt Helmet
-961	Ancient Cobalt Breastplate
-962	Ancient Cobalt Leggings
-963	Black Belt
-964	Boomstick
-965	Rope
-966	Campfire
-967	Marshmellow
-968	Marshmellow on a Stick
-969	Cooked Marshmellow
-970	Red Rocket
-971	Green Rocket
-972	Blue Rocket
-973	Yellow Rocket
-974	Ice Torch
-975	Shoe Spikes
-976	Tiger Climbing Gear
-977	Tabi
-978	Pink Eskimo Hood
-979	Pink Eskimo Coat
-980	Pink Eskimo Pants
-981	Pink Thread
-982	Mana Regeneration Band
-983	Sandstorm in a Balloon
-984	Master Ninja Gear
-985	Rope Coil
-986	Blowgun
-987	Blizzard in a Bottle
-988	Frostburn Arrow
-989	Enchanted Sword
-990	Pickaxe Axe
-991	Cobalt Waraxe
-992	Mythril Waraxe
-993	Adamantite Waraxe
-994	Eater's Bone
-995	Blend-O-Matic
-996	Meat Grinder
-997	Extractinator
-998	Solidifier
-999	Amber
-1000	Confetti Gun
-1001	Chlorophyte Mask
-1002	Chlorophyte Helmet
-1003	Chlorophyte Headgear
-1004	Chlorophyte Plate Mail
-1005	Chlorophyte Greaves
-1006	Chlorophyte Bar
-1007	Red Dye
-1008	Orange Dye
-1009	Yellow Dye
-1010	Lime Dye
-1011	Green Dye
-1012	Teal Dye
-1013	Cyan Dye
-1014	Sky Blue Dye
-1015	Blue Dye
-1016	Purple Dye
-1017	Violet Dye
-1018	Pink Dye
-1019	Red and Black Dye
-1020	Orange and Black Dye
-1021	Yellow and Black Dye
-1022	Lime and Black Dye
-1023	Green and Black Dye
-1024	Teal and Black Dye
-1025	Cyan and Black Dye
-1026	Sky Blue and Black Dye
-1027	Blue and Black Dye
-1028	Purple and Black Dye
-1029	Violet and Black Dye
-1030	Pink and Black Dye
-1031	Flame Dye
-1032	Flame and Black Dye
-1033	Green Flame Dye
-1034	Green Flame and Black Dye
-1035	Blue Flame Dye
-1036	Blue Flame and Black Dye
-1037	Silver Dye
-1038	Bright Red Dye
-1039	Bright Orange Dye
-1040	Bright Yellow Dye
-1041	Bright Lime Dye
-1042	Bright Green Dye
-1043	Bright Teal Dye
-1044	Bright Cyan Dye
-1045	Bright Sky Blue Dye
-1046	Bright Blue Dye
-1047	Bright Purple Dye
-1048	Bright Violet Dye
-1049	Bright Pink Dye
-1050	Black Dye
-1051	Red and Silver Dye
-1052	Orange and Silver Dye
-1053	Yellow and Silver Dye
-1054	Lime and Silver Dye
-1055	Green and Silver Dye
-1056	Teal and Silver Dye
-1057	Cyan and Silver Dye
-1058	Sky Blue and Silver Dye
-1059	Blue and Silver Dye
-1060	Purple and Silver Dye
-1061	Violet and Silver Dye
-1062	Pink and Silver Dye
-1063	Intense Flame Dye
-1064	Intense Green Flame Dye
-1065	Intense Blue Flame Dye
-1066	Rainbow Dye
-1067	Intense Rainbow Dye
-1068	Yellow Gradient Dye
-1069	Cyan Gradient Dye
-1070	Violet Gradient Dye
-1071	Paintbrush
-1072	Paint Roller
-1073	Red Paint
-1074	Orange Paint
-1075	Yellow Paint
-1076	Lime Paint
-1077	Green Paint
-1078	Teal Paint
-1079	Cyan Paint
-1080	Sky Blue Paint
-1081	Blue Paint
-1082	Purple Paint
-1083	Violet Paint
-1084	Pink Paint
-1085	Deep Red Paint
-1086	Deep Orange Paint
-1087	Deep Yellow Paint
-1088	Deep Lime Paint
-1089	Deep Green Paint
-1090	Deep Teal Paint
-1091	Deep Cyan Paint
-1092	Deep Sky Blue Paint
-1093	Deep Blue Paint
-1094	Deep Purple Paint
-1095	Deep Violet Paint
-1096	Deep Pink Paint
-1097	Black Paint
-1098	White Paint
-1099	Gray Paint
-1100	Paint Scraper
-1101	Lihzahrd Brick
-1102	Lihzahrd Brick Wall
-1103	Slush Block
-1104	Palladium Ore
-1105	Orichalcum Ore
-1106	Titanium Ore
-1107	Teal Mushroom
-1108	Green Mushroom
-1109	Sky Blue Flower
-1110	Yellow Marigold
-1111	Blue Berries
-1112	Lime Kelp
-1113	Pink Prickly Pear
-1114	Orange Bloodroot
-1115	Red Husk
-1116	Cyan Husk
-1117	Violet Husk
-1118	Purple Mucos
-1119	Black Ink
-1120	Dye Vat
-1121	Bee Gun
-1122	Possessed Hatchet
-1123	Bee Keeper
-1124	Hive
-1125	Honey Block
-1126	Hive Wall
-1127	Crispy Honey Block
-1128	Honey Bucket
-1129	Hive Wand
-1130	Beenade
-1131	Gravity Globe
-1132	Honey Comb
-1133	Abeemination
-1134	Bottled Honey
-1135	Rain Hat
-1136	Rain Coat
-1137	Lihzahrd Door
-1138	Dungeon Door
-1139	Lead Door
-1140	Iron Door
-1141	Temple Key
-1142	Lihzahrd Chest
-1143	Lihzahrd Chair
-1144	Lihzahrd Table
-1145	Lihzahrd Work Bench
-1146	Super Dart Trap
-1147	Flame Trap
-1148	Spiky Ball Trap
-1149	Spear Trap
-1150	Wooden Spike
-1151	Lihzahrd Pressure Plate
-1152	Lihzahrd Statue
-1153	Lihzahrd Watcher Statue
-1154	Lihzahrd Guardian Statue
-1155	Wasp Gun
-1156	Piranha Gun
-1157	Pygmy Staff
-1158	Pygmy Necklace
-1159	Tiki Mask
-1160	Tiki Shirt
-1161	Tiki Pants
-1162	Leaf Wings
-1163	Blizzard in a Balloon
-1164	Bundle of Balloons
-1165	Bat Wings
-1166	Bone Sword
-1167	Hercules Beetle
-1168	Smoke Bomb
-1169	Bone Key
-1170	Nectar
-1171	Tiki Totem
-1172	Lizard Egg
-1173	Grave Marker
-1174	Cross Grave Marker
-1175	Headstone
-1176	Gravestone
-1177	Obelisk
-1178	Leaf Blower
-1179	Chlorophyte Bullet
-1180	Parrot Cracker
-1181	Strange Glowing Mushroom
-1182	Seedling
-1183	Wisp in a Bottle
-1184	Palladium Bar
-1185	Palladium Sword
-1186	Palladium Pike
-1187	Palladium Repeater
-1188	Palladium Pickaxe
-1189	Palladium Drill
-1190	Palladium Chainsaw
-1191	Orichalcum Bar
-1192	Orichalcum Sword
-1193	Orichalcum Halberd
-1194	Orichalcum Repeater
-1195	Orichalcum Pickaxe
-1196	Orichalcum Drill
-1197	Orichalcum Chainsaw
-1198	Titanium Bar
-1199	Titanium Sword
-1200	Titanium Trident
-1201	Titanium Repeater
-1202	Titanium Pickaxe
-1203	Titanium Drill
-1204	Titanium Chainsaw
-1205	Palladium Mask
-1206	Palladium Helmet
-1207	Palladium Headgear
-1208	Palladium Breastplate
-1209	Palladium Leggings
-1210	Orichalcum Mask
-1211	Orichalcum Helmet
-1212	Orichalcum Headgear
-1213	Orichalcum Breastplate
-1214	Orichalcum Leggings
-1215	Titanium Mask
-1216	Titanium Helmet
-1217	Titanium Headgear
-1218	Titanium Breastplate
-1219	Titanium Leggings
-1220	Orichalcum Anvil
-1221	Titanium Forge
-1222	Palladium Waraxe
-1223	Orichalcum Waraxe
-1224	Titanium Waraxe
-1225	Hallowed Bar
-1226	Chlorophyte Claymore
-1227	Chlorophyte Saber
-1228	Chlorophyte Partisan
-1229	Chlorophyte Shotbow
-1230	Chlorophyte Pickaxe
-1231	Chlorophyte Drill
-1232	Chlorophyte Chainsaw
-1233	Chlorophyte Greataxe
-1234	Chlorophyte Warhammer
-1235	Chlorophyte Arrow
-1236	Amethyst Hook
-1237	Topaz Hook
-1238	Sapphire Hook
-1239	Emerald Hook
-1240	Ruby Hook
-1241	Diamond Hook
-1242	Amber Mosquito
-1243	Umbrella Hat
-1244	Nimbus Rod
-1245	Orange Torch
-1246	Crimsand Block
-1247	Bee Cloak
-1248	Eye of the Golem
-1249	Honey Balloon
-1250	Blue Horseshoe Balloon
-1251	White Horseshoe Balloon
-1252	Yellow Horseshoe Balloon
-1253	Frozen Turtle Shell
-1254	Sniper Rifle
-1255	Venus Magnum
-1256	Crimson Rod
-1257	Crimtane Bar
-1258	Stynger
-1259	Flower Pow
-1260	Rainbow Gun
-1261	Stynger Bolt
-1262	Chlorophyte Jackhammer
-1263	Teleporter
-1264	Flower of Frost
-1265	Uzi
-1266	Magnet Sphere
-1267	Purple Stained Glass
-1268	Yellow Stained Glass
-1269	Blue Stained Glass
-1270	Green Stained Glass
-1271	Red Stained Glass
-1272	Multicolored Stained Glass
-1273	Skeletron Hand
-1274	Skull
-1275	Balla Hat
-1276	Gangsta Hat
-1277	Sailor Hat
-1278	Eye Patch
-1279	Sailor Shirt
-1280	Sailor Pants
-1281	Skeletron Mask
-1282	Amethyst Robe
-1283	Topaz Robe
-1284	Sapphire Robe
-1285	Emerald Robe
-1286	Ruby Robe
-1287	Diamond Robe
-1288	White Tuxedo Shirt
-1289	White Tuxedo Pants
-1290	Panic Necklace
-1291	Life Fruit
-1292	Lihzahrd Altar
-1293	Lihzahrd Power Cell
-1294	Picksaw
-1295	Heat Ray
-1296	Staff of Earth
-1297	Golem Fist
-1298	Water Chest
-1299	Binoculars
-1300	Rifle Scope
-1301	Destroyer Emblem
-1302	High Velocity Bullet
-1303	Jellyfish Necklace
-1304	Zombie Arm
-1305	The Axe
-1306	Ice Sickle
-1307	Clothier Voodoo Doll
-1308	Poison Staff
-1309	Slime Staff
-1310	Poison Dart
-1311	Eye Spring
-1312	Toy Sled
-1313	Book of Skulls
-1314	KO Cannon
-1315	Pirate Map
-1316	Turtle Helmet
-1317	Turtle Scale Mail
-1318	Turtle Leggings
-1319	Snowball Cannon
-1320	Bone Pickaxe
-1321	Magic Quiver
-1322	Magma Stone
-1323	Obsidian Rose
-1324	Bananarang
-1325	Chain Knife
-1326	Rod of Discord
-1327	Death Sickle
-1328	Turtle Shell
-1329	Tissue Sample
-1330	Vertebrae
-1331	Bloody Spine
-1332	Ichor
-1333	Ichor Torch
-1334	Ichor Arrow
-1335	Ichor Bullet
-1336	Golden Shower
-1337	Bunny Cannon
-1338	Explosive Bunny
-1339	Vial of Venom
-1340	Flask of Venom
-1341	Venom Arrow
-1342	Venom Bullet
-1343	Fire Gauntlet
-1344	Cog
-1345	Confetti
-1346	Nanites
-1347	Explosive Powder
-1348	Gold Dust
-1349	Party Bullet
-1350	Nano Bullet
-1351	Exploding Bullet
-1352	Golden Bullet
-1353	Flask of Cursed Flames
-1354	Flask of Fire
-1355	Flask of Gold
-1356	Flask of Ichor
-1357	Flask of Nanites
-1358	Flask of Party
-1359	Flask of Poison
-1360	Eye of Cthulhu Trophy
-1361	Eater of Worlds Trophy
-1362	Brain of Cthulhu Trophy
-1363	Skeletron Trophy
-1364	Queen Bee Trophy
-1365	Wall of Flesh Trophy
-1366	Destroyer Trophy
-1367	Skeletron Prime Trophy
-1368	Retinazer Trophy
-1369	Spazmatism Trophy
-1370	Plantera Trophy
-1371	Golem Trophy
-1372	Blood Moon Rising
-1373	The Hanged Man
-1374	Glory of the Fire
-1375	Bone Warp
-1376	Wall Skeleton
-1377	Hanging Skeleton
-1378	Blue Slab Wall
-1379	Blue Tiled Wall
-1380	Pink Slab Wall
-1381	Pink Tiled Wall
-1382	Green Slab Wall
-1383	Green Tiled Wall
-1384	Blue Brick Platform
-1385	Pink Brick Platform
-1386	Green Brick Platform
-1387	Metal Shelf
-1388	Brass Shelf
-1389	Wood Shelf
-1390	Brass Lantern
-1391	Caged Lantern
-1392	Carriage Lantern
-1393	Alchemy Lantern
-1394	Diablost Lamp
-1395	Oil Rag Sconse
-1396	Blue Dungeon Chair
-1397	Blue Dungeon Table
-1398	Blue Dungeon Work Bench
-1399	Green Dungeon Chair
-1400	Green Dungeon Table
-1401	Green Dungeon Work Bench
-1402	Pink Dungeon Chair
-1403	Pink Dungeon Table
-1404	Pink Dungeon Work Bench
-1405	Blue Dungeon Candle
-1406	Green Dungeon Candle
-1407	Pink Dungeon Candle
-1408	Blue Dungeon Vase
-1409	Green Dungeon Vase
-1410	Pink Dungeon Vase
-1411	Blue Dungeon Door
-1412	Green Dungeon Door
-1413	Pink Dungeon Door
-1414	Blue Dungeon Bookcase
-1415	Green Dungeon Bookcase
-1416	Pink Dungeon Bookcase
-1417	Catacomb
-1418	Dungeon Shelf
-1419	Skellington J Skellingsworth
-1420	The Cursed Man
-1421	The Eye Sees the End
-1422	Something Evil is Watching You
-1423	The Twins Have Awoken
-1424	The Screamer
-1425	Goblins Playing Poker
-1426	Dryadisque
-1427	Sunflowers
-1428	Terrarian Gothic
-1429	Beanie
-1430	Imbuing Station
-1431	Star in a Bottle
-1432	Empty Bullet
-1433	Impact
-1434	Powered by Birds
-1435	The Destroyer
-1436	The Persistency of Eyes
-1437	Unicorn Crossing the Hallows
-1438	Great Wave
-1439	Starry Night
-1440	Guide Picasso
-1441	The Guardian's Gaze
-1442	Father of Someone
-1443	Nurse Lisa
-1444	Shadowbeam Staff
-1445	Inferno Fork
-1446	Spectre Staff
-1447	Wooden Fence
-1448	Metal Fence
-1449	Bubble Machine
-1450	Bubble Wand
-1451	Marching Bones Banner
-1452	Necromantic Sign
-1453	Rusted Company Standard
-1454	Ragged Brotherhood Sigil
-1455	Molten Legion Flag
-1456	Diabolic Sigil
-1457	Obsidian Platform
-1458	Obsidian Door
-1459	Obsidian Chair
-1460	Obsidian Table
-1461	Obsidian Work Bench
-1462	Obsidian Vase
-1463	Obsidian Bookcase
-1464	Hellbound Banner
-1465	Hell Hammer Banner
-1466	Helltower Banner
-1467	Lost Hopes of Man Banner
-1468	Obsidian Watcher Banner
-1469	Lava Erupts Banner
-1470	Blue Dungeon Bed
-1471	Green Dungeon Bed
-1472	Red Dungeon Bed
-1473	Obsidian Bed
-1474	Waldo
-1475	Darkness
-1476	Dark Soul Reaper
-1477	Land
-1478	Trapped Ghost
-1479	Demon's Eye
-1480	Finding Gold
-1481	First Encounter
-1482	Good Morning
-1483	Underground Reward
-1484	Through the Window
-1485	Place Above the Clouds
-1486	Do Not Step on the Grass
-1487	Cold Waters in the White Land
-1488	Lightless Chasms
-1489	The Land of Deceiving Looks
-1490	Daylight
-1491	Secret of the Sands
-1492	Deadland Comes Alive
-1493	Evil Presence
-1494	Sky Guardian
-1495	American Explosive
-1496	Discover
-1497	Hand Earth
-1498	Old Miner
-1499	Skelehead
-1500	Facing the Cerebral Mastermind
-1501	Lake of Fire
-1502	Trio Super Heroes
-1503	Spectre Hood
-1504	Spectre Robe
-1505	Spectre Pants
-1506	Spectre Pickaxe
-1507	Spectre Hamaxe
-1508	Ectoplasm
-1509	Gothic Chair
-1510	Gothic Table
-1511	Gothic Work Bench
-1512	Gothic Bookcase
-1513	Paladin's Hammer
-1514	SWAT Helmet
-1515	Bee Wings
-1516	Giant Harpey Feather
-1517	Bone Feather
-1518	Fire Feather
-1519	Ice Feather
-1520	Broken Bat Wing
-1521	Tattered Bee Wing
-1522	Large Amethyst
-1523	Large Topaz
-1524	Large Sapphire
-1525	Large Emerald
-1526	Large Ruby
-1527	Large Diamond
-1528	Jungle Chest
-1529	Corruption Chest
-1530	Crimson Chest
-1531	Hallowed Chest
-1532	Frozen Chest
-1533	Jungle Key
-1534	Corruption Key
-1535	Crimson Key
-1536	Hallowed Key
-1537	Frozen Key
-1538	Imp Face
-1539	Ominous Presence
-1540	Shining Moon
-1541	Living Gore
-1542	Flowing Magma
-1543	Spectre Paintbrush
-1544	Spectre Paint Roller
-1545	Spectre Paint Scraper
-1546	Shroomite Headgear
-1547	Shroomite Mask
-1548	Shroomite Helmet
-1549	Shroomite Breastplate
-1550	Shroomite Leggings
-1551	Autohammer
-1552	Shroomite Bar
-1553	S.D.M.G.
-1554	Cenx's Tiara
-1555	Cenx's Breastplate
-1556	Cenx's Leggings
-1557	Crowno's Mask
-1558	Crowno's Breastplate
-1559	Crowno's Leggings
-1560	Will's Helmet
-1561	Will's Breastplate
-1562	Will's Leggings
-1563	Jim's Helmet
-1564	Jim's Breastplate
-1565	Jim's Leggings
-1566	Aaron's Helmet
-1567	Aaron's Breastplate
-1568	Aaron's Leggings
-1569	Vampire Knives
-1570	Broken Hero Sword
-1571	Scourge of the Corruptor
-1572	Staff of the Frost Hydra
-1573	The Creation of the Guide
-1574	The Merchant
-1575	Crowno Devours His Lunch
-1576	Rare Enchantment
-1577	Glorious Night
-1578	Sweetheart Necklace
-1579	Flurry Boots
-1580	D-Town's Helmet
-1581	D-Town's Breastplate
-1582	D-Town's Leggings
-1583	D-Town's Wings
-1584	Will's Wings
-1585	Crowno's Wings
-1586	Cenx's Wings
-1587	Cenx's Dress
-1588	Cenx's Dress Pants
-1589	Palladium Column
-1590	Palladium Column Wall
-1591	Bubblegum Block
-1592	Bubblegum Block Wall
-1593	Titanstone Block
-1594	Titanstone Block Wall
-1595	Magic Cuffs
-1596	Music Box (Snow)
-1597	Music Box (Space)
-1598	Music Box (Crimson)
-1599	Music Box (Boss 4)
-1600	Music Box (Alt Overworld Day)
-1601	Music Box (Rain)
-1602	Music Box (Ice)
-1603	Music Box (Desert)
-1604	Music Box (Ocean)
-1605	Music Box (Dungeon)
-1606	Music Box (Plantera)
-1607	Music Box (Boss 5)
-1608	Music Box (Temple)
-1609	Music Box (Eclipse)
-1610	Music Box (Mushrooms)
-1611	Butterfly Dust
-1612	Ankh Charm
-1613	Ankh Shield
-1614	Blue Flare
-1615	Angler Fish Banner
-1616	Angry Nimbus Banner
-1617	Anomura Fungus Banner
-1618	Antlion Banner
-1619	Arapaima Banner
-1620	Armored Skeleton Banner
-1621	Bat Banner
-1622	Bird Banner
-1623	Black Recluse Banner
-1624	Blood Feeder Banner
-1625	Blood Jelly Banner
-1626	Blood Crawler Banner
-1627	Bone Serpent Banner
-1628	Bunny Banner
-1629	Chaos Elemental Banner
-1630	Mimic Banner
-1631	Clown Banner
-1632	Corrupt Bunny Banner
-1633	Corrupt Goldfish Banner
-1634	Crab Banner
-1635	Crimera Banner
-1636	Crimson Axe Banner
-1637	Cursed Hammer Banner
-1638	Demon Banner
-1639	Demon Eye Banner
-1640	Derpling Banner
-1641	Eater of Souls Banner
-1642	Enchanted Sword Banner
-1643	Zombie Eskimo Banner
-1644	Face Monster Banner
-1645	Floaty Gross Banner
-1646	Flying Fish Banner
-1647	Flying Snake Banner
-1648	Frankenstein Banner
-1649	Fungi Bulb Banner
-1650	Fungo Fish Banner
-1651	Gastropod Banner
-1652	Goblin Archer Banner
-1653	Goblin Sorcerer Banner
-1654	Goblin Scout Banner
-1655	Goblin Thief Banner
-1656	Goblin Warrior Banner
-1657	Goldfish Banner
-1658	Harpy Banner
-1659	Hellbat Banner
-1660	Herpling Banner
-1661	Hornet Banner
-1662	Ice Elemental Banner
-1663	Icy Merman Banner
-1664	Fire Imp Banner
-1665	Jellyfish Banner
-1666	Jungle Creeper Banner
-1667	Lihzahrd Banner
-1668	Man Eater Banner
-1669	Meteor Head Banner
-1670	Moth Banner
-1671	Mummy Banner
-1672	Mushi Ladybug Banner
-1673	Parrot Banner
-1674	Pigron Banner
-1675	Piranha Banner
-1676	Pirate Banner
-1677	Pixie Banner
-1678	Raincoat Zombie Banner
-1679	Reaper Banner
-1680	Shark Banner
-1681	Skeleton Banner
-1682	Skeleton Mage Banner
-1683	Slime Banner
-1684	Snow Flinx Banner
-1685	Spider Banner
-1686	Spore Zombie Banner
-1687	Swamp Thing Banner
-1688	Tortoise Banner
-1689	Toxic Sludge Banner
-1690	Umbrella Slime Banner
-1691	Unicorn Banner
-1692	Vampire Banner
-1693	Vulture Banner
-1694	Nypmh Banner
-1695	Werewolf Banner
-1696	Wolf Banner
-1697	World Feeder Banner
-1698	Worm Banner
-1699	Wraith Banner
-1700	Wyvern Banner
-1701	Zombie Banner
-1702	Glass Platform
-1703	Glass Chair
-1704	Golden Chair
-1705	Golden Toilet
-1706	Bar Stool
-1707	Honey Chair
-1708	Steam Punk Chair
-1709	Glass Door
-1710	Golden Door
-1711	Honey Door
-1712	Steam Punk Door
-1713	Glass Table
-1714	Banquet Table
-1715	Bar
-1716	Golden Table
-1717	Honey Table
-1718	Steam Punk Table
-1719	Glass Bed
-1720	Golden Bed
-1721	Honey Bed
-1722	Steam Punk Bed
-1723	Living Wood Wall
-1724	Fart in a Jar
+﻿-1	Gold Pickaxe	All,Tool
+-2	Gold Broadsword	All,Weapon
+-3	Gold Shortsword	All,Weapon
+-4	Gold Axe	All,Tool
+-5	Gold Hammer	All,Tool
+-6	Gold Bow	All,Weapon
+-7	Silver Pickaxe	All,Tool
+-8	Silver Broadsword	All,Weapon
+-9	Silver Shortsword	All,Weapon
+-10	Silver Axe	All,Tool
+-11	Silver Hammer	All,Tool
+-12	Silver Bow	All,Weapon
+-13	Copper Pickaxe	All,Tool
+-14	Copper Broadsword	All,Weapon
+-15	Copper Shortsword	All,Weapon
+-16	Copper Axe	All,Tool
+-17	Copper Hammer	All,Weapon
+-18	Copper Bow	All,Weapon
+-19	Blue Phasesaber	All,Weapon
+-20	Red Phasesaber	All,Weapon
+-21	Green Phasesaber	All,Weapon
+-22	Purple Phasesaber	All,Weapon
+-23	White Phasesaber	All,Weapon
+-24	Yellow Phasesaber	All,Weapon
+-25	Tin Pickaxe	All,Tool
+-26	Tin Broadsword	All,Weapon
+-27	Tin Shortsword	All,Weapon
+-28	Tin Axe	All,Tool
+-29	Tin Hammer	All,Tool
+-30	Tin Bow	All,Weapon
+-31	Lead Pickaxe	All,Tool
+-32	Lead Broadsword	All,Weapon
+-33	Lead Shortsword	All,Weapon
+-34	Lead Axe	All,Tool
+-35	Lead Hammer	All,Tool
+-36	Lead Bow	All,Weapon
+-37	Tungsten Pickaxe	All,Tool
+-38	Tungsten Broadsword	All,Weapon
+-39	Tungsten Shortsword	All,Weapon
+-40	Tungsten Axe	All,Tool
+-41	Tungsten Hammer	All,Tool
+-42	Tungsten Bow	All,Weapon
+-43	Platinum Pickaxe	All,Tool
+-44	Platinum Broadsword	All,Weapon
+-45	Platinum Shortsword	All,Weapon
+-46	Platinum Axe	All,Tool
+-47	Platinum Hammer	All,Tool
+-48	Platinum Bow	All,Weapon
+0	[No Item]	All
+1	Iron Pickaxe	All,Tool
+2	Dirt Block	All,Buildable
+3	Stone Block	All,Buildable
+4	Iron Broadsword	All,Weapon
+5	Mushroom	All,Consumable
+6	Iron Shortsword	All,Weapon
+7	Iron Hammer	All,Tool
+8	Torch	All,Consumable
+9	Wood	All,Buildable
+10	Iron Axe	All,Tool
+11	Iron Ore	All,Ore/Bar
+12	Copper Ore	All,Ore/Bar
+13	Gold Ore	All,Ore/Bar
+14	Silver Ore	All,Ore/Bar
+15	Copper Watch	All,Accessory
+16	Silver Watch	All,Accessory
+17	Gold Watch	All,Accessory
+18	Depth Meter	All,Accessory
+19	Gold Bar	All,Ore/Bar
+20	Copper Bar	All,Ore/Bar
+21	Silver Bar	All,Ore/Bar
+22	Iron Bar	All,Ore/Bar
+23	Gel	All,Miscellaneous
+24	Wooden Sword	All,Weapon
+25	Wooden Door	All,Buildable
+26	Stone Wall	All,Buildable
+27	Acorn	All,Consumable
+28	Lesser Healing Potion	All,Consumable
+29	Life Crystal	All,Consumable
+30	Dirt Wall	All,Buildable
+31	Bottle	All,Miscellaneous
+32	Wooden Table	All,Buildable
+33	Furnace	All,Buildable
+34	Wooden Chair	All,Buildable
+35	Iron Anvil	All,Buildable
+36	Work Bench	All,Buildable
+37	Goggles	All,Armor/Vanity
+38	Lens	All,Miscellaneous
+39	Wooden Bow	All,Weapon
+40	Wooden Arrow	All,Ammunition
+41	Flaming Arrow	All,Ammunition
+42	Shuriken	All,Ammunition
+43	Suspicious Looking Eye	All,Consumable
+44	Demon Bow	All,Weapon
+45	War Axe of the Night	All,Tool
+46	Light's Bane	All,Weapon
+47	Unholy Arrow	All,Ammunition
+48	Chest	All,Buildable
+49	Band of Regeneration	All,Accessory
+50	Magic Mirror	All,Miscellaneous
+51	Jester's Arrow	All
+52	Angel Statue	All
+53	Cloud in a Bottle	All
+54	Hermes Boots	All
+55	Enchanted Boomerang	All
+56	Demonite Ore	All
+57	Demonite Bar	All
+58	Heart	All
+59	Corrupt Seeds	All
+60	Vile Mushroom	All
+61	Ebonstone Block	All
+62	Grass Seeds	All
+63	Sunflower	All
+64	Vilethorn	All
+65	Starfury	All
+66	Purification Powder	All
+67	Vile Powder	All
+68	Rotten Chunk	All
+69	Worm Tooth	All
+70	Worm Food	All
+71	Copper Coin	All
+72	Silver Coin	All
+73	Gold Coin	All
+74	Platinum Coin	All
+75	Fallen Star	All
+76	Copper Greaves	All
+77	Iron Greaves	All
+78	Silver Greaves	All
+79	Gold Greaves	All
+80	Copper Chainmail	All
+81	Iron Chainmail	All
+82	Silver Chainmail	All
+83	Gold Chainmail	All
+84	Grappling Hook	All
+85	Iron Chain	All
+86	Shadow Scale	All
+87	Piggy Bank	All
+88	Mining Helmet	All
+89	Copper Helmet	All
+90	Iron Helmet	All
+91	Silver Helmet	All
+92	Gold Helmet	All
+93	Wood Wall	All
+94	Wood Platform	All
+95	Flintlock Pistol	All
+96	Musket	All
+97	Musket Ball	All
+98	Minishark	All
+99	Iron Bow	All
+100	Shadow Greaves	All
+101	Shadow Scalemail	All
+102	Shadow Helmet	All
+103	Nightmare Pickaxe	All
+104	The Breaker	All
+105	Candle	All
+106	Copper Chandelier	All
+107	Silver Chandelier	All
+108	Gold Chandelier	All
+109	Mana Crystal	All
+110	Lesser Mana Potion	All
+111	Band of Starpower	All
+112	Flower of Fire	All
+113	Magic Missile	All
+114	Dirt Rod	All
+115	Orb of Light	All
+116	Meteorite	All
+117	Meteorite Bar	All
+118	Hook	All
+119	Flamarang	All
+120	Molten Fury	All
+121	Fiery Greatsword	All
+122	Molten Pickaxe	All
+123	Meteor Helmet	All
+124	Meteor Suit	All
+125	Meteor Leggings	All
+126	Bottled Water	All
+127	Space Gun	All
+128	Rocket Boots	All
+129	Gray Brick	All
+130	Gray Brick Wall	All
+131	Red Brick	All
+132	Red Brick Wall	All
+133	Clay Block	All
+134	Blue Brick	All
+135	Blue Brick Wall	All
+136	Chain Lantern	All
+137	Green Brick	All
+138	Green Brick Wall	All
+139	Pink Brick	All
+140	Pink Brick Wall	All
+141	Gold Brick	All
+142	Gold Brick Wall	All
+143	Silver Brick	All
+144	Silver Brick Wall	All
+145	Copper Brick	All
+146	Copper Brick Wall	All
+147	Spike	All
+148	Water Candle	All
+149	Book	All
+150	Cobweb	All
+151	Necro Helmet	All
+152	Necro Breastplate	All
+153	Necro Greaves	All
+154	Bone	All
+155	Muramasa	All
+156	Cobalt Shield	All
+157	Aqua Scepter	All
+158	Lucky Horseshoe	All
+159	Shiny Red Balloon	All
+160	Harpoon	All
+161	Spiky Ball	All
+162	Ball O' Hurt	All
+163	Blue Moon	All
+164	Handgun	All
+165	Water Bolt	All
+166	Bomb	All
+167	Dynamite	All
+168	Grenade	All
+169	Sand Block	All
+170	Glass	All
+171	Sign	All
+172	Ash Block	All
+173	Obsidian	All
+174	Hellstone	All
+175	Hellstone Bar	All
+176	Mud Block	All
+177	Sapphire	All
+178	Ruby	All
+179	Emerald	All
+180	Topaz	All
+181	Amethyst	All
+182	Diamond	All
+183	Glowing Mushroom	All
+184	Star	All
+185	Ivy Whip	All
+186	Breathing Reed	All
+187	Flipper	All
+188	Healing Potion	All
+189	Mana Potion	All
+190	Blade of Grass	All
+191	Thorn Chakram	All
+192	Obsidian Brick	All
+193	Obsidian Skull	All
+194	Mushroom Grass Seeds	All
+195	Jungle Grass Seeds	All
+196	Wooden Hammer	All
+197	Star Cannon	All
+198	Blue Phaseblade	All
+199	Red Phaseblade	All
+200	Green Phaseblade	All
+201	Purple Phaseblade	All
+202	White Phaseblade	All
+203	Yellow Phaseblade	All
+204	Meteor Hamaxe	All
+205	Empty Bucket	All
+206	Water Bucket	All
+207	Lava Bucket	All
+208	Jungle Rose	All
+209	Stinger	All
+210	Vine	All
+211	Feral Claws	All
+212	Anklet of the Wind	All
+213	Staff of Regrowth	All
+214	Hellstone Brick	All
+215	Whoopie Cushion	All
+216	Shackle	All
+217	Molten Hamaxe	All
+218	Flamelash	All
+219	Phoenix Blaster	All
+220	Sunfury	All
+221	Hellforge	All
+222	Clay Pot	All
+223	Nature's Gift	All
+224	Bed	All
+225	Silk	All
+226	Lesser Restoration Potion	All
+227	Restoration Potion	All
+228	Jungle Hat	All
+229	Jungle Shirt	All
+230	Jungle Pants	All
+231	Molten Helmet	All
+232	Molten Breastplate	All
+233	Molten Greaves	All
+234	Meteor Shot	All
+235	Sticky Bomb	All
+236	Black Lens	All
+237	Sunglasses	All
+238	Wizard Hat	All
+239	Top Hat	All
+240	Tuxedo Shirt	All
+241	Tuxedo Pants	All
+242	Summer Hat	All
+243	Bunny Hood	All
+244	Plumber's Hat	All
+245	Plumber's Shirt	All
+246	Plumber's Pants	All
+247	Hero's Hat	All
+248	Hero's Shirt	All
+249	Hero's Pants	All
+250	Fish Bowl	All
+251	Archaeologist's Hat	All
+252	Archaeologist's Jacket	All
+253	Archaeologist's Pants	All
+254	Black Dye	All
+255	Green Dye	All
+256	Ninja Hood	All
+257	Ninja Shirt	All
+258	Ninja Pants	All
+259	Leather	All
+260	Red Hat	All
+261	Goldfish	All
+262	Robe	All
+263	Robot Hat	All
+264	Gold Crown	All
+265	Hellfire Arrow	All
+266	Sandgun	All
+267	Guide Voodoo Doll	All
+268	Diving Helmet	All
+269	Familiar Shirt	All
+270	Familiar Pants	All
+271	Familiar Wig	All
+272	Demon Scythe	All
+273	Night's Edge	All
+274	Dark Lance	All
+275	Coral	All
+276	Cactus	All
+277	Trident	All
+278	Silver Bullet	All
+279	Throwing Knife	All
+280	Spear	All
+281	Blowpipe	All
+282	Glowstick	All
+283	Seed	All
+284	Wooden Boomerang	All
+285	Aglet	All
+286	Sticky Glowstick	All
+287	Poisoned Knife	All
+288	Obsidian Skin Potion	All
+289	Regeneration Potion	All
+290	Swiftness Potion	All
+291	Gills Potion	All
+292	Ironskin Potion	All
+293	Mana Regeneration Potion	All
+294	Magic Power Potion	All
+295	Featherfall Potion	All
+296	Spelunker Potion	All
+297	Invisibility Potion	All
+298	Shine Potion	All
+299	Night Owl Potion	All
+300	Battle Potion	All
+301	Thorns Potion	All
+302	Water Walking Potion	All
+303	Archery Potion	All
+304	Hunter Potion	All
+305	Gravitation Potion	All
+306	Gold Chest	All
+307	Daybloom Seeds	All
+308	Moonglow Seeds	All
+309	Blinkroot Seeds	All
+310	Deathweed Seeds	All
+311	Waterleaf Seeds	All
+312	Fireblossom Seeds	All
+313	Daybloom	All
+314	Moonglow	All
+315	Blinkroot	All
+316	Deathweed	All
+317	Waterleaf	All
+318	Fireblossom	All
+319	Shark Fin	All
+320	Feather	All
+321	Tombstone	All
+322	Mime Mask	All
+323	Antlion Mandible	All
+324	Illegal Gun Parts	All
+325	The Doctor's Shirt	All
+326	The Doctor's Pants	All
+327	Golden Key	All
+328	Shadow Chest	All
+329	Shadow Key	All
+330	Obsidian Brick Wall	All
+331	Jungle Spores	All
+332	Loom	All
+333	Piano	All
+334	Dresser	All
+335	Bench	All
+336	Bathtub	All
+337	Red Banner	All
+338	Green Banner	All
+339	Blue Banner	All
+340	Yellow Banner	All
+341	Lamp Post	All
+342	Tiki Torch	All
+343	Barrel	All
+344	Chinese Lantern	All
+345	Cooking Pot	All
+346	Safe	All
+347	Skull Lantern	All
+348	Trash Can	All
+349	Candelabra	All
+350	Pink Vase	All
+351	Mug	All
+352	Keg	All
+353	Ale	All
+354	Bookcase	All
+355	Throne	All
+356	Bowl	All
+357	Bowl of Soup	All
+358	Toilet	All
+359	Grandfather Clock	All
+360	Armor Statue	All
+361	Goblin Battle Standard	All
+362	Tattered Cloth	All
+363	Sawmill	All
+364	Cobalt Ore	All
+365	Mythril Ore	All
+366	Adamantite Ore	All
+367	Pwnhammer	All
+368	Excalibur	All
+369	Hallowed Seeds	All
+370	Ebonsand Block	All
+371	Cobalt Hat	All
+372	Cobalt Helmet	All
+373	Cobalt Mask	All
+374	Cobalt Breastplate	All
+375	Cobalt Leggings	All
+376	Mythril Hood	All
+377	Mythril Helmet	All
+378	Mythril Hat	All
+379	Mythril Chainmail	All
+380	Mythril Greaves	All
+381	Cobalt Bar	All
+382	Mythril Bar	All
+383	Cobalt Chainsaw	All
+384	Mythril Chainsaw	All
+385	Cobalt Drill	All
+386	Mythril Drill	All
+387	Adamantite Chainsaw	All
+388	Adamantite Drill	All
+389	Dao of Pow	All
+390	Mythril Halberd	All
+391	Adamantite Bar	All
+392	Glass Wall	All
+393	Compass	All
+394	Diving Gear	All
+395	GPS	All
+396	Obsidian Horseshoe	All
+397	Obsidian Shield	All
+398	Tinkerer's Workshop	All
+399	Cloud in a Balloon	All
+400	Adamantite Headgear	All
+401	Adamantite Helmet	All
+402	Adamantite Mask	All
+403	Adamantite Breastplate	All
+404	Adamantite Leggings	All
+405	Spectre Boots	All
+406	Adamantite Glaive	All
+407	Toolbelt	All
+408	Pearlsand Block	All
+409	Pearlstone Block	All
+410	Mining Shirt	All
+411	Mining Pants	All
+412	Pearlstone Brick	All
+413	Iridescent Brick	All
+414	Mudstone Block	All
+415	Cobalt Brick	All
+416	Mythril Brick	All
+417	Pearlstone Brick Wall	All
+418	Iridescent Brick Wall	All
+419	Mudstone Brick Wall	All
+420	Cobalt Brick Wall	All
+421	Mythril Brick Wall	All
+422	Holy Water	All
+423	Unholy Water	All
+424	Silt Block	All
+425	Fairy Bell	All
+426	Breaker Blade	All
+427	Blue Torch	All
+428	Red Torch	All
+429	Green Torch	All
+430	Purple Torch	All
+431	White Torch	All
+432	Yellow Torch	All
+433	Demon Torch	All
+434	Clockwork Assault Rifle	All
+435	Cobalt Repeater	All
+436	Mythril Repeater	All
+437	Dual Hook	All
+438	Star Statue	All
+439	Sword Statue	All
+440	Slime Statue	All
+441	Goblin Statue	All
+442	Shield Statue	All
+443	Bat Statue	All
+444	Fish Statue	All
+445	Bunny Statue	All
+446	Skeleton Statue	All
+447	Reaper Statue	All
+448	Woman Statue	All
+449	Imp Statue	All
+450	Gargoyle Statue	All
+451	Gloom Statue	All
+452	Hornet Statue	All
+453	Bomb Statue	All
+454	Crab Statue	All
+455	Hammer Statue	All
+456	Potion Statue	All
+457	Spear Statue	All
+458	Cross Statue	All
+459	Jellyfish Statue	All
+460	Bow Statue	All
+461	Boomerang Statue	All
+462	Boot Statue	All
+463	Chest Statue	All
+464	Bird Statue	All
+465	Axe Statue	All
+466	Corrupt Statue	All
+467	Tree Statue	All
+468	Anvil Statue	All
+469	Pickaxe Statue	All
+470	Mushroom Statue	All
+471	Eyeball Statue	All
+472	Pillar Statue	All
+473	Heart Statue	All
+474	Pot Statue	All
+475	Sunflower Statue	All
+476	King Statue	All
+477	Queen Statue	All
+478	Piranha Statue	All
+479	Planked Wall	All
+480	Wooden Beam	All
+481	Adamantite Repeater	All
+482	Adamantite Sword	All
+483	Cobalt Sword	All
+484	Mythril Sword	All
+485	Moon Charm	All
+486	Ruler	All
+487	Crystal Ball	All
+488	Disco Ball	All
+489	Sorcerer Emblem	All
+490	Warrior Emblem	All
+491	Ranger Emblem	All
+492	Demon Wings	All
+493	Angel Wings	All
+494	Magical Harp	All
+495	Rainbow Rod	All
+496	Ice Rod	All
+497	Neptune's Shell	All
+498	Mannequin	All
+499	Greater Healing Potion	All
+500	Greater Mana Potion	All
+501	Pixie Dust	All
+502	Crystal Shard	All
+503	Clown Hat	All
+504	Clown Shirt	All
+505	Clown Pants	All
+506	Flamethrower	All
+507	Bell	All
+508	Harp	All
+509	Wrench	All
+510	Wire Cutter	All
+511	Active Stone Block	All
+512	Inactive Stone Block	All
+513	Lever	All
+514	Laser Rifle	All
+515	Crystal Bullet	All
+516	Holy Arrow	All
+517	Magic Dagger	All
+518	Crystal Storm	All
+519	Cursed Flames	All
+520	Soul of Light	All
+521	Soul of Night	All
+522	Cursed Flame	All
+523	Cursed Torch	All
+524	Adamantite Forge	All
+525	Mythril Anvil	All
+526	Unicorn Horn	All
+527	Dark Shard	All
+528	Light Shard	All
+529	Red Pressure Plate	All
+530	Wire	All
+531	Spell Tome	All
+532	Star Cloak	All
+533	Megashark	All
+534	Shotgun	All
+535	Philosopher's Stone	All
+536	Titan Glove	All
+537	Cobalt Naginata	All
+538	Switch	All
+539	Dart Trap	All
+540	Boulder	All
+541	Green Pressure Plate	All
+542	Gray Pressure Plate	All
+543	Brown Pressure Plate	All
+544	Mechanical Eye	All
+545	Cursed Arrow	All
+546	Cursed Bullet	All
+547	Soul of Fright	All
+548	Soul of Might	All
+549	Soul of Sight	All
+550	Gungnir	All
+551	Hallowed Plate Mail	All
+552	Hallowed Greaves	All
+553	Hallowed Helmet	All
+554	Cross Necklace	All
+555	Mana Flower	All
+556	Mechanical Worm	All
+557	Mechanical Skull	All
+558	Hallowed Headgear	All
+559	Hallowed Mask	All
+560	Slime Crown	All
+561	Light Disc	All
+562	Music Box (Overworld Day)	All
+563	Music Box (Eerie)	All
+564	Music Box (Night)	All
+565	Music Box (Title)	All
+566	Music Box (Underground)	All
+567	Music Box (Boss 1)	All
+568	Music Box (Jungle)	All
+569	Music Box (Corruption)	All
+570	Music Box (Underground Corruption)	All
+571	Music Box (The Hallow)	All
+572	Music Box (Boss 2)	All
+573	Music Box (Underground Hallow)	All
+574	Music Box (Boss 3)	All
+575	Soul of Flight	All
+576	Music Box	All
+577	Demonite Brick	All
+578	Hallowed Repeater	All
+579	Hamdrax	All
+580	Explosives	All
+581	Inlet Pump	All
+582	Outlet Pump	All
+583	1 Second Timer	All
+584	3 Second Timer	All
+585	5 Second Timer	All
+586	Candy Cane Block	All
+587	Candy Cane Wall	All
+588	Santa Hat	All
+589	Santa Shirt	All
+590	Santa Pants	All
+591	Green Candy Cane Block	All
+592	Green Candy Cane Wall	All
+593	Snow Block	All
+594	Snow Brick	All
+595	Snow Brick Wall	All
+596	Blue Light	All
+597	Red Light	All
+598	Green Light	All
+599	Blue Present	All
+600	Green Present	All
+601	Yellow Present	All
+602	Snow Globe	All
+603	Carrot	All
+604	Adamantite Beam	All
+605	Adamantite Beam Wall	All
+606	Demonite Brick Wall	All
+607	Sandstone Brick	All
+608	Sandstone Brick Wall	All
+609	Ebonstone Brick	All
+610	Ebonstone Brick Wall	All
+611	Red Stucco	All
+612	Yellow Stucco	All
+613	Green Stucco	All
+614	Gray Stucco	All
+615	Red Stucco Wall	All
+616	Yellow Stucco Wall	All
+617	Green Stucco Wall	All
+618	Gray Stucco Wall	All
+619	Ebonwood	All
+620	Rich Mahogany	All
+621	Pearlwood	All
+622	Ebonwood Wall	All
+623	Rich Mahogany Wall	All
+624	Pearlwood Wall	All
+625	Ebonwood Chest	All
+626	Rich Mahogany Chest	All
+627	Pearlwood Chest	All
+628	Ebonwood Chair	All
+629	Rich Mahogany Chair	All
+630	Pearlwood Chair	All
+631	Ebonwood Platform	All
+632	Rich Mahogany Platform	All
+633	Pearlwood Platform	All
+634	Bone Platform	All
+635	Ebonwood Work Bench	All
+636	Rich Mahogany Work Bench	All
+637	Pearlwood Work Bench	All
+638	Ebonwood Table	All
+639	Rich Mahogany Table	All
+640	Pearlwood Table	All
+641	Ebonwood Piano	All
+642	Rich Mahogany Piano	All
+643	Pearlwood Piano	All
+644	Ebonwood Bed	All
+645	Rich Mahogany Bed	All
+646	Pearlwood Bed	All
+647	Ebonwood Dresser	All
+648	Rich Mahogany Dresser	All
+649	Pearlwood Dresser	All
+650	Ebonwood Door	All
+651	Rich Mahogany Door	All
+652	Pearlwood Door	All
+653	Ebonwood Sword	All
+654	Ebonwood Hammer	All
+655	Ebonwood Bow	All
+656	Rich Mahogany Sword	All
+657	Rich Mahogany Hammer	All
+658	Rich Mahogany Bow	All
+659	Pearlwood Sword	All
+660	Pearlwood Hammer	All
+661	Pearlwood Bow	All
+662	Rainbow Brick	All
+663	Rainbow Brick Wall	All
+664	Ice Block	All
+665	Red's Wings	All
+666	Red's Helmet	All
+667	Red's Breastplate	All
+668	Red's Leggings	All
+669	Fish	All
+670	Ice Boomerang	All
+671	Keybrand	All
+672	Cutlass	All
+673	Icemourne	All
+674	True Excalibur	All
+675	True Night's Edge	All
+676	Frostbrand	All
+677	Scythe	All
+678	Soul Scythe	All
+679	Tactical Shotgun	All
+680	Ivy Chest	All
+681	Ice Chest	All
+682	Marrow	All
+683	Unholy Trident	All
+684	Frost Helmet	All
+685	Frost Breastplate	All
+686	Frost Leggings	All
+687	Tin Helmet	All
+688	Tin Chainmail	All
+689	Tin Greaves	All
+690	Lead Helmet	All
+691	Lead Chainmail	All
+692	Lead Greaves	All
+693	Tungsten Helmet	All
+694	Tungsten Chainmail	All
+695	Tungsten Greaves	All
+696	Platinum Helmet	All
+697	Platinum Chainmail	All
+698	Platinum Greaves	All
+699	Tin Ore	All
+700	Lead Ore	All
+701	Tungsten Ore	All
+702	Platinum Ore	All
+703	Tin Bar	All
+704	Lead Bar	All
+705	Tungsten Bar	All
+706	Platinum Bar	All
+707	Tin Watch	All
+708	Tungsten Watch	All
+709	Platinum Watch	All
+710	Tin Chandelier	All
+711	Tungsten Chandelier	All
+712	Platinum Chandelier	All
+713	Platinum Candle	All
+714	Platinum Candelabra	All
+715	Platinum Crown	All
+716	Lead Anvil	All
+717	Tin Brick	All
+718	Tungsten Brick	All
+719	Platinum Brick	All
+720	Tin Brick Wall	All
+721	Tungsten Brick Wall	All
+722	Platinum Brick Wall	All
+723	Beam Sword	All
+724	Ice Blade	All
+725	Ice Bow	All
+726	Frost Staff	All
+727	Wood Helmet	All
+728	Wood Breastplate	All
+729	Wood Greaves	All
+730	Ebonwood Helmet	All
+731	Ebonwood Breastplate	All
+732	Ebonwood Greaves	All
+733	Rich Mahogany Helmet	All
+734	Rich Mahogany Breastplate	All
+735	Rich Mahogany Greaves	All
+736	Pearlwood Helmet	All
+737	Pearlwood Breastplate	All
+738	Pearlwood Greaves	All
+739	Amethyst Staff	All
+740	Topaz Staff	All
+741	Sapphire Staff	All
+742	Emerald Staff	All
+743	Ruby Staff	All
+744	Diamond Staff	All
+745	Grass Wall	All
+746	Jungle Wall	All
+747	Flower Wall	All
+748	Jetpack	All
+749	Butterfly Wings	All
+750	Cactus Wall	All
+751	Cloud	All
+752	Cloud Wall	All
+753	Seaweed	All
+754	Rune Hat	All
+755	Rune Robe	All
+756	Mushroom Spear	All
+757	Terra Blade	All
+758	Grenade Launcher	All
+759	Rocket Launcher	All
+760	Proximity Mine Launcher	All
+761	Fairy Wings	All
+762	Slime Block	All
+763	Flesh Block	All
+764	Mushroom Wall	All
+765	Rain Cloud	All
+766	Bone Block	All
+767	Frozen Slime Block	All
+768	Bone Block Wall	All
+769	Slime Block Wall	All
+770	Flesh Block Wall	All
+771	Rocket I	All
+772	Rocket II	All
+773	Rocket III	All
+774	Rocket IV	All
+775	Asphalt Block	All
+776	Cobalt Pickaxe	All
+777	Mythril Pickaxe	All
+778	Adamantite Pickaxe	All
+779	Clentaminator	All
+780	Green Solution	All
+781	Blue Solution	All
+782	Purple Solution	All
+783	Dark Blue Solution	All
+784	Red Solution	All
+785	Harpy Wings	All
+786	Bone Wings	All
+787	Hammush	All
+788	Nettle Burst	All
+789	Ankh Banner	All
+790	Snake Banner	All
+791	Omega Banner	All
+792	Crimson Helmet	All
+793	Crimson Scalemail	All
+794	Crimson Greaves	All
+795	Blood Butcherer	All
+796	Tendon Bow	All
+797	Meat Grinder	All
+798	Deathbringer Pickaxe	All
+799	Blood Lust Cluster	All
+800	The Undertaker	All
+801	The Meatball	All
+802	The Rotted Fork	All
+803	Eskimo Hood	All
+804	Eskimo Coat	All
+805	Eskimo Pants	All
+806	Living Wood Chair	All
+807	Cactus Chair	All
+808	Bone Chair	All
+809	Flesh Chair	All
+810	Mushroom Chair	All
+811	Bone Work Bench	All
+812	Cactus Work Bench	All
+813	Flesh Work Bench	All
+814	Mushroom Work Bench	All
+815	Slime Work Bench	All
+816	Cactus Door	All
+817	Flesh Door	All
+818	Mushroom Door	All
+819	Living Wood Door	All
+820	Bone Door	All
+821	Flame Wings	All
+822	Frozen Wings	All
+823	Ghost Wings	All
+824	Sunplate Block	All
+825	Disc Wall	All
+826	Skyware Chair	All
+827	Bone Table	All
+828	Flesh Table	All
+829	Living Wood Table	All
+830	Skyware Table	All
+831	Living Wood Chest	All
+832	Living Wood Wand	All
+833	Purple Ice Block	All
+834	Pink Ice Block	All
+835	Red Ice Block	All
+836	Crimstone Block	All
+837	Skyware Door	All
+838	Skyware Chest	All
+839	Steampunk Hat	All
+840	Steampunk Shirt	All
+841	Steampunk Pants	All
+842	Bee Hat	All
+843	Bee Shirt	All
+844	Bee Pants	All
+845	World Banner	All
+846	Sun Banner	All
+847	Gravity Banner	All
+848	Pharaoh's Mask	All
+849	Actuator	All
+850	Blue Wrench	All
+851	Green Wrench	All
+852	Blue Pressure Plate	All
+853	Yellow Pressure Plate	All
+854	Discount Card	All
+855	Lucky Coin	All
+856	Unicorn on a Stick	All
+857	Sandstorm in a Bottle	All
+858	Blizzard in a Bottle	All
+859	Beach Ball	All
+860	Charm of Myths	All
+861	Moon Shell	All
+862	Star Veil	All
+863	Water Walking Boots	All
+864	Tiara	All
+865	Princess Dress	All
+866	Pharaoh's Robe	All
+867	Green Cap	All
+868	Mushroom Cap	All
+869	Tam O' Shanter	All
+870	Mummy Mask	All
+871	Mummy Shirt	All
+872	Mummy Pants	All
+873	Cowboy Hat	All
+874	Cowboy Jacket	All
+875	Cowboy Pants	All
+876	Pirate Hat	All
+877	Pirate Shirt	All
+878	Pirate Pants	All
+879	Viking Helmet	All
+880	Crimtane Ore	All
+881	Cactus Sword	All
+882	Cactus Pickaxe	All
+883	Ice Brick	All
+884	Ice Brick Wall	All
+885	Adhesive Bandage	All
+886	Armor Polish	All
+887	Bezoar	All
+888	Blindfold	All
+889	Fast Clock	All
+890	Megaphone	All
+891	Nazar	All
+892	Vitamins	All
+893	Trifold Map	All
+894	Cactus Helmet	All
+895	Cactus Breastplate	All
+896	Cactus Leggings	All
+897	Power Glove	All
+898	Lightning Boots	All
+899	Sun Stone	All
+900	Moon Stone	All
+901	Armor Bracing	All
+902	Medicated Bandage	All
+903	The Plan	All
+904	Countercurse Mantra	All
+905	Coin Gun	All
+906	Lava Charm	All
+907	Obsidian Water Walking Boots	All
+908	Lava Waders	All
+909	Pure Water Fountain	All
+910	Desert Water Fountain	All
+911	Shadewood	All
+912	Shadewood Door	All
+913	Shadewood Platform	All
+914	Shadewood Chest	All
+915	Shadewood Chair	All
+916	Shadewood Work Bench	All
+917	Shadewood Table	All
+918	Shadewood Dresser	All
+919	Shadewood Piano	All
+920	Shadewood Bed	All
+921	Shadewood Sword	All
+922	Shadewood Hammer	All
+923	Shadewood Bow	All
+924	Shadewood Helmet	All
+925	Shadewood Breastplate	All
+926	Shadewood Greaves	All
+927	Shadewood Wall	All
+928	Cannon	All
+929	Cannonball	All
+930	Flare Gun	All
+931	Flare	All
+932	Bone Wand	All
+933	Leaf Wand	All
+934	Flying Carpet	All
+935	Avenger Emblem	All
+936	Mechanical Glove	All
+937	Land Mine	All
+938	Paladin's Shield	All
+939	Web Slinger	All
+940	Jungle Water Fountain	All
+941	Icy Water Fountain	All
+942	Corrupt Water Fountain	All
+943	Crimson Water Fountain	All
+944	Hallowed Water Fountain	All
+945	Blood Water Fountain	All
+946	Umbrella	All
+947	Chlorophyte Ore	All
+948	Steampunk Wings	All
+949	Snowball	All
+950	Ice Skates	All
+951	Snowball Launcher	All
+952	Web Covered Chest	All
+953	Climbing Claws	All
+954	Ancient Iron Helmet	All
+955	Ancient Gold Helmet	All
+956	Ancient Shadow Helmet	All
+957	Ancient Shadow Scalemail	All
+958	Ancient Shadow Greaves	All
+959	Ancient Necro Helmet	All
+960	Ancient Cobalt Helmet	All
+961	Ancient Cobalt Breastplate	All
+962	Ancient Cobalt Leggings	All
+963	Black Belt	All
+964	Boomstick	All
+965	Rope	All
+966	Campfire	All
+967	Marshmellow	All
+968	Marshmellow on a Stick	All
+969	Cooked Marshmellow	All
+970	Red Rocket	All
+971	Green Rocket	All
+972	Blue Rocket	All
+973	Yellow Rocket	All
+974	Ice Torch	All
+975	Shoe Spikes	All
+976	Tiger Climbing Gear	All
+977	Tabi	All
+978	Pink Eskimo Hood	All
+979	Pink Eskimo Coat	All
+980	Pink Eskimo Pants	All
+981	Pink Thread	All
+982	Mana Regeneration Band	All
+983	Sandstorm in a Balloon	All
+984	Master Ninja Gear	All
+985	Rope Coil	All
+986	Blowgun	All
+987	Blizzard in a Bottle	All
+988	Frostburn Arrow	All
+989	Enchanted Sword	All
+990	Pickaxe Axe	All
+991	Cobalt Waraxe	All
+992	Mythril Waraxe	All
+993	Adamantite Waraxe	All
+994	Eater's Bone	All
+995	Blend-O-Matic	All
+996	Meat Grinder	All
+997	Extractinator	All
+998	Solidifier	All
+999	Amber	All
+1000	Confetti Gun	All
+1001	Chlorophyte Mask	All
+1002	Chlorophyte Helmet	All
+1003	Chlorophyte Headgear	All
+1004	Chlorophyte Plate Mail	All
+1005	Chlorophyte Greaves	All
+1006	Chlorophyte Bar	All
+1007	Red Dye	All
+1008	Orange Dye	All
+1009	Yellow Dye	All
+1010	Lime Dye	All
+1011	Green Dye	All
+1012	Teal Dye	All
+1013	Cyan Dye	All
+1014	Sky Blue Dye	All
+1015	Blue Dye	All
+1016	Purple Dye	All
+1017	Violet Dye	All
+1018	Pink Dye	All
+1019	Red and Black Dye	All
+1020	Orange and Black Dye	All
+1021	Yellow and Black Dye	All
+1022	Lime and Black Dye	All
+1023	Green and Black Dye	All
+1024	Teal and Black Dye	All
+1025	Cyan and Black Dye	All
+1026	Sky Blue and Black Dye	All
+1027	Blue and Black Dye	All
+1028	Purple and Black Dye	All
+1029	Violet and Black Dye	All
+1030	Pink and Black Dye	All
+1031	Flame Dye	All
+1032	Flame and Black Dye	All
+1033	Green Flame Dye	All
+1034	Green Flame and Black Dye	All
+1035	Blue Flame Dye	All
+1036	Blue Flame and Black Dye	All
+1037	Silver Dye	All
+1038	Bright Red Dye	All
+1039	Bright Orange Dye	All
+1040	Bright Yellow Dye	All
+1041	Bright Lime Dye	All
+1042	Bright Green Dye	All
+1043	Bright Teal Dye	All
+1044	Bright Cyan Dye	All
+1045	Bright Sky Blue Dye	All
+1046	Bright Blue Dye	All
+1047	Bright Purple Dye	All
+1048	Bright Violet Dye	All
+1049	Bright Pink Dye	All
+1050	Black Dye	All
+1051	Red and Silver Dye	All
+1052	Orange and Silver Dye	All
+1053	Yellow and Silver Dye	All
+1054	Lime and Silver Dye	All
+1055	Green and Silver Dye	All
+1056	Teal and Silver Dye	All
+1057	Cyan and Silver Dye	All
+1058	Sky Blue and Silver Dye	All
+1059	Blue and Silver Dye	All
+1060	Purple and Silver Dye	All
+1061	Violet and Silver Dye	All
+1062	Pink and Silver Dye	All
+1063	Intense Flame Dye	All
+1064	Intense Green Flame Dye	All
+1065	Intense Blue Flame Dye	All
+1066	Rainbow Dye	All
+1067	Intense Rainbow Dye	All
+1068	Yellow Gradient Dye	All
+1069	Cyan Gradient Dye	All
+1070	Violet Gradient Dye	All
+1071	Paintbrush	All
+1072	Paint Roller	All
+1073	Red Paint	All
+1074	Orange Paint	All
+1075	Yellow Paint	All
+1076	Lime Paint	All
+1077	Green Paint	All
+1078	Teal Paint	All
+1079	Cyan Paint	All
+1080	Sky Blue Paint	All
+1081	Blue Paint	All
+1082	Purple Paint	All
+1083	Violet Paint	All
+1084	Pink Paint	All
+1085	Deep Red Paint	All
+1086	Deep Orange Paint	All
+1087	Deep Yellow Paint	All
+1088	Deep Lime Paint	All
+1089	Deep Green Paint	All
+1090	Deep Teal Paint	All
+1091	Deep Cyan Paint	All
+1092	Deep Sky Blue Paint	All
+1093	Deep Blue Paint	All
+1094	Deep Purple Paint	All
+1095	Deep Violet Paint	All
+1096	Deep Pink Paint	All
+1097	Black Paint	All
+1098	White Paint	All
+1099	Gray Paint	All
+1100	Paint Scraper	All
+1101	Lihzahrd Brick	All
+1102	Lihzahrd Brick Wall	All
+1103	Slush Block	All
+1104	Palladium Ore	All
+1105	Orichalcum Ore	All
+1106	Titanium Ore	All
+1107	Teal Mushroom	All
+1108	Green Mushroom	All
+1109	Sky Blue Flower	All
+1110	Yellow Marigold	All
+1111	Blue Berries	All
+1112	Lime Kelp	All
+1113	Pink Prickly Pear	All
+1114	Orange Bloodroot	All
+1115	Red Husk	All
+1116	Cyan Husk	All
+1117	Violet Husk	All
+1118	Purple Mucos	All
+1119	Black Ink	All
+1120	Dye Vat	All
+1121	Bee Gun	All
+1122	Possessed Hatchet	All
+1123	Bee Keeper	All
+1124	Hive	All
+1125	Honey Block	All
+1126	Hive Wall	All
+1127	Crispy Honey Block	All
+1128	Honey Bucket	All
+1129	Hive Wand	All
+1130	Beenade	All
+1131	Gravity Globe	All
+1132	Honey Comb	All
+1133	Abeemination	All
+1134	Bottled Honey	All
+1135	Rain Hat	All
+1136	Rain Coat	All
+1137	Lihzahrd Door	All
+1138	Dungeon Door	All
+1139	Lead Door	All
+1140	Iron Door	All
+1141	Temple Key	All
+1142	Lihzahrd Chest	All
+1143	Lihzahrd Chair	All
+1144	Lihzahrd Table	All
+1145	Lihzahrd Work Bench	All
+1146	Super Dart Trap	All
+1147	Flame Trap	All
+1148	Spiky Ball Trap	All
+1149	Spear Trap	All
+1150	Wooden Spike	All
+1151	Lihzahrd Pressure Plate	All
+1152	Lihzahrd Statue	All
+1153	Lihzahrd Watcher Statue	All
+1154	Lihzahrd Guardian Statue	All
+1155	Wasp Gun	All
+1156	Piranha Gun	All
+1157	Pygmy Staff	All
+1158	Pygmy Necklace	All
+1159	Tiki Mask	All
+1160	Tiki Shirt	All
+1161	Tiki Pants	All
+1162	Leaf Wings	All
+1163	Blizzard in a Balloon	All
+1164	Bundle of Balloons	All
+1165	Bat Wings	All
+1166	Bone Sword	All
+1167	Hercules Beetle	All
+1168	Smoke Bomb	All
+1169	Bone Key	All
+1170	Nectar	All
+1171	Tiki Totem	All
+1172	Lizard Egg	All
+1173	Grave Marker	All
+1174	Cross Grave Marker	All
+1175	Headstone	All
+1176	Gravestone	All
+1177	Obelisk	All
+1178	Leaf Blower	All
+1179	Chlorophyte Bullet	All
+1180	Parrot Cracker	All
+1181	Strange Glowing Mushroom	All
+1182	Seedling	All
+1183	Wisp in a Bottle	All
+1184	Palladium Bar	All
+1185	Palladium Sword	All
+1186	Palladium Pike	All
+1187	Palladium Repeater	All
+1188	Palladium Pickaxe	All
+1189	Palladium Drill	All
+1190	Palladium Chainsaw	All
+1191	Orichalcum Bar	All
+1192	Orichalcum Sword	All
+1193	Orichalcum Halberd	All
+1194	Orichalcum Repeater	All
+1195	Orichalcum Pickaxe	All
+1196	Orichalcum Drill	All
+1197	Orichalcum Chainsaw	All
+1198	Titanium Bar	All
+1199	Titanium Sword	All
+1200	Titanium Trident	All
+1201	Titanium Repeater	All
+1202	Titanium Pickaxe	All
+1203	Titanium Drill	All
+1204	Titanium Chainsaw	All
+1205	Palladium Mask	All
+1206	Palladium Helmet	All
+1207	Palladium Headgear	All
+1208	Palladium Breastplate	All
+1209	Palladium Leggings	All
+1210	Orichalcum Mask	All
+1211	Orichalcum Helmet	All
+1212	Orichalcum Headgear	All
+1213	Orichalcum Breastplate	All
+1214	Orichalcum Leggings	All
+1215	Titanium Mask	All
+1216	Titanium Helmet	All
+1217	Titanium Headgear	All
+1218	Titanium Breastplate	All
+1219	Titanium Leggings	All
+1220	Orichalcum Anvil	All
+1221	Titanium Forge	All
+1222	Palladium Waraxe	All
+1223	Orichalcum Waraxe	All
+1224	Titanium Waraxe	All
+1225	Hallowed Bar	All
+1226	Chlorophyte Claymore	All
+1227	Chlorophyte Saber	All
+1228	Chlorophyte Partisan	All
+1229	Chlorophyte Shotbow	All
+1230	Chlorophyte Pickaxe	All
+1231	Chlorophyte Drill	All
+1232	Chlorophyte Chainsaw	All
+1233	Chlorophyte Greataxe	All
+1234	Chlorophyte Warhammer	All
+1235	Chlorophyte Arrow	All
+1236	Amethyst Hook	All
+1237	Topaz Hook	All
+1238	Sapphire Hook	All
+1239	Emerald Hook	All
+1240	Ruby Hook	All
+1241	Diamond Hook	All
+1242	Amber Mosquito	All
+1243	Umbrella Hat	All
+1244	Nimbus Rod	All
+1245	Orange Torch	All
+1246	Crimsand Block	All
+1247	Bee Cloak	All
+1248	Eye of the Golem	All
+1249	Honey Balloon	All
+1250	Blue Horseshoe Balloon	All
+1251	White Horseshoe Balloon	All
+1252	Yellow Horseshoe Balloon	All
+1253	Frozen Turtle Shell	All
+1254	Sniper Rifle	All
+1255	Venus Magnum	All
+1256	Crimson Rod	All
+1257	Crimtane Bar	All
+1258	Stynger	All
+1259	Flower Pow	All
+1260	Rainbow Gun	All
+1261	Stynger Bolt	All
+1262	Chlorophyte Jackhammer	All
+1263	Teleporter	All
+1264	Flower of Frost	All
+1265	Uzi	All
+1266	Magnet Sphere	All
+1267	Purple Stained Glass	All
+1268	Yellow Stained Glass	All
+1269	Blue Stained Glass	All
+1270	Green Stained Glass	All
+1271	Red Stained Glass	All
+1272	Multicolored Stained Glass	All
+1273	Skeletron Hand	All
+1274	Skull	All
+1275	Balla Hat	All
+1276	Gangsta Hat	All
+1277	Sailor Hat	All
+1278	Eye Patch	All
+1279	Sailor Shirt	All
+1280	Sailor Pants	All
+1281	Skeletron Mask	All
+1282	Amethyst Robe	All
+1283	Topaz Robe	All
+1284	Sapphire Robe	All
+1285	Emerald Robe	All
+1286	Ruby Robe	All
+1287	Diamond Robe	All
+1288	White Tuxedo Shirt	All
+1289	White Tuxedo Pants	All
+1290	Panic Necklace	All
+1291	Life Fruit	All
+1292	Lihzahrd Altar	All
+1293	Lihzahrd Power Cell	All
+1294	Picksaw	All
+1295	Heat Ray	All
+1296	Staff of Earth	All
+1297	Golem Fist	All
+1298	Water Chest	All
+1299	Binoculars	All
+1300	Rifle Scope	All
+1301	Destroyer Emblem	All
+1302	High Velocity Bullet	All
+1303	Jellyfish Necklace	All
+1304	Zombie Arm	All
+1305	The Axe	All
+1306	Ice Sickle	All
+1307	Clothier Voodoo Doll	All
+1308	Poison Staff	All
+1309	Slime Staff	All
+1310	Poison Dart	All
+1311	Eye Spring	All
+1312	Toy Sled	All
+1313	Book of Skulls	All
+1314	KO Cannon	All
+1315	Pirate Map	All
+1316	Turtle Helmet	All
+1317	Turtle Scale Mail	All
+1318	Turtle Leggings	All
+1319	Snowball Cannon	All
+1320	Bone Pickaxe	All
+1321	Magic Quiver	All
+1322	Magma Stone	All
+1323	Obsidian Rose	All
+1324	Bananarang	All
+1325	Chain Knife	All
+1326	Rod of Discord	All
+1327	Death Sickle	All
+1328	Turtle Shell	All
+1329	Tissue Sample	All
+1330	Vertebrae	All
+1331	Bloody Spine	All
+1332	Ichor	All
+1333	Ichor Torch	All
+1334	Ichor Arrow	All
+1335	Ichor Bullet	All
+1336	Golden Shower	All
+1337	Bunny Cannon	All
+1338	Explosive Bunny	All
+1339	Vial of Venom	All
+1340	Flask of Venom	All
+1341	Venom Arrow	All
+1342	Venom Bullet	All
+1343	Fire Gauntlet	All
+1344	Cog	All
+1345	Confetti	All
+1346	Nanites	All
+1347	Explosive Powder	All
+1348	Gold Dust	All
+1349	Party Bullet	All
+1350	Nano Bullet	All
+1351	Exploding Bullet	All
+1352	Golden Bullet	All
+1353	Flask of Cursed Flames	All
+1354	Flask of Fire	All
+1355	Flask of Gold	All
+1356	Flask of Ichor	All
+1357	Flask of Nanites	All
+1358	Flask of Party	All
+1359	Flask of Poison	All
+1360	Eye of Cthulhu Trophy	All
+1361	Eater of Worlds Trophy	All
+1362	Brain of Cthulhu Trophy	All
+1363	Skeletron Trophy	All
+1364	Queen Bee Trophy	All
+1365	Wall of Flesh Trophy	All
+1366	Destroyer Trophy	All
+1367	Skeletron Prime Trophy	All
+1368	Retinazer Trophy	All
+1369	Spazmatism Trophy	All
+1370	Plantera Trophy	All
+1371	Golem Trophy	All
+1372	Blood Moon Rising	All
+1373	The Hanged Man	All
+1374	Glory of the Fire	All
+1375	Bone Warp	All
+1376	Wall Skeleton	All
+1377	Hanging Skeleton	All
+1378	Blue Slab Wall	All
+1379	Blue Tiled Wall	All
+1380	Pink Slab Wall	All
+1381	Pink Tiled Wall	All
+1382	Green Slab Wall	All
+1383	Green Tiled Wall	All
+1384	Blue Brick Platform	All
+1385	Pink Brick Platform	All
+1386	Green Brick Platform	All
+1387	Metal Shelf	All
+1388	Brass Shelf	All
+1389	Wood Shelf	All
+1390	Brass Lantern	All
+1391	Caged Lantern	All
+1392	Carriage Lantern	All
+1393	Alchemy Lantern	All
+1394	Diablost Lamp	All
+1395	Oil Rag Sconse	All
+1396	Blue Dungeon Chair	All
+1397	Blue Dungeon Table	All
+1398	Blue Dungeon Work Bench	All
+1399	Green Dungeon Chair	All
+1400	Green Dungeon Table	All
+1401	Green Dungeon Work Bench	All
+1402	Pink Dungeon Chair	All
+1403	Pink Dungeon Table	All
+1404	Pink Dungeon Work Bench	All
+1405	Blue Dungeon Candle	All
+1406	Green Dungeon Candle	All
+1407	Pink Dungeon Candle	All
+1408	Blue Dungeon Vase	All
+1409	Green Dungeon Vase	All
+1410	Pink Dungeon Vase	All
+1411	Blue Dungeon Door	All
+1412	Green Dungeon Door	All
+1413	Pink Dungeon Door	All
+1414	Blue Dungeon Bookcase	All
+1415	Green Dungeon Bookcase	All
+1416	Pink Dungeon Bookcase	All
+1417	Catacomb	All
+1418	Dungeon Shelf	All
+1419	Skellington J Skellingsworth	All
+1420	The Cursed Man	All
+1421	The Eye Sees the End	All
+1422	Something Evil is Watching You	All
+1423	The Twins Have Awoken	All
+1424	The Screamer	All
+1425	Goblins Playing Poker	All
+1426	Dryadisque	All
+1427	Sunflowers	All
+1428	Terrarian Gothic	All
+1429	Beanie	All
+1430	Imbuing Station	All
+1431	Star in a Bottle	All
+1432	Empty Bullet	All
+1433	Impact	All
+1434	Powered by Birds	All
+1435	The Destroyer	All
+1436	The Persistency of Eyes	All
+1437	Unicorn Crossing the Hallows	All
+1438	Great Wave	All
+1439	Starry Night	All
+1440	Guide Picasso	All
+1441	The Guardian's Gaze	All
+1442	Father of Someone	All
+1443	Nurse Lisa	All
+1444	Shadowbeam Staff	All
+1445	Inferno Fork	All
+1446	Spectre Staff	All
+1447	Wooden Fence	All
+1448	Metal Fence	All
+1449	Bubble Machine	All
+1450	Bubble Wand	All
+1451	Marching Bones Banner	All
+1452	Necromantic Sign	All
+1453	Rusted Company Standard	All
+1454	Ragged Brotherhood Sigil	All
+1455	Molten Legion Flag	All
+1456	Diabolic Sigil	All
+1457	Obsidian Platform	All
+1458	Obsidian Door	All
+1459	Obsidian Chair	All
+1460	Obsidian Table	All
+1461	Obsidian Work Bench	All
+1462	Obsidian Vase	All
+1463	Obsidian Bookcase	All
+1464	Hellbound Banner	All
+1465	Hell Hammer Banner	All
+1466	Helltower Banner	All
+1467	Lost Hopes of Man Banner	All
+1468	Obsidian Watcher Banner	All
+1469	Lava Erupts Banner	All
+1470	Blue Dungeon Bed	All
+1471	Green Dungeon Bed	All
+1472	Red Dungeon Bed	All
+1473	Obsidian Bed	All
+1474	Waldo	All
+1475	Darkness	All
+1476	Dark Soul Reaper	All
+1477	Land	All
+1478	Trapped Ghost	All
+1479	Demon's Eye	All
+1480	Finding Gold	All
+1481	First Encounter	All
+1482	Good Morning	All
+1483	Underground Reward	All
+1484	Through the Window	All
+1485	Place Above the Clouds	All
+1486	Do Not Step on the Grass	All
+1487	Cold Waters in the White Land	All
+1488	Lightless Chasms	All
+1489	The Land of Deceiving Looks	All
+1490	Daylight	All
+1491	Secret of the Sands	All
+1492	Deadland Comes Alive	All
+1493	Evil Presence	All
+1494	Sky Guardian	All
+1495	American Explosive	All
+1496	Discover	All
+1497	Hand Earth	All
+1498	Old Miner	All
+1499	Skelehead	All
+1500	Facing the Cerebral Mastermind	All
+1501	Lake of Fire	All
+1502	Trio Super Heroes	All
+1503	Spectre Hood	All
+1504	Spectre Robe	All
+1505	Spectre Pants	All
+1506	Spectre Pickaxe	All
+1507	Spectre Hamaxe	All
+1508	Ectoplasm	All
+1509	Gothic Chair	All
+1510	Gothic Table	All
+1511	Gothic Work Bench	All
+1512	Gothic Bookcase	All
+1513	Paladin's Hammer	All
+1514	SWAT Helmet	All
+1515	Bee Wings	All
+1516	Giant Harpey Feather	All
+1517	Bone Feather	All
+1518	Fire Feather	All
+1519	Ice Feather	All
+1520	Broken Bat Wing	All
+1521	Tattered Bee Wing	All
+1522	Large Amethyst	All
+1523	Large Topaz	All
+1524	Large Sapphire	All
+1525	Large Emerald	All
+1526	Large Ruby	All
+1527	Large Diamond	All
+1528	Jungle Chest	All
+1529	Corruption Chest	All
+1530	Crimson Chest	All
+1531	Hallowed Chest	All
+1532	Frozen Chest	All
+1533	Jungle Key	All
+1534	Corruption Key	All
+1535	Crimson Key	All
+1536	Hallowed Key	All
+1537	Frozen Key	All
+1538	Imp Face	All
+1539	Ominous Presence	All
+1540	Shining Moon	All
+1541	Living Gore	All
+1542	Flowing Magma	All
+1543	Spectre Paintbrush	All
+1544	Spectre Paint Roller	All
+1545	Spectre Paint Scraper	All
+1546	Shroomite Headgear	All
+1547	Shroomite Mask	All
+1548	Shroomite Helmet	All
+1549	Shroomite Breastplate	All
+1550	Shroomite Leggings	All
+1551	Autohammer	All
+1552	Shroomite Bar	All
+1553	S.D.M.G.	All
+1554	Cenx's Tiara	All
+1555	Cenx's Breastplate	All
+1556	Cenx's Leggings	All
+1557	Crowno's Mask	All
+1558	Crowno's Breastplate	All
+1559	Crowno's Leggings	All
+1560	Will's Helmet	All
+1561	Will's Breastplate	All
+1562	Will's Leggings	All
+1563	Jim's Helmet	All
+1564	Jim's Breastplate	All
+1565	Jim's Leggings	All
+1566	Aaron's Helmet	All
+1567	Aaron's Breastplate	All
+1568	Aaron's Leggings	All
+1569	Vampire Knives	All
+1570	Broken Hero Sword	All
+1571	Scourge of the Corruptor	All
+1572	Staff of the Frost Hydra	All
+1573	The Creation of the Guide	All
+1574	The Merchant	All
+1575	Crowno Devours His Lunch	All
+1576	Rare Enchantment	All
+1577	Glorious Night	All
+1578	Sweetheart Necklace	All
+1579	Flurry Boots	All
+1580	D-Town's Helmet	All
+1581	D-Town's Breastplate	All
+1582	D-Town's Leggings	All
+1583	D-Town's Wings	All
+1584	Will's Wings	All
+1585	Crowno's Wings	All
+1586	Cenx's Wings	All
+1587	Cenx's Dress	All
+1588	Cenx's Dress Pants	All
+1589	Palladium Column	All
+1590	Palladium Column Wall	All
+1591	Bubblegum Block	All
+1592	Bubblegum Block Wall	All
+1593	Titanstone Block	All
+1594	Titanstone Block Wall	All
+1595	Magic Cuffs	All
+1596	Music Box (Snow)	All
+1597	Music Box (Space)	All
+1598	Music Box (Crimson)	All
+1599	Music Box (Boss 4)	All
+1600	Music Box (Alt Overworld Day)	All
+1601	Music Box (Rain)	All
+1602	Music Box (Ice)	All
+1603	Music Box (Desert)	All
+1604	Music Box (Ocean)	All
+1605	Music Box (Dungeon)	All
+1606	Music Box (Plantera)	All
+1607	Music Box (Boss 5)	All
+1608	Music Box (Temple)	All
+1609	Music Box (Eclipse)	All
+1610	Music Box (Mushrooms)	All
+1611	Butterfly Dust	All
+1612	Ankh Charm	All
+1613	Ankh Shield	All
+1614	Blue Flare	All
+1615	Angler Fish Banner	All
+1616	Angry Nimbus Banner	All
+1617	Anomura Fungus Banner	All
+1618	Antlion Banner	All
+1619	Arapaima Banner	All
+1620	Armored Skeleton Banner	All
+1621	Bat Banner	All
+1622	Bird Banner	All
+1623	Black Recluse Banner	All
+1624	Blood Feeder Banner	All
+1625	Blood Jelly Banner	All
+1626	Blood Crawler Banner	All
+1627	Bone Serpent Banner	All
+1628	Bunny Banner	All
+1629	Chaos Elemental Banner	All
+1630	Mimic Banner	All
+1631	Clown Banner	All
+1632	Corrupt Bunny Banner	All
+1633	Corrupt Goldfish Banner	All
+1634	Crab Banner	All
+1635	Crimera Banner	All
+1636	Crimson Axe Banner	All
+1637	Cursed Hammer Banner	All
+1638	Demon Banner	All
+1639	Demon Eye Banner	All
+1640	Derpling Banner	All
+1641	Eater of Souls Banner	All
+1642	Enchanted Sword Banner	All
+1643	Zombie Eskimo Banner	All
+1644	Face Monster Banner	All
+1645	Floaty Gross Banner	All
+1646	Flying Fish Banner	All
+1647	Flying Snake Banner	All
+1648	Frankenstein Banner	All
+1649	Fungi Bulb Banner	All
+1650	Fungo Fish Banner	All
+1651	Gastropod Banner	All
+1652	Goblin Archer Banner	All
+1653	Goblin Sorcerer Banner	All
+1654	Goblin Scout Banner	All
+1655	Goblin Thief Banner	All
+1656	Goblin Warrior Banner	All
+1657	Goldfish Banner	All
+1658	Harpy Banner	All
+1659	Hellbat Banner	All
+1660	Herpling Banner	All
+1661	Hornet Banner	All
+1662	Ice Elemental Banner	All
+1663	Icy Merman Banner	All
+1664	Fire Imp Banner	All
+1665	Jellyfish Banner	All
+1666	Jungle Creeper Banner	All
+1667	Lihzahrd Banner	All
+1668	Man Eater Banner	All
+1669	Meteor Head Banner	All
+1670	Moth Banner	All
+1671	Mummy Banner	All
+1672	Mushi Ladybug Banner	All
+1673	Parrot Banner	All
+1674	Pigron Banner	All
+1675	Piranha Banner	All
+1676	Pirate Banner	All
+1677	Pixie Banner	All
+1678	Raincoat Zombie Banner	All
+1679	Reaper Banner	All
+1680	Shark Banner	All
+1681	Skeleton Banner	All
+1682	Skeleton Mage Banner	All
+1683	Slime Banner	All
+1684	Snow Flinx Banner	All
+1685	Spider Banner	All
+1686	Spore Zombie Banner	All
+1687	Swamp Thing Banner	All
+1688	Tortoise Banner	All
+1689	Toxic Sludge Banner	All
+1690	Umbrella Slime Banner	All
+1691	Unicorn Banner	All
+1692	Vampire Banner	All
+1693	Vulture Banner	All
+1694	Nypmh Banner	All
+1695	Werewolf Banner	All
+1696	Wolf Banner	All
+1697	World Feeder Banner	All
+1698	Worm Banner	All
+1699	Wraith Banner	All
+1700	Wyvern Banner	All
+1701	Zombie Banner	All
+1702	Glass Platform	All
+1703	Glass Chair	All
+1704	Golden Chair	All
+1705	Golden Toilet	All
+1706	Bar Stool	All
+1707	Honey Chair	All
+1708	Steam Punk Chair	All
+1709	Glass Door	All
+1710	Golden Door	All
+1711	Honey Door	All
+1712	Steam Punk Door	All
+1713	Glass Table	All
+1714	Banquet Table	All
+1715	Bar	All
+1716	Golden Table	All
+1717	Honey Table	All
+1718	Steam Punk Table	All
+1719	Glass Bed	All
+1720	Golden Bed	All
+1721	Honey Bed	All
+1722	Steam Punk Bed	All
+1723	Living Wood Wall	All
+1724	Fart in a Jar	All
+1725	Pumpkin	All
+1726	Pumpkin Wall	All
+1727	Hay	All
+1728	Hay Wall	All
+1729	Spooky Wood	All
+1730	Spooky Wood Wall	All
+1731	Pumpkin Helmet	All
+1732	Pumpkin Breastplate	All
+1733	Pumpkin Leggings	All
+1734	Candy Apple	All
+1735	Soul Cake	All
+1736	Nurse Hat	All
+1737	Nurse Shirt	All
+1738	Nurse Pants	All
+1739	Wizard's Hat	All
+1740	Guy Fawkes Mask	All
+1741	Dye Trader Robe	All
+1742	Steam Punk Goggles	All
+1743	Cyborg Helmet	All
+1744	Cyborg Shirt	All
+1745	Cyborg Pants	All
+1746	Creeper Mask	All
+1747	Creeper Shirt	All
+1748	Creeper Pants	All
+1749	Cat Mask	All
+1750	Cat Shirt	All
+1751	Cat Pants	All
+1752	Ghost Mask	All
+1753	Ghost Shirt	All
+1754	Pumpkin Mask	All
+1755	Pumpkin Shirt	All
+1756	Pumpkin Pants	All
+1757	Robot Mask	All
+1758	Robot Shirt	All
+1759	Robot Pants	All
+1760	Unicorn Mask	All
+1761	Unicorn Shirt	All
+1762	Unicorn Pants	All
+1763	Vampire Mask	All
+1764	Vampire Shirt	All
+1765	Vampire Pants	All
+1766	Witch Hat	All
+1767	Leprechaun Hat	All
+1768	Leprechaun Shirt	All
+1769	Leprechaun Pants	All
+1770	Pixie Shirt	All
+1771	Pixie Pants	All
+1772	Princess Hat	All
+1774	Goodie Bag	All
+1775	Witch Dress	All
+1776	Witch Boots	All
+1777	Bride of Frankenstein Mask	All
+1778	Bride of Frankenstein Dress	All
+1779	Karate Tortoise Mask	All
+1780	Karate Tortoise Shirt	All
+1781	Karate Tortoise Pants	All
+1782	Candy Corn Rifle	All
+1783	Candy Corn	All
+1784	Jack 'O Lantern Launcher	All
+1785	Explosive Jack 'O Lantern	All
+1786	Sickle	All
+1787	Pumpkin Pie	All
+1788	Scarecrow Hat	All
+1789	Scarecrow Shirt	All
+1790	Scarecrow Pants	All
+1791	Cauldron	All
+1792	Pumpkin Chair	All
+1793	Pumpkin Door	All
+1794	Pumpkin Table	All
+1795	Pumpkin Work Bench	All
+1796	Pumpkin Platform	All
+1797	Tattered Fairy Wings	All
+1798	Spider Egg	All
+1799	Magical Pumpkin Seed	All
+1800	Bat Hook	All
+1801	Bat Scepter	All
+1802	Raven Staff	All
+1803	Jungle Key Mold	All
+1804	Corruption Key Mold	All
+1805	Crimson Key Mold	All
+1806	Hallowed Key Mold	All
+1807	Frozen Key Mold	All
+1808	Hanging Jack 'O Lantern	All
+1809	Rotten Egg	All
+1810	Unlucky Yarn	All
+1811	Black Fairy Dust	All
+1812	Jackelier	All
+1813	Jack 'O Lantern	All
+1814	Spooky Chair	All
+1815	Spooky Door	All
+1816	Spooky Table	All
+1817	Spooky Work Bench	All
+1818	Spooky Platform	All
+1819	Reaper Hood	All
+1820	Reaper Robe	All
+1821	Fox Mask	All
+1822	Fox Shirt	All
+1823	Fox Pants	All
+1824	Cat Ears	All
+1825	Bloody Machete	All
+1826	The Horseman's Blade	All
+1827	Bladed Glove	All
+1828	Pumpkin Seed	All
+1829	Spooky Hook	All
+1830	Spooky Wings	All
+1831	Spooky Twig	All
+1832	Spooky Helmet	All
+1833	Spooky Breastplate	All
+1834	Spooky Leggings	All
+1835	Stake Launcher	All
+1836	Stake	All
+1837	Cursed Sapling	All
+1838	Space Creature Mask	All
+1839	Space Creature Shirt	All
+1840	Space Creature Pants	All
+1841	Wolf Mask	All
+1842	Wolf Shirt	All
+1843	Wolf Pants	All
+1844	Pumpkin Moon Medallion	All
+1845	Necromantic Scroll	All
+1846	Jacking Skeletron	All
+1847	Bitter Harvest	All
+1848	Blood Moon Countess	All
+1849	Hallow's Eve	All
+1850	Morbid Curiosity	All
+1851	Treasure Hunter Shirt	All
+1852	Treasure Hunter Pants	All
+1853	Dryad Coverings	All
+1854	Dryad Loincloth	All
+1855	Mourning Wood Trophy	All
+1856	Pumpking Trophy	All
+1857	Jack 'O Lantern Mask	All

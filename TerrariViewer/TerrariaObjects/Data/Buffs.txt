@@ -79,3 +79,8 @@
 78	Weapon Imbue: Confetti	Melee attacks cause confetti to appear	0	True
 79	Weapon Imbue: Poison	Melee attacks poison enemies	0	True
 80	Blackout	Light vision severely reduced	0	True
+81	Pet Spider	A spider is following you	0	True
+82	Squashling	A squashling is following you	0	True
+83	Ravens	The ravens will attack your enemies	0	True
+84	Black Cat	A black kitty is following you	0	True
+85	Cursed Sapling	A cursed sapling is following you	0	True

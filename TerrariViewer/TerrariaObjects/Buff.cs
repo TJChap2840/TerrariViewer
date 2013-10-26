@@ -36,6 +36,7 @@ namespace TerrariViewer.TerrariaObjects
 
                         buff.Id = int.Parse(parts[0]);
                         buff.Name = parts[1];
+                        buff.Description = parts[2];
                         buff.maxDuration = int.Parse(parts[3]);
                         buff.BuffImage();
                         BuffDictionary[int.Parse(parts[0])] = buff;
@@ -120,6 +121,13 @@ namespace TerrariViewer.TerrariaObjects
             }
         }
 
+        private string description;
+        public string Description 
+        {
+            get { return description; }
+            set { description = value; }
+        }
+
         #endregion
 
         public Buff()
@@ -128,6 +136,7 @@ namespace TerrariViewer.TerrariaObjects
             Id = 0;
             GameDuration = 0;
             Name = "No Buff";
+            Description = "No Buff";
             BuffText = this.ToString();
         }
 
@@ -136,6 +145,7 @@ namespace TerrariViewer.TerrariaObjects
             this.Id = id;
             this.Name = BuffDictionary[id].Name;
             this.GameDuration = duration;
+            this.Description = BuffDictionary[id].Description;
             OnPropertyChanged("Name");
         }
 
@@ -156,7 +166,7 @@ namespace TerrariViewer.TerrariaObjects
 
         public override string ToString()
         {
-            return string.Format("{0}\n[{1} Seconds]", Name, GameDuration);
+            return string.Format("{0}\n{1} Seconds\n{2}", Name, GameDuration, Description);
         }
 
         #region PropertyChanged
