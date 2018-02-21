@@ -1723,3 +1723,1880 @@
 1722	Steam Punk Bed
 1723	Living Wood Wall
 1724	Fart in a Jar
+1725	Pumpkin
+1726	Pumpkin Wall
+1727	Hay
+1728	Hay Wall
+1729	Spooky Wood
+1730	Spooky Wood Wall
+1731	Pumpkin Helmet
+1732	Pumpkin Breastplate
+1733	Pumpkin Leggings
+1734	Candy Apple
+1735	Soul Cake
+1736	Nurse Hat
+1737	Nurse Shirt
+1738	Nurse Pants
+1739	Wizard's Hat
+1740	Guy Fawkes Mask
+1741	Dye Trader Robe
+1742	Steampunk Goggles
+1743	Cyborg Helmet
+1744	Cyborg Shirt
+1745	Cyborg Pants
+1746	Creeper Mask
+1747	Creeper Shirt
+1748	Creeper Pants
+1749	Cat Mask
+1750	Cat Shirt
+1751	Cat Pants
+1752	Ghost Mask
+1753	Ghost Shirt
+1754	Pumpkin Mask
+1755	Pumpkin Shirt
+1756	Pumpkin Pants
+1757	Robot Mask
+1758	Robot Shirt
+1759	Robot Pants
+1760	Unicorn Mask
+1761	Unicorn Shirt
+1762	Unicorn Pants
+1763	Vampire Mask
+1764	Vampire Shirt
+1765	Vampire Pants
+1766	Witch Hat
+1767	Leprechaun Hat
+1768	Leprechaun Shirt
+1769	Leprechaun Pants
+1770	Pixie Shirt
+1771	Pixie Pants
+1772	Princess Hat
+1773	Princess Dress
+1774	Goodie Bag
+1775	Witch Dress
+1776	Witch Boots
+1777	Bride of Frankenstein Mask
+1778	Bride of Frankenstein Dress
+1779	Karate Tortoise Mask
+1780	Karate Tortoise Shirt
+1781	Karate Tortoise Pants
+1782	Candy Corn Rifle
+1783	Candy Corn
+1784	Jack 'O Lantern Launcher
+1785	Explosive Jack 'O Lantern
+1786	Sickle
+1787	Pumpkin Pie
+1788	Scarecrow Hat
+1789	Scarecrow Shirt
+1790	Scarecrow Pants
+1791	Cauldron
+1792	Pumpkin Chair
+1793	Pumpkin Door
+1794	Pumpkin Table
+1795	Pumpkin Work Bench
+1796	Pumpkin Platform
+1797	Tattered Fairy Wings
+1798	Spider Egg
+1799	Magical Pumpkin Seed
+1800	Bat Hook
+1801	Bat Scepter
+1802	Raven Staff
+1803	Jungle Key Mold
+1804	Corruption Key Mold
+1805	Crimson Key Mold
+1806	Hallowed Key Mold
+1807	Frozen Key Mold
+1808	Hanging Jack 'O Lantern
+1809	Rotten Egg
+1810	Unlucky Yarn
+1811	Black Fairy Dust
+1812	Jackelier
+1813	Jack 'O Lantern
+1814	Spooky Chair
+1815	Spooky Door
+1816	Spooky Table
+1817	Spooky Work Bench
+1818	Spooky Platform
+1819	Reaper Hood
+1820	Reaper Robe
+1821	Fox Mask
+1822	Fox Shirt
+1823	Fox Pants
+1824	Cat Ears
+1825	Bloody Machete
+1826	The Horseman's Blade
+1827	Bladed Glove
+1828	Pumpkin Seed
+1829	Spooky Hook
+1830	Spooky Wings
+1831	Spooky Twig
+1832	Spooky Helmet
+1833	Spooky Breastplate
+1834	Spooky Leggings
+1835	Stake Launcher
+1836	Stake
+1837	Cursed Sapling
+1838	Space Creature Mask
+1839	Space Creature Shirt
+1840	Space Creature Pants
+1841	Wolf Mask
+1842	Wolf Shirt
+1843	Wolf Pants
+1844	Pumpkin Moon Medallion
+1845	Necromantic Scroll
+1846	Jacking Skeletron
+1847	Bitter Harvest
+1848	Blood Moon Countess
+1849	Hallow's Eve
+1850	Morbid Curiosity
+1851	Treasure Hunter Shirt
+1852	Treasure Hunter Pants
+1853	Dryad Coverings
+1854	Dryad Loincloth
+1855	Mourning Wood Trophy
+1856	Pumpking Trophy
+1857	Jack 'O Lantern Mask
+1858	Sniper Scope
+1859	Heart Lantern
+1860	Jellyfish Diving Gear
+1861	Arctic Diving Gear
+1862	Frostspark Boots
+1863	Fart in a Balloon
+1864	Papyrus Scarab
+1865	Celestial Stone
+1866	Hoverboard
+1867	Candy Cane / Dragon Mask
+1868	Sugar Plum / Titan Helmet
+1869	Present / Spectral Headgear
+1870	Red Ryder / Dragon Breastplate
+1871	Festive Wings / Titan Mail
+1872	Pine Tree Block / Spectral Armor
+1873	Christmas Tree / Dragon Greaves
+1874	Star Topper 1 / Titan Leggings
+1875	Star Topper 2 / Spectral Subligar
+1876	Star Topper 3 / Tizona
+1877	Bow Topper / Tonbogiri
+1878	White Garland / Sharanga
+1879	White and Red Garland / Spectral Arrow
+1880	Red Garland / Vulcan Repeater
+1881	Red and Green Garland / Vulcan Bolt
+1882	Green Garland / Suspicious Looking Skull
+1883	Green and White Garland / Soul of Blight
+1884	Multicolored Bulb / Petri Dish
+1885	Red Bulb / Beeswax
+1886	Yellow Bulb / Vial of Blood
+1887	Green Bulb / Wolf Fang
+1888	Red and Green Bulb / Brain
+1889	Yellow and Green Bulb / Music Box (Desert)
+1890	Red and Yellow Bulb / Music Box (Space)
+1891	White Bulb / Music Box (Tutorial)
+1892	White and Red Bulb / Music Box (Boss 4)
+1893	White and Yellow Bulb / Music Box (Ocean)
+1894	White and Green Bulb / Music Box (Snow)
+1895	Multicolored Lights / Fabulous Ribbon
+1896	Red Lights / George's Hat
+1897	Green Lights / Fabulous Dress
+1898	Blue Lights / George's Suit
+1899	Yellow Lights / Fabulous Slippers
+1900	Red and Yellow Lights / George's Pants
+1901	Red and Green Lights / Sparkly Wings
+1902	Yellow and Green Lights / Ocram Trophy
+1903	Blue and Green Lights / Albino Antlion Banner
+1904	Red and Blue Lights / Orca Banner
+1905	Blue and Yellow Lights / Vampire Miner Banner
+1906	Giant Bow / Shadow Hammer Banner
+1907	Reindeer Antlers / Shadow Mummy Banner
+1908	Holly / Spectral Gastropod Banner
+1909	Candy Cane Sword / Spectral Elemental Banner
+1910	Elf Melter / Dragon Snatcher Banner
+1911	Christmas Pudding / Arch Wyvern Banner
+1912	Eggnog / Arch Demon Banner
+1913	Star Anise / Holiday Bauble
+1914	Reindeer Bells / Shiny Black Slab
+1915	Candy Cane Hook / Heart Arrow
+1916	Christmas Hook / Broken Heart Crystal
+1917	Candy Cane Pickaxe / Valentine Ring
+1918	Fruitcake Chakram / Rainbow Piece
+1919	Sugar Cookie / Pot o' Gold
+1920	Gingerbread Cookie / Mysterious Package
+1921	Hand Warmer / Golden Seaweed
+1922	Coal / Suspicious Looking Egg
+1923	Toolbox / Boots of Ostara
+1924	Pine Door / Egg Cannon
+1925	Pine Chair / Suspicious Looking Apple
+1926	Pine Table / Old Walking Stick
+1927	Dog Whistle / Holy Hand Grenade
+1928	Christmas Tree Sword / Strange Looking Tombstone
+1929	Chain Gun / Turkey Feather
+1930	Razorpine / Cursed Stuffing
+1931	Blizzard Staff / Horn 'o' Plenty
+1932	Mrs. Claus Hat / Roman Candle
+1933	Mrs. Claus Shirt / Festive Top Hat
+1934	Mrs. Claus Heels / Alpine Hat
+1935	Parka Hood / Lederweste
+1936	Parka Coat / Lederhosen
+1937	Parka Pants / Oktober Locks
+1938	Snow Hat / Dirndl Blouse
+1939	Ugly Sweater / Dirndl Skirt
+1940	Tree Mask / Wiesnbräu
+1941	Tree Shirt
+1942	Tree Trunks
+1943	Elf Hat
+1944	Elf Shirt
+1945	Elf Pants
+1946	Snowman Cannon
+1947	North Pole
+1948	Christmas Tree Wallpaper
+1949	Ornament Wallpaper
+1950	Candy Cane Wallpaper
+1951	Festive Wallpaper
+1952	Stars Wallpaper
+1953	Squiggles Wallpaper
+1954	Snowflake Wallpaper
+1955	Krampus Horn Wallpaper
+1956	Bluegreen Wallpaper
+1957	Grinch Finger Wallpaper
+1958	Naughty Present
+1959	Baby Grinch's Mischief Whistle
+1960	Ice Queen Trophy
+1961	Santa-NK1 Trophy
+1962	Everscream Trophy
+1963	Music Box (Pumpkin Moon)
+1964	Music Box (Alt Underground)
+1965	Music Box (Frost Moon)
+1966	Brown Paint
+1967	Shadow Paint
+1968	Negative Paint
+1969	Team Dye
+1970	Amethyst Gemspark Block
+1971	Topaz Gemspark Block
+1972	Sapphire Gemspark Block
+1973	Emerald Gemspark Block
+1974	Ruby Gemspark Block
+1975	Diamond Gemspark Block
+1976	Amber Gemspark Block
+1977	Life Hair Dye
+1978	Mana Hair Dye
+1979	Depth Hair Dye
+1980	Money Hair Dye
+1981	Time Hair Dye
+1982	Team Hair Dye
+1983	Biome Hair Dye
+1984	Party Hair Dye
+1985	Rainbow Hair Dye
+1986	Speed Hair Dye
+1987	Angel Halo
+1988	Fez
+1989	Womannequin
+1990	Hair Dye Remover
+1991	Bug Net
+1992	Firefly
+1993	Firefly in a Bottle
+1994	Monarch Butterfly
+1995	Purple Emperor Butterfly
+1996	Red Admiral Butterfly
+1997	Ulysses Butterfly
+1998	Sulphur Butterfly
+1999	Tree Nymph Butterfly
+2000	Zebra Swallowtail Butterfly
+2001	Julia Butterfly
+2002	Worm
+2003	Mouse
+2004	Lightning Bug
+2005	Lightning Bug in a Bottle
+2006	Snail
+2007	Glowing Snail
+2008	Fancy Gray Wallpaper
+2009	Ice Floe Wallpaper
+2010	Music Wallpaper
+2011	Purple Rain Wallpaper
+2012	Rainbow Wallpaper
+2013	Sparkle Stone Wallpaper
+2014	Starlit Heaven Wallpaper
+2015	Bird
+2016	Blue Jay
+2017	Cardinal
+2018	Squirrel
+2019	Bunny
+2020	Cactus Bookcase
+2021	Ebonwood Bookcase
+2022	Flesh Bookcase
+2023	Honey Bookcase
+2024	Steampunk Bookcase
+2025	Glass Bookcase
+2026	Rich Mahogany Bookcase
+2027	Pearlwood Bookcase
+2028	Spooky Bookcase
+2029	Skyware Bookcase
+2030	Lihzahrd Bookcase
+2031	Frozen Bookcase
+2032	Cactus Lantern
+2033	Ebonwood Lantern
+2034	Flesh Lantern
+2035	Honey Lantern
+2036	Steampunk Lantern
+2037	Glass Lantern
+2038	Rich Mahogany Lantern
+2039	Pearlwood Lantern
+2040	Frozen Lantern
+2041	Lihzahrd Lantern
+2042	Skyware Lantern
+2043	Spooky Lantern
+2044	Frozen Door
+2045	Cactus Candle
+2046	Ebonwood Candle
+2047	Flesh Candle
+2048	Glass Candle
+2049	Frozen Candle
+2050	Rich Mahogany Candle
+2051	Pearlwood Candle
+2052	Lihzahrd Candle
+2053	Skyware Candle
+2054	Pumpkin Candle
+2055	Cactus Chandelier
+2056	Ebonwood Chandelier
+2057	Flesh Chandelier
+2058	Honey Chandelier
+2059	Frozen Chandelier
+2060	Rich Mahogany Chandelier
+2061	Pearlwood Chandelier
+2062	Lihzahrd Chandelier
+2063	Skyware Chandelier
+2064	Spooky Chandelier
+2065	Glass Chandelier
+2066	Cactus Bed
+2067	Flesh Bed
+2068	Frozen Bed
+2069	Lihzahrd Bed
+2070	Skyware Bed
+2071	Spooky Bed
+2072	Cactus Bathtub
+2073	Ebonwood Bathtub
+2074	Flesh Bathtub
+2075	Glass Bathtub
+2076	Frozen Bathtub
+2077	Rich Mahogany Bathtub
+2078	Pearlwood Bathtub
+2079	Lihzahrd Bathtub
+2080	Skyware Bathtub
+2081	Spooky Bathtub
+2082	Cactus Lamp
+2083	Ebonwood Lamp
+2084	Flesh Lamp
+2085	Glass Lamp
+2086	Frozen Lamp
+2087	Rich Mahogany Lamp
+2088	Pearlwood Lamp
+2089	Lihzahrd Lamp
+2090	Skyware Lamp
+2091	Spooky Lamp
+2092	Cactus Candelabra
+2093	Ebonwood Candelabra
+2094	Flesh Candelabra
+2095	Honey Candelabra
+2096	Steampunk Candelabra
+2097	Glass Candelabra
+2098	Rich Mahogany Candelabra
+2099	Pearlwood Candelabra
+2100	Frozen Candelabra
+2101	Lihzahrd Candelabra
+2102	Skyware Candelabra
+2103	Spooky Candelabra
+2104	Brain of Cthulhu Mask
+2105	Wall of Flesh Mask
+2106	Twin Mask
+2107	Skeletron Prime Mask
+2108	Queen Bee Mask
+2109	Plantera Mask
+2110	Golem Mask
+2111	Eater of Worlds Mask
+2112	Eye of Cthulhu Mask
+2113	Destroyer Mask
+2114	Blacksmith Rack
+2115	Carpentry Rack
+2116	Helmet Rack
+2117	Spear Rack
+2118	Sword Rack
+2119	Stone Slab
+2120	Sandstone Slab
+2121	Frog
+2122	Mallard Duck
+2123	Duck
+2124	Honey Bathtub
+2125	Steampunk Bathtub
+2126	Living Wood Bathtub
+2127	Shadewood Bathtub
+2128	Bone Bathtub
+2129	Honey Lamp
+2130	Steampunk Lamp
+2131	Living Wood Lamp
+2132	Shadewood Lamp
+2133	Golden Lamp
+2134	Bone Lamp
+2135	Living Wood Bookcase
+2136	Shadewood Bookcase
+2137	Golden Bookcase
+2138	Bone Bookcase
+2139	Living Wood Bed
+2140	Bone Bed
+2141	Living Wood Chandelier
+2142	Shadewood Chandelier
+2143	Golden Chandelier
+2144	Bone Chandelier
+2145	Living Wood Lantern
+2146	Shadewood Lantern
+2147	Golden Lantern
+2148	Bone Lantern
+2149	Living Wood Candelabra
+2150	Shadewood Candelabra
+2151	Golden Candelabra
+2152	Bone Candelabra
+2153	Living Wood Candle
+2154	Shadewood Candle
+2155	Golden Candle
+2156	Black Scorpion
+2157	Scorpion
+2158	Bubble Wallpaper
+2159	Copper Pipe Wallpaper
+2160	Ducky Wallpaper
+2161	Frost Core
+2162	Bunny Cage
+2163	Squirrel Cage
+2164	Mallard Duck Cage
+2165	Duck Cage
+2166	Bird Cage
+2167	Blue Jay Cage
+2168	Cardinal Cage
+2169	Waterfall Wall
+2170	Lavafall Wall
+2171	Crimson Seeds
+2172	Heavy Work Bench
+2173	Copper Plating
+2174	Snail Cage
+2175	Glowing Snail Cage
+2176	Shroomite Digging Claw
+2177	Ammo Box
+2178	Monarch Butterfly Jar
+2179	Purple Emperor Butterfly Jar
+2180	Red Admiral Butterfly Jar
+2181	Ulysses Butterfly Jar
+2182	Sulphur Butterfly Jar
+2183	Tree Nymph Butterfly Jar
+2184	Zebra Swallowtail Butterfly Jar
+2185	Julia Butterfly Jar
+2186	Scorpion Cage
+2187	Black Scorpion Cage
+2188	Venom Staff
+2189	Spectre Mask
+2190	Frog Cage
+2191	Mouse Cage
+2192	Bone Welder
+2193	Flesh Cloning Vat
+2194	Glass Kiln
+2195	Lihzahrd Furnace
+2196	Living Loom
+2197	Sky Mill
+2198	Ice Machine
+2199	Beetle Helmet
+2200	Beetle Scale Mail
+2201	Beetle Shell
+2202	Beetle Leggings
+2203	Steampunk Boiler
+2204	Honey Dispenser
+2205	Penguin
+2206	Penguin Cage
+2207	Worm Cage
+2208	Terrarium
+2209	Super Mana Potion
+2210	Ebonwood Fence
+2211	Rich Mahogany Fence
+2212	Pearlwood Fence
+2213	Shadewood Fence
+2214	Brick Layer
+2215	Extendo Grip
+2216	Paint Sprayer
+2217	Portable Cement Mixer
+2218	Beetle Husk
+2219	Celestial Magnet
+2220	Celestial Emblem
+2221	Celestial Cuffs
+2222	Peddler's Hat
+2223	Pulse Bow
+2224	Large Dynasty Lantern
+2225	Dynasty Lamp
+2226	Dynasty Lantern
+2227	Large Dynasty Candle
+2228	Dynasty Chair
+2229	Dynasty Work Bench
+2230	Dynasty Chest
+2231	Dynasty Bed
+2232	Dynasty Bathtub
+2233	Dynasty Bookcase
+2234	Dynasty Cup
+2235	Dynasty Bowl
+2236	Dynasty Candle
+2237	Dynasty Clock
+2238	Golden Grandfather Clock
+2239	Glass Clock
+2240	Honey Clock
+2241	Steampunk Clock
+2242	Fancy Dishes
+2243	Glass Bowl
+2244	Wine Glass
+2245	Living Wood Piano
+2246	Flesh Piano
+2247	Frozen Piano
+2248	Frozen Table
+2249	Honey Chest
+2250	Steampunk Chest
+2251	Honey Work Bench
+2252	Frozen Work Bench
+2253	Steampunk Work Bench
+2254	Glass Piano
+2255	Honey Piano
+2256	Steampunk Piano
+2257	Honey Cup
+2258	Chalice
+2259	Dynasty Table
+2260	Dynasty Wood
+2261	Red Dynasty Shingles
+2262	Blue Dynasty Shingles
+2263	White Dynasty Wall
+2264	Blue Dynasty Wall
+2265	Dynasty Door
+2266	Sake
+2267	Pad Thai
+2268	Pho
+2269	Revolver
+2270	Gatligator
+2271	Arcane Rune Wall
+2272	Water Gun
+2273	Katana
+2274	Ultrabright Torch
+2275	Magic Hat
+2276	Diamond Ring
+2277	Gi
+2278	Kimono
+2279	Gypsy Robe
+2280	Beetle Wings
+2281	Tiger Skin
+2282	Leopard Skin
+2283	Zebra Skin
+2284	Crimson Cloak
+2285	Mysterious Cape
+2286	Red Cape
+2287	Winter Cape
+2288	Frozen Chair
+2289	Wood Fishing Pole
+2290	Bass
+2291	Reinforced Fishing Pole
+2292	Fiberglass Fishing Pole
+2293	Fisher of Souls
+2294	Golden Fishing Rod
+2295	Mechanic's Rod
+2296	Sitting Duck's Fishing Pole
+2297	Trout
+2298	Salmon
+2299	Atlantic Cod
+2300	Tuna
+2301	Red Snapper
+2302	Neon Tetra
+2303	Armored Cavefish
+2304	Damselfish
+2305	Crimson Tigerfish
+2306	Frost Minnow
+2307	Princess Fish
+2308	Golden Carp
+2309	Specular Fish
+2310	Prismite
+2311	Variegated Lardfish
+2312	Flarefin Koi
+2313	Double Cod
+2314	Honeyfin
+2315	Obsidifish
+2316	Shrimp
+2317	Chaos Fish
+2318	Ebonkoi
+2319	Hemopiranha
+2320	Rockfish
+2321	Stinkfish
+2322	Mining Potion
+2323	Heartreach Potion
+2324	Calming Potion
+2325	Builder Potion
+2326	Titan Potion
+2327	Flipper Potion
+2328	Summoning Potion
+2329	Dangersense Potion
+2330	Purple Clubberfish
+2331	Obsidian Swordfish
+2332	Swordfish
+2333	Iron Fence
+2334	Wooden Crate
+2335	Iron Crate
+2336	Golden Crate
+2337	Old Shoe
+2338	Seaweed
+2339	Tin Can
+2340	Minecart Track
+2341	Reaver Shark
+2342	Sawtooth Shark
+2343	Minecart
+2344	Ammo Reservation Potion
+2345	Lifeforce Potion
+2346	Endurance Potion
+2347	Rage Potion
+2348	Inferno Potion
+2349	Wrath Potion
+2350	Recall Potion
+2351	Teleportation Potion
+2352	Love Potion
+2353	Stink Potion
+2354	Fishing Potion
+2355	Sonar Potion
+2356	Crate Potion
+2357	Shiverthorn Seeds
+2358	Shiverthorn
+2359	Warmth Potion
+2360	Fish Hook
+2361	Bee Headgear
+2362	Bee Breastplate
+2363	Bee Greaves
+2364	Hornet Staff
+2365	Imp Staff
+2366	Queen Spider Staff
+2367	Angler Hat
+2368	Angler Vest
+2369	Angler Pants
+2370	Spider Mask
+2371	Spider Breastplate
+2372	Spider Greaves
+2373	High Test Fishing Line
+2374	Angler Earring
+2375	Tackle Box
+2376	Blue Dungeon Piano
+2377	Green Dungeon Piano
+2378	Pink Dungeon Piano
+2379	Golden Piano
+2380	Obsidian Piano
+2381	Bone Piano
+2382	Cactus Piano
+2383	Spooky Piano
+2384	Skyware Piano
+2385	Lihzahrd Piano
+2386	Blue Dungeon Dresser
+2387	Green Dungeon Dresser
+2388	Pink Dungeon Dresser
+2389	Golden Dresser
+2390	Obsidian Dresser
+2391	Bone Dresser
+2392	Cactus Dresser
+2393	Spooky Dresser
+2394	Skyware Dresser
+2395	Honey Dresser
+2396	Lihzahrd Dresser
+2397	Sofa
+2398	Ebonwood Sofa
+2399	Rich Mahogany Sofa
+2400	Pearlwood Sofa
+2401	Shadewood Sofa
+2402	Blue Dungeon Sofa
+2403	Green Dungeon Sofa
+2404	Pink Dungeon Sofa
+2405	Golden Sofa
+2406	Obsidian Sofa
+2407	Bone Sofa
+2408	Cactus Sofa
+2409	Spooky Sofa
+2410	Skyware Sofa
+2411	Honey Sofa
+2412	Steampunk Sofa
+2413	Mushroom Sofa
+2414	Glass Sofa
+2415	Pumpkin Sofa
+2416	Lihzahrd Sofa
+2417	Seashell Hairpin
+2418	Mermaid Adornment
+2419	Mermaid Tail
+2420	Zephyr Fish
+2421	Fleshcatcher
+2422	Hotline Fishing Hook
+2423	Frog Leg
+2424	Anchor
+2425	Cooked Fish
+2426	Cooked Shrimp
+2427	Sashimi
+2428	Fuzzy Carrot
+2429	Scaly Truffle
+2430	Slimy Saddle
+2431	Bee Wax
+2432	Copper Plating Wall
+2433	Stone Slab Wall
+2434	Sail
+2435	Coralstone Block
+2436	Blue Jellyfish
+2437	Green Jellyfish
+2438	Pink Jellyfish
+2439	Blue Jellyfish Jar
+2440	Green Jellyfish Jar
+2441	Pink Jellyfish Jar
+2442	Life Preserver
+2443	Ship's Wheel
+2444	Compass Rose
+2445	Wall Anchor
+2446	Goldfish Trophy
+2447	Bunnyfish Trophy
+2448	Swordfish Trophy
+2449	Sharkteeth Trophy
+2450	Batfish
+2451	Bumblebee Tuna
+2452	Catfish
+2453	Cloudfish
+2454	Cursedfish
+2455	Dirtfish
+2456	Dynamite Fish
+2457	Eater of Plankton
+2458	Fallen Starfish
+2459	The Fish of Cthulhu
+2460	Fishotron
+2461	Harpyfish
+2462	Hungerfish
+2463	Ichorfish
+2464	Jewelfish
+2465	Mirage Fish
+2466	Mutant Flinxfin
+2467	Pengfish
+2468	Pixiefish
+2469	Spiderfish
+2470	Tundra Trout
+2471	Unicorn Fish
+2472	Guide Voodoo Fish
+2473	Wyverntail
+2474	Zombie Fish
+2475	Amanitia Fungifin
+2476	Angelfish
+2477	Bloody Manowar
+2478	Bonefish
+2479	Bunnyfish
+2480	Cap'n Tunabeard
+2481	Clownfish
+2482	Demonic Hellfish
+2483	Derpfish
+2484	Fishron
+2485	Infected Scabbardfish
+2486	Mudfish
+2487	Slimefish
+2488	Tropical Barracuda
+2489	King Slime Trophy
+2490	Ship in a Bottle
+2491	Hardy Saddle
+2492	Pressure Plate Track
+2493	King Slime Mask
+2494	Fin Wings
+2495	Treasure Map
+2496	Seaweed Planter
+2497	Pillagin Me Pixels
+2498	Fish Costume Mask
+2499	Fish Costume Shirt
+2500	Fish Costume Finskirt
+2501	Ginger Beard
+2502	Honeyed Goggles
+2503	Boreal Wood
+2504	Palm Wood
+2505	Boreal Wood Wall
+2506	Palm Wood Wall
+2507	Boreal Wood Fence
+2508	Palm Wood Fence
+2509	Boreal Wood Helmet
+2510	Boreal Wood Breastplate
+2511	Boreal Wood Greaves
+2512	Palm Wood Helmet
+2513	Palm Wood Breastplate
+2514	Palm Wood Greaves
+2515	Palm Wood Bow
+2516	Palm Wood Hammer
+2517	Palm Wood Sword
+2518	Palm Wood Platform
+2519	Palm Wood Bathtub
+2520	Palm Wood Bed
+2521	Palm Wood Bench
+2522	Palm Wood Candelabra
+2523	Palm Wood Candle
+2524	Palm Wood Chair
+2525	Palm Wood Chandelier
+2526	Palm Wood Chest
+2527	Palm Wood Sofa
+2528	Palm Wood Door
+2529	Palm Wood Dresser
+2530	Palm Wood Lantern
+2531	Palm Wood Piano
+2532	Palm Wood Table
+2533	Palm Wood Lamp
+2534	Palm Wood Work Bench
+2535	Optic Staff
+2536	Palm Wood Bookcase
+2537	Mushroom Bathtub
+2538	Mushroom Bed
+2539	Mushroom Bench
+2540	Mushroom Bookcase
+2541	Mushroom Candelabra
+2542	Mushroom Candle
+2543	Mushroom Chandelier
+2544	Mushroom Chest
+2545	Mushroom Dresser
+2546	Mushroom Lantern
+2547	Mushroom Lamp
+2548	Mushroom Piano
+2549	Mushroom Platform
+2550	Mushroom Table
+2551	Spider Staff
+2552	Boreal Wood Bathtub
+2553	Boreal Wood Bed
+2554	Boreal Wood Bookcase
+2555	Boreal Wood Candelabra
+2556	Boreal Wood Candle
+2557	Boreal Wood Chair
+2558	Boreal Wood Chandelier
+2559	Boreal Wood Chest
+2560	Boreal Wood Clock
+2561	Boreal Wood Door
+2562	Boreal Wood Dresser
+2563	Boreal Wood Lamp
+2564	Boreal Wood Lantern
+2565	Boreal Wood Piano
+2566	Boreal Wood Platform
+2567	Slime Bathtub
+2568	Slime Bed
+2569	Slime Bookcase
+2570	Slime Candelabra
+2571	Slime Candle
+2572	Slime Chair
+2573	Slime Chandelier
+2574	Slime Chest
+2575	Slime Clock
+2576	Slime Door
+2577	Slime Dresser
+2578	Slime Lamp
+2579	Slime Lantern
+2580	Slime Piano
+2581	Slime Platform
+2582	Slime Sofa
+2583	Slime Table
+2584	Pirate Staff
+2585	Slime Hook
+2586	Sticky Grenade
+2587	Tartar Sauce
+2588	Duke Fishron Mask
+2589	Duke Fishron Trophy
+2590	Molotov Cocktail
+2591	Bone Clock
+2592	Cactus Clock
+2593	Ebonwood Clock
+2594	Frozen Clock
+2595	Lihzahrd Clock
+2596	Living Wood Clock
+2597	Rich Mahogany Clock
+2598	Flesh Clock
+2599	Mushroom Clock
+2600	Obsidian Clock
+2601	Palm Wood Clock
+2602	Pearlwood Clock
+2603	Pumpkin Clock
+2604	Shadewood Clock
+2605	Spooky Clock
+2606	Sunplate Clock
+2607	Spider Fang
+2608	Falcon Blade
+2609	Fishron Wings
+2610	Slime Gun
+2611	Flairon
+2612	Green Dungeon Chest
+2613	Pink Dungeon Chest
+2614	Blue Dungeon Chest
+2615	Bone Chest
+2616	Cactus Chest
+2617	Flesh Chest
+2618	Obsidian Chest
+2619	Pumpkin Chest
+2620	Spooky Chest
+2621	Tempest Staff
+2622	Razorblade Typhoon
+2623	Bubble Gun
+2624	Tsunami
+2625	Seashell
+2626	Starfish
+2627	Steampunk Platform
+2628	Skyware Platform
+2629	Living Wood Platform
+2630	Honey Platform
+2631	Skyware Work Bench
+2632	Glass Work Bench
+2633	Living Wood Work Bench
+2634	Flesh Sofa
+2635	Frozen Sofa
+2636	Living Wood Sofa
+2637	Pumpkin Dresser
+2638	Steampunk Dresser
+2639	Glass Dresser
+2640	Flesh Dresser
+2641	Pumpkin Lantern
+2642	Obsidian Lantern
+2643	Pumpkin Lamp
+2644	Obsidian Lamp
+2645	Blue Dungeon Lamp
+2646	Green Dungeon Lamp
+2647	Pink Dungeon Lamp
+2648	Honey Candle
+2649	Steampunk Candle
+2650	Spooky Candle
+2651	Obsidian Candle
+2652	Blue Dungeon Chandelier
+2653	Green Dungeon Chandelier
+2654	Pink Dungeon Chandelier
+2655	Steampunk Chandelier
+2656	Pumpkin Chandelier
+2657	Obsidian Chandelier
+2658	Blue Dungeon Bathtub
+2659	Green Dungeon Bathtub
+2660	Pink Dungeon Bathtub
+2661	Pumpkin Bathtub
+2662	Obsidian Bathtub
+2663	Golden Bathtub
+2664	Blue Dungeon Candelabra
+2665	Green Dungeon Candelabra
+2666	Pink Dungeon Candelabra
+2667	Obsidian Candelabra
+2668	Pumpkin Candelabra
+2669	Pumpkin Bed
+2670	Pumpkin Bookcase
+2671	Pumpkin Piano
+2672	Shark Statue
+2673	Truffle Worm
+2674	Apprentice Bait
+2675	Journeyman Bait
+2676	Master Bait
+2677	Amber Gemspark Wall
+2678	Offline Amber Gemspark Wall
+2679	Amethyst Gemspark Wall
+2680	Offline Amethyst Gemspark Wall
+2681	Diamond Gemspark Wall
+2682	Offline Diamond Gemspark Wall
+2683	Emerald Gemspark Wall
+2684	Offline Emerald Gemspark Wall
+2685	Ruby Gemspark Wall
+2686	Offline Ruby Gemspark Wall
+2687	Sapphire Gemspark Wall
+2688	Offline Sapphire Gemspark Wall
+2689	Topaz Gemspark Wall
+2690	Offline Topaz Gemspark Wall
+2691	Tin Plating Wall
+2692	Tin Plating
+2693	Waterfall Block
+2694	Lavafall Block
+2695	Confetti Block
+2696	Confetti Wall
+2697	Midnight Confetti Block
+2698	Midnight Confetti Wall
+2699	Weapon Rack
+2700	Fireworks Box
+2701	Living Fire Block
+2702	'0' Statue
+2703	'1' Statue
+2704	'2' Statue
+2705	'3' Statue
+2706	'4' Statue
+2707	'5' Statue
+2708	'6' Statue
+2709	'7' Statue
+2710	'8' Statue
+2711	'9' Statue
+2712	'A' Statue
+2713	'B' Statue
+2714	'C' Statue
+2715	'D' Statue
+2716	'E' Statue
+2717	'F' Statue
+2718	'G' Statue
+2719	'H' Statue
+2720	'I' Statue
+2721	'J' Statue
+2722	'K' Statue
+2723	'L' Statue
+2724	'M' Statue
+2725	'N' Statue
+2726	'O' Statue
+2727	'P' Statue
+2728	'Q' Statue
+2729	'R' Statue
+2730	'S' Statue
+2731	'T' Statue
+2732	'U' Statue
+2733	'V' Statue
+2734	'W' Statue
+2735	'X' Statue
+2736	'Y' Statue
+2737	'Z' Statue
+2738	Firework Fountain
+2739	Booster Track
+2740	Grasshopper
+2741	Grasshopper Cage
+2742	Music Box (Underground Crimson)
+2743	Cactus Table
+2744	Cactus Platform
+2745	Boreal Wood Sword
+2746	Boreal Wood Hammer
+2747	Boreal Wood Bow
+2748	Glass Chest
+2749	Xeno Staff
+2750	Meteor Staff
+2751	Living Cursed Fire Block
+2752	Living Demon Fire Block
+2753	Living Frost Fire Block
+2754	Living Ichor Fire Block
+2755	Living Ultrabright Fire Block
+2756	Gender Change Potion
+2757	Vortex Helmet
+2758	Vortex Breastplate
+2759	Vortex Leggings
+2760	Nebula Helmet
+2761	Nebula Breastplate
+2762	Nebula Leggings
+2763	Solar Flare Helmet
+2764	Solar Flare Breastplate
+2765	Solar Flare Leggings
+2766	Solar Tablet Fragment
+2767	Solar Tablet
+2768	Drill Containment Unit
+2769	Cosmic Car Key
+2770	Mothron Wings
+2771	Brain Scrambler
+2772	Vortex Axe
+2773	Vortex Chainsaw
+2774	Vortex Drill
+2775	Vortex Hammer
+2776	Vortex Pickaxe
+2777	Nebula Axe
+2778	Nebula Chainsaw
+2779	Nebula Drill
+2780	Nebula Hammer
+2781	Nebula Pickaxe
+2782	Solar Flare Axe
+2783	Solar Flare Chainsaw
+2784	Solar Flare Drill
+2785	Solar Flare Hammer
+2786	Solar Flare Pickaxe
+2787	Honeyfall Block
+2788	Honeyfall Wall
+2789	Chlorophyte Brick Wall
+2790	Crimtane Brick Wall
+2791	Shroomite Plating Wall
+2792	Chlorophyte Brick
+2793	Crimtane Brick
+2794	Shroomite Plating
+2795	Laser Machinegun
+2796	Electrosphere Launcher
+2797	Xenopopper
+2798	Laser Drill
+2799	Mechanical Ruler
+2800	Anti-Gravity Hook
+2801	Moon Mask
+2802	Sun Mask
+2803	Martian Costume Mask
+2804	Martian Costume Shirt
+2805	Martian Costume Pants
+2806	Martian Uniform Helmet
+2807	Martian Uniform Torso
+2808	Martian Uniform Pants
+2809	Martian Astro Clock
+2810	Martian Bathtub
+2811	Martian Bed
+2812	Martian Hover Chair
+2813	Martian Chandelier
+2814	Martian Chest
+2815	Martian Door
+2816	Martian Dresser
+2817	Martian Holobookcase
+2818	Martian Hover Candle
+2819	Martian Lamppost
+2820	Martian Lantern
+2821	Martian Piano
+2822	Martian Platform
+2823	Martian Sofa
+2824	Martian Table
+2825	Martian Table Lamp
+2826	Martian Work Bench
+2827	Wooden Sink
+2828	Ebonwood Sink
+2829	Rich Mahogany Sink
+2830	Pearlwood Sink
+2831	Bone Sink
+2832	Flesh Sink
+2833	Living Wood Sink
+2834	Skyware Sink
+2835	Shadewood Sink
+2836	Lihzahrd Sink
+2837	Blue Dungeon Sink
+2838	Green Dungeon Sink
+2839	Pink Dungeon Sink
+2840	Obsidian Sink
+2841	Metal Sink
+2842	Glass Sink
+2843	Golden Sink
+2844	Honey Sink
+2845	Steampunk Sink
+2846	Pumpkin Sink
+2847	Spooky Sink
+2848	Frozen Sink
+2849	Dynasty Sink
+2850	Palm Wood Sink
+2851	Mushroom Sink
+2852	Boreal Wood Sink
+2853	Slime Sink
+2854	Cactus Sink
+2855	Martian Sink
+2856	Solar Cultist Hood
+2857	Lunar Cultist Hood
+2858	Solar Cultist Robe
+2859	Lunar Cultist Robe
+2860	Martian Conduit Plating
+2861	Martian Conduit Wall
+2862	HiTek Sunglasses
+2863	Martian Hair Dye
+2864	Martian Dye
+2865	Castle Marsberg
+2866	Martia Lisa
+2867	The Truth Is Up There
+2868	Smoke Block
+2869	Living Flame Dye
+2870	Living Rainbow Dye
+2871	Shadow Dye
+2872	Negative Dye
+2873	Living Ocean Dye
+2874	Brown Dye
+2875	Brown and Black Dye
+2876	Bright Brown Dye
+2877	Brown and Silver Dye
+2878	Wisp Dye
+2879	Pixie Dye
+2880	Influx Waver
+2881	Phasic Warp Ejector
+2882	Charged Blaster Cannon
+2883	Chlorophyte Dye
+2884	Unicorn Wisp Dye
+2885	Infernal Wisp Dye
+2886	Vicious Powder
+2887	Vicious Mushroom
+2888	The Bee's Knees
+2889	Gold Bird
+2890	Gold Bunny
+2891	Gold Butterfly
+2892	Gold Frog
+2893	Gold Grasshopper
+2894	Gold Mouse
+2895	Gold Worm
+2896	Sticky Dynamite
+2897	Angry Trapper Banner
+2898	Armored Viking Banner
+2899	Black Slime Banner
+2900	Blue Armored Bones Banner
+2901	Blue Cultist Archer Banner
+2902	Blue Cultist Caster Banner
+2903	Blue Cultist Fighter Banner
+2904	Bone Lee Banner
+2905	Clinger Banner
+2906	Cochineal Beetle Banner
+2907	Corrupt Penguin Banner
+2908	Corrupt Slime Banner
+2909	Corruptor Banner
+2910	Crimslime Banner
+2911	Cursed Skull Banner
+2912	Cyan Beetle Banner
+2913	Devourer Banner
+2914	Diabolist Banner
+2915	Doctor Bones Banner
+2916	Dungeon Slime Banner
+2917	Dungeon Spirit Banner
+2918	Elf Archer Banner
+2919	Elf Copter Banner
+2920	Eyezor Banner
+2921	Flocko Banner
+2922	Ghost Banner
+2923	Giant Bat Banner
+2924	Giant Cursed Skull Banner
+2925	Giant Flying Fox Banner
+2926	Gingerbread Man Banner
+2927	Goblin Archer Banner
+2928	Green Slime Banner
+2929	Headless Horseman Banner
+2930	Hell Armored Bones Banner
+2931	Hellhound Banner
+2932	Hoppin' Jack Banner
+2933	Ice Bat Banner
+2934	Ice Golem Banner
+2935	Ice Slime Banner
+2936	Ichor Sticker Banner
+2937	Illuminant Bat Banner
+2938	Illuminant Slime Banner
+2939	Jungle Bat Banner
+2940	Jungle Slime Banner
+2941	Krampus Banner
+2942	Lac Beetle Banner
+2943	Lava Bat Banner
+2944	Lava Slime Banner
+2945	Martian Brainscrambler Banner
+2946	Martian Drone Banner
+2947	Martian Engineer Banner
+2948	Martian Gigazapper Banner
+2949	Martian Gray Grunt Banner
+2950	Martian Officer Banner
+2951	Martian Raygunner Banner
+2952	Martian Scutlix Gunner Banner
+2953	Martian Tesla Turret Banner
+2954	Mister Stabby Banner
+2955	Mother Slime Banner
+2956	Necromancer Banner
+2957	Nutcracker Banner
+2958	Paladin Banner
+2959	Penguin Banner
+2960	Pinky Banner
+2961	Poltergeist Banner
+2962	Possessed Armor Banner
+2963	Present Mimic Banner
+2964	Purple Slime Banner
+2965	Ragged Caster Banner
+2966	Rainbow Slime Banner
+2967	Raven Banner
+2968	Red Slime Banner
+2969	Rune Wizard Banner
+2970	Rusty Armored Bones Banner
+2971	Scarecrow Banner
+2972	Scutlix Banner
+2973	Skeleton Archer Banner
+2974	Skeleton Commando Banner
+2975	Skeleton Sniper Banner
+2976	Slimer Banner
+2977	Snatcher Banner
+2978	Snow Balla Banner
+2979	Snowman Gangsta Banner
+2980	Spiked Ice Slime Banner
+2981	Spiked Jungle Slime Banner
+2982	Splinterling Banner
+2983	Squid Banner
+2984	Tactical Skeleton Banner
+2985	The Groom Banner
+2986	Tim Banner
+2987	Undead Miner Banner
+2988	Undead Viking Banner
+2989	White Cultist Archer Banner
+2990	White Cultist Caster Banner
+2991	White Cultist Fighter Banner
+2992	Yellow Slime Banner
+2993	Yeti Banner
+2994	Zombie Elf Banner
+2995	Sparky
+2996	Vine Rope
+2997	Wormhole Potion
+2998	Summoner Emblem
+2999	Bewitching Table
+3000	Alchemy Table
+3001	Strange Brew
+3002	Spelunker Glowstick
+3003	Bone Arrow
+3004	Bone Torch
+3005	Vine Rope Coil
+3006	Life Drain
+3007	Dart Pistol
+3008	Dart Rifle
+3009	Crystal Dart
+3010	Cursed Dart
+3011	Ichor Dart
+3012	Chain Guillotines
+3013	Fetid Baghnakhs
+3014	Clinger Staff
+3015	Putrid Scent
+3016	Flesh Knuckles
+3017	Flower Boots
+3018	Seedler
+3019	Hellwing Bow
+3020	Tendon Hook
+3021	Thorn Hook
+3022	Illuminant Hook
+3023	Worm Hook
+3024	Skiphs's Blood
+3025	Purple Ooze Dye
+3026	Reflective Silver Dye
+3027	Reflective Gold Dye
+3028	Blue Acid Dye
+3029	Daedalus Stormbow
+3030	Flying Knife
+3031	Bottomless Water Bucket
+3032	Super Absorbant Sponge
+3033	Gold Ring
+3034	Coin Ring
+3035	Greedy Ring
+3036	Fish Finder
+3037	Weather Radio
+3038	Hades Dye
+3039	Twilight Dye
+3040	Acid Dye
+3041	Glowing Mushroom Dye
+3042	Phase Dye
+3043	Magic Lantern
+3044	Music Box (Lunar Boss)
+3045	Rainbow Torch
+3046	Cursed Campfire
+3047	Demon Campfire
+3048	Frozen Campfire
+3049	Ichor Campfire
+3050	Rainbow Campfire
+3051	Crystal Vile Shard
+3052	Shadowflame Bow
+3053	Shadowflame Hex Doll
+3054	Shadowflame Knife
+3055	Acorns
+3056	Cold Snap
+3057	Cursed Saint
+3058	Snowfellas
+3059	The Season
+3060	Bone Rattle
+3061	Architect Gizmo Pack
+3062	Crimson Heart
+3063	Meowmere
+3064	Enchanted Sundial
+3065	Star Wrath
+3066	Smooth Marble Block
+3067	Hellstone Brick Wall
+3068	Guide to Plant Fiber Cordage
+3069	Wand of Sparking
+3070	Gold Bird Cage
+3071	Gold Bunny Cage
+3072	Gold Butterfly Jar
+3073	Gold Frog Cage
+3074	Gold Grasshopper Cage
+3075	Gold Mouse Cage
+3076	Gold Worm Cage
+3077	Silk Rope
+3078	Web Rope
+3079	Silk Rope Coil
+3080	Web Rope Coil
+3081	Marble Block
+3082	Marble Wall
+3083	Smooth Marble Wall
+3084	Radar
+3085	Golden Lock Box
+3086	Granite Block
+3087	Smooth Granite Block
+3088	Granite Wall
+3089	Smooth Granite Wall
+3090	Royal Gel
+3091	Key of Night
+3092	Key of Light
+3093	Herb Bag
+3094	Javelin
+3095	Tally Counter
+3096	Sextant
+3097	Shield of Cthulhu
+3098	Butcher's Chainsaw
+3099	Stopwatch
+3100	Meteorite Brick
+3101	Meteorite Brick Wall
+3102	Metal Detector
+3103	Endless Quiver
+3104	Endless Musket Pouch
+3105	Toxic Flask
+3106	Psycho Knife
+3107	Nailgun
+3108	Nail
+3109	Night Vision Helmet
+3110	Celestial Shell
+3111	Pink Gel
+3112	Bouncy Glowstick
+3113	Pink Slime Block
+3114	Pink Torch
+3115	Bouncy Bomb
+3116	Bouncy Grenade
+3117	Peace Candle
+3118	Lifeform Analyzer
+3119	DPS Meter
+3120	Fisherman's Pocket Guide
+3121	Goblin Tech
+3122	R.E.K. 3000
+3123	PDA
+3124	Cell Phone
+3125	Granite Chest
+3126	Meteorite Clock
+3127	Marble Clock
+3128	Granite Clock
+3129	Meteorite Door
+3130	Marble Door
+3131	Granite Door
+3132	Meteorite Dresser
+3133	Marble Dresser
+3134	Granite Dresser
+3135	Meteorite Lamp
+3136	Marble Lamp
+3137	Granite Lamp
+3138	Meteorite Lantern
+3139	Marble Lantern
+3140	Granite Lantern
+3141	Meteorite Piano
+3142	Marble Piano
+3143	Granite Piano
+3144	Meteorite Platform
+3145	Marble Platform
+3146	Granite Platform
+3147	Meteorite Sink
+3148	Marble Sink
+3149	Granite Sink
+3150	Meteorite Sofa
+3151	Marble Sofa
+3152	Granite Sofa
+3153	Meteorite Table
+3154	Marble Table
+3155	Granite Table
+3156	Meteorite Work Bench
+3157	Marble Work Bench
+3158	Granite Work Bench
+3159	Meteorite Bathtub
+3160	Marble Bathtub
+3161	Granite Bathtub
+3162	Meteorite Bed
+3163	Marble Bed
+3164	Granite Bed
+3165	Meteorite Bookcase
+3166	Marble Bookcase
+3167	Granite Bookcase
+3168	Meteorite Candelabra
+3169	Marble Candelabra
+3170	Granite Candelabra
+3171	Meteorite Candle
+3172	Marble Candle
+3173	Granite Candle
+3174	Meteorite Chair
+3175	Marble Chair
+3176	Granite Chair
+3177	Meteorite Chandelier
+3178	Marble Chandelier
+3179	Granite Chandelier
+3180	Meteorite Chest
+3181	Marble Chest
+3182	Magic Water Dropper
+3183	Golden Bug Net
+3184	Magic Lava Dropper
+3185	Magic Honey Dropper
+3186	Empty Dropper
+3187	Gladiator Helmet
+3188	Gladiator Breastplate
+3189	Gladiator Leggings
+3190	Reflective Dye
+3191	Enchanted Nightcrawler
+3192	Grubby
+3193	Sluggy
+3194	Buggy
+3195	Grub Soup
+3196	Bomb Fish
+3197	Frost Daggerfish
+3198	Sharpening Station
+3199	Ice Mirror
+3200	Sailfish Boots
+3201	Tsunami in a Bottle
+3202	Target Dummy
+3203	Corrupt Crate
+3204	Crimson Crate
+3205	Dungeon Crate
+3206	Sky Crate
+3207	Hallowed Crate
+3208	Jungle Crate
+3209	Crystal Serpent
+3210	Toxikarp
+3211	Bladetongue
+3212	Shark Tooth Necklace
+3213	Money Trough
+3214	Bubble
+3215	Daybloom Planter Box
+3216	Moonglow Planter Box
+3217	Deathweed Planter Box
+3218	Deathweed Planter Box
+3219	Blinkroot Planter Box
+3220	Waterleaf Planter Box
+3221	Shiverthorn Planter Box
+3222	Fireblossom Planter Box
+3223	Brain of Confusion
+3224	Worm Scarf
+3225	Balloon Pufferfish
+3226	Lazure's Valkyrie Circlet
+3227	Lazure's Valkyrie Cloak
+3228	Lazure's Barrier Platform
+3229	Golden Cross Grave Marker
+3230	Golden Tombstone
+3231	Golden Grave Marker
+3232	Golden Gravestone
+3233	Golden Headstone
+3234	Crystal Block
+3235	Music Box (Martian Madness)
+3236	Music Box (Pirate Invasion)
+3237	Music Box (Hell)
+3238	Crystal Block Wall
+3239	Trap Door
+3240	Tall Gate
+3241	Sharkron Balloon
+3242	Tax Collector's Hat
+3243	Tax Collector's Suit
+3244	Tax Collector's Pants
+3245	Bone Glove
+3246	Clothier's Jacket
+3247	Clothier's Pants
+3248	Dye Trader's Turban
+3249	Deadly Sphere Staff
+3250	Green Horseshoe Balloon
+3251	Amber Horseshoe Balloon
+3252	Pink Horseshoe Balloon
+3253	Lava Lamp
+3254	Enchanted Nightcrawler Cage
+3255	Buggy Cage
+3256	Grubby Cage
+3257	Sluggy Cage
+3258	Slap Hand
+3259	Twilight Hair Dye
+3260	Blessed Apple
+3261	Spectre Bar
+3262	Code 1
+3263	Buccaneer Bandana
+3264	Buccaneer Tunic
+3265	Buccaneer Pantaloons
+3266	Obsidian Outlaw Hat
+3267	Obsidian Longcoat
+3268	Obsidian Pants
+3269	Medusa Head
+3270	Item Frame
+3271	Sandstone Block
+3272	Hardened Sand Block
+3273	Sandstone Wall
+3274	Hardened Ebonsand Block
+3275	Hardened Crimsand Block
+3276	Ebonsandstone Block
+3277	Crimsandstone Block
+3278	Wooden Yoyo
+3279	Malaise
+3280	Artery
+3281	Amazon
+3282	Cascade
+3283	Chik
+3284	Code 2
+3285	Rally
+3286	Yelets
+3287	Red's Throw
+3288	Valkyrie Yoyo
+3289	Amarok
+3290	Hel-Fire
+3291	Kraken
+3292	The Eye of Cthulhu
+3293	Red String
+3294	Orange String
+3295	Yellow String
+3296	Lime String
+3297	Green String
+3298	Teal String
+3299	Cyan String
+3300	Sky Blue String
+3301	Blue String
+3302	Purple String
+3303	Violet String
+3304	Pink String
+3305	Brown String
+3306	White String
+3307	Rainbow String
+3308	Black String
+3309	Black Counterweight
+3310	Blue Counterweight
+3311	Green Counterweight
+3312	Purple Counterweight
+3313	Red Counterweight
+3314	Yellow Counterweight
+3315	Format C
+3316	Gradient
+3317	Valor
+3318	Treasure Bag (King Slime)
+3319	Treasure Bag (Eye of Cthulhu)
+3320	Treasure Bag (Eater of Worlds)
+3321	Treasure Bag (Brain of Cthulhu)
+3322	Treasure Bag (Queen Bee)
+3323	Treasure Bag (Skeletron)
+3324	Treasure Bag (Wall of Flesh)
+3325	Treasure Bag (The Destroyer)
+3326	Treasure Bag (The Twins)
+3327	Treasure Bag (Skeletron Prime)
+3328	Treasure Bag (Plantera)
+3329	Treasure Bag (Golem)
+3330	Treasure Bag (Duke Fishron)
+3331	Treasure Bag (Lunatic Cultist)
+3332	Treasure Bag (Moon Lord)
+3333	Hive Pack
+3334	Yoyo Glove
+3335	Demon Heart
+3336	Spore Sac
+3337	Shiny Stone
+3338	Hardened Pearlsand Block
+3339	Pearlsandstone Block
+3340	Hardened Sand Wall
+3341	Hardened Ebonsand Wall
+3342	Hardened Crimsand Wall
+3343	Hardened Pearlsand Wall
+3344	Ebonsandstone Wall
+3345	Crimsandstone Wall
+3346	Pearlsandstone Wall
+3347	Desert Fossil
+3348	Desert Fossil Wall
+3349	Exotic Scimitar
+3350	Paintball Gun
+3351	Classy Cane
+3352	Stylish Scissors
+3353	Mechanical Cart
+3354	Mechanical Wheel Piece
+3355	Mechanical Wagon Piece
+3356	Mechanical Battery Piece
+3357	Ancient Cultist Trophy
+3358	Martian Saucer Trophy
+3359	Flying Dutchman Trophy
+3360	Living Mahogany Wand
+3361	Rich Mahogany Leaf Wand
+3362	Fallen Tuxedo Shirt
+3363	Fallen Tuxedo Pants
+3364	Fireplace
+3365	Chimney
+3366	Yoyo Bag
+3367	Shrimpy Truffle
+3368	Arkhalis
+3369	Confetti Cannon
+3370	Music Box (The Towers)
+3371	Music Box (Goblin Invasion)
+3372	Ancient Cultist Mask
+3373	Moon Lord Mask
+3374	Fossil Helmet
+3375	Fossil Plate
+3376	Fossil Greaves
+3377	Amber Staff
+3378	Bone Javelin
+3379	Bone Throwing Knife
+3380	Sturdy Fossil
+3381	Stardust Helmet
+3382	Stardust Plate
+3383	Stardust Leggings
+3384	Portal Gun
+3385	Strange Plant
+3386	Strange Plant
+3387	Strange Plant
+3388	Strange Plant
+3389	Terrarian
+3390	Goblin Summoner Banner
+3391	Salamander Banner
+3392	Giant Shelly Banner
+3393	Crawdad Banner
+3394	Fritz Banner
+3395	Creature from the Deep Banner
+3396	Dr. Man Fly Banner
+3397	Mothron Banner
+3398	Severed Hand Banner
+3399	The Possessed Banner
+3400	Butcher Banner
+3401	Psycho Banner
+3402	Deadly Sphere Banner
+3403	Nailhead Banner
+3404	Poisonous Spore Banner
+3405	Medusa Banner
+3406	Hoplite Banner
+3407	Granite Elemental Banner
+3408	Grolem Banner
+3409	Blood Zombie Banner
+3410	Drippler Banner
+3411	Tomb Crawler Banner
+3412	Dune Splicer Banner
+3413	Antlion Swarmer Banner
+3414	Antlion Charger Banner
+3415	Ghoul Banner
+3416	Lamia Banner
+3417	Desert Spirit Banner
+3418	Basilisk Banner
+3419	Ravager Scorpion Banner
+3420	Stardust Soldier Banner
+3421	Milkyway Weaver Banner
+3422	Flow Invader Banner
+3423	Twinkle Popper Banner
+3424	Small Star Cell Banner
+3425	Star Cell Banner
+3426	Corite Banner
+3427	Sroller Banner
+3428	Crawltipede Banner
+3429	Drakomire Rider Banner
+3430	Drakomire Banner
+3431	Solar Solenian Banner
+3432	Nebula Soldier Banner
+3433	Nebula Headcrab Banner
+3434	Nebula Floater Banner
+3435	Nebula Beast Banner
+3436	Alien Larva Banner
+3437	Alien Queen Banner
+3438	Alien Hornet Banner
+3439	Vortex Soldier Banner
+3440	Vortex Rifleman Banner
+3441	Pirate Captain Banner
+3442	Pirate Deadeye Banner
+3443	Pirate Corsair Banner
+3444	Pirate Crossbower Banner
+3445	Martian Walker Banner
+3446	Red Devil Banner
+3447	Pink Jellyfish Banner
+3448	Green Jellyfish Banner
+3449	Dark Mummy Banner
+3450	Light Mummy Banner
+3451	Angry Bones Banner
+3452	Ice Tortoise Banner
+3453	Damage Booster
+3454	Life Booster
+3455	Mana Booster
+3456	Vortex Fragment
+3457	Nebula Fragment
+3458	Solar Fragment
+3459	Stardust Fragment
+3460	Luminite
+3461	Luminite Brick
+3462	Stardust Axe
+3463	Stardust Chainsaw
+3464	Stardust Drill
+3465	Stardust Hammer
+3466	Stardust Pickaxe
+3467	Luminite Bar
+3468	Solar Wings
+3469	Vortex Booster
+3470	Nebula Mantle
+3471	Stardust Wings
+3472	Luminite Brick Wall
+3473	Solar Eruption
+3474	Stardust Cell Staff
+3475	Vortex Beater
+3476	Nebula Arcanum
+3477	Blood Water
+3478	Wedding Veil
+3479	Wedding Dress
+3480	Platinum Bow
+3481	Platinum Hammer
+3482	Platinum Axe
+3483	Platinum Shortsword
+3484	Platinum Broadsword
+3485	Platinum Pickaxe
+3486	Tungsten Bow
+3487	Tungsten Hammer
+3488	Tungsten Axe
+3489	Tungsten Shortsword
+3490	Tungsten Broadsword
+3491	Tungsten Pickaxe
+3492	Lead Bow
+3493	Lead Hammer
+3494	Lead Axe
+3495	Lead Shortsword
+3496	Lead Broadsword
+3497	Lead Pickaxe
+3498	Tin Bow
+3499	Tin Hammer
+3500	Tin Axe
+3501	Tin Shortsword
+3502	Tin Broadsword
+3503	Tin Pickaxe
+3504	Copper Bow
+3505	Copper Hammer
+3506	Copper Axe
+3507	Copper Shortsword
+3508	Copper Broadsword
+3509	Copper Pickaxe
+3510	Silver Bow
+3511	Silver Hammer
+3512	Silver Axe
+3513	Silver Shortsword
+3514	Silver Broadsword
+3515	Silver Pickaxe
+3516	Gold Bow
+3517	Gold Hammer
+3518	Gold Axe
+3519	Gold Shortsword
+3520	Gold Broadsword
+3521	Gold Pickaxe
+3522	Solar Flare Hamaxe
+3523	Vortex Hamaxe
+3524	Nebula Hamaxe
+3525	Stardust Hamaxe
+3526	Solar Dye
+3527	Nebula Dye
+3528	Vortex Dye
+3529	Stardust Dye
+3530	Void Dye
+3531	Stardust Dragon Staff
+3532	Bacon
+3533	Shifting Sands Dye
+3534	Mirage Dye
+3535	Shifting Pearlsands Dye
+3536	Vortex Monolith
+3537	Nebula Monolith
+3538	Stardust Monolith
+3539	Solar Monolith
+3540	Phantasm
+3541	Last Prism
+3542	Nebula Blaze
+3543	Daybreak
+3544	Super Healing Potion
+3545	Detonator
+3546	Celebration
+3547	Bouncy Dynamite
+3548	Happy Grenade
+3549	Ancient Manipulator
+3550	Flame and Silver Dye
+3551	Green Flame and Silver Dye
+3552	Blue Flame and Silver Dye
+3553	Reflective Copper Dye
+3554	Reflective Obsidian Dye
+3555	Reflective Metal Dye
+3556	Midnight Rainbow Dye
+3557	Black and White Dye
+3558	Bright Silver Dye
+3559	Silver and Black Dye
+3560	Red Acid Dye
+3561	Gel Dye
+3562	Pink Gel Dye
+3563	Red Squirrel
+3564	Gold Squirrel
+3565	Red Squirrel Cage
+3566	Gold Squirrel Cage
+3567	Luminite Bullet
+3568	Luminite Arrow
+3569	Lunar Portal Staff
+3570	Lunar Flare
+3571	Rainbow Crystal Staff
+3572	Lunar Hook
+3573	Solar Fragment Block
+3574	Vortex Fragment Block
+3575	Nebula Fragment Block
+3576	Stardust Fragment Block
+3577	Suspicious Looking Tentacle
+3578	Yoraiz0r's Uniform
+3579	Yoraiz0r's Skirt
+3580	Yoraiz0r's Spell
+3581	Yoraiz0r's Scowl
+3582	Jim's Wings
+3583	Yoraiz0r's Recolored Goggles
+3584	Living Leaf Wall
+3585	Skiphs's Mask
+3586	Skiphs's Skin
+3587	Skiphs's Bear Butt
+3588	Skiphs's Paws
+3589	Loki's Helmet
+3590	Loki's Breastplate
+3591	Loki's Greaves
+3592	Loki's Wings
+3593	Sand Slime Banner
+3594	Sea Snail Banner
+3595	Moon Lord Trophy
+3596	Not a Kid, nor a Squid
+3597	Burning Hades Dye
+3598	Grim Dye
+3599	Loki's Dye
+3600	Shadowflame Hades Dye
+3601	Celestial Sigil

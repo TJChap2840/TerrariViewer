@@ -79,3 +79,113 @@
 78	Weapon Imbue: Confetti	Melee attacks cause confetti to appear	0	True
 79	Weapon Imbue: Poison	Melee attacks poison enemies	0	True
 80	Blackout	Light vision severely reduced	0	True
+81	Pet Spider	[Placeholder description]	0	True
+82	Squashling	[Placeholder description]	0	True
+83	Ravens	[Placeholder description]	0	True
+84	Black Cat	[Placeholder description]	0	True
+85	Cursed Sapling	[Placeholder description]	0	True
+86	Water Candle	[Placeholder description]	0	True
+87	Cozy Fire	[Placeholder description]	0	True
+88	Chaos State	[Placeholder description]	0	True
+89	Heart Lamp	[Placeholder description]	0	True
+90	Rudolph	[Placeholder description]	0	True
+91	Puppy	[Placeholder description]	0	True
+92	Baby Grinch	[Placeholder description]	0	True
+93	Ammo Box	[Placeholder description]	0	True
+94	Mana Sickness	[Placeholder description]	0	True
+95	Beetle Endurance (15%)	[Placeholder description]	0	True
+96	Beetle Endurance (30%)	[Placeholder description]	0	True
+97	Beetle Endurance (45%)	[Placeholder description]	0	True
+98	Beetle Might (10%)	[Placeholder description]	0	True
+99	Beetle Might (20%)	[Placeholder description]	0	True
+100	Beetle Might (30%)	[Placeholder description]	0	True
+101 Fairy	[Placeholder description]	0	True
+102	Fairy	[Placeholder description]	0	True
+103	Wet	[Placeholder description]	0	True
+104	Mining	[Placeholder description]	0	True
+105	Heartreach	[Placeholder description]	0	True
+106	Calm	[Placeholder description]	0	True
+107	Builder	[Placeholder description]	0	True
+108	Titan	[Placeholder description]	0	True
+109	Flipper	[Placeholder description]	0	True
+110	Summoning	[Placeholder description]	0	True
+111	Dangersense	[Placeholder description]	0	True
+112	Ammo Reservation	[Placeholder description]	0	True
+113	Lifeforce	[Placeholder description]	0	True
+114	Endurance	[Placeholder description]	0	True
+115	Rage	[Placeholder description]	0	True
+116	Inferno	[Placeholder description]	0	True
+117	Wrath	[Placeholder description]	0	True
+118	Minecart	[Placeholder description]	0	True
+119	Lovestruck	[Placeholder description]	0	True
+120	Stinky	[Placeholder description]	0	True
+121 Fishing	[Placeholder description]	0	True
+122	Sonar	[Placeholder description]	0	True
+123	Crate	[Placeholder description]	0	True
+124	Warmth	[Placeholder description]	0	True
+125	Hornet	[Placeholder description]	0	True
+126	Imp	[Placeholder description]	0	True
+127	Zephyr Fish	[Placeholder description]	0	True
+128	Bunny Mount	[Placeholder description]	0	True
+129	Pigron Mount	[Placeholder description]	0	True
+130	Slime Mount	[Placeholder description]	0	True
+131	Turtle Mount	[Placeholder description]	0	True
+132	Bee Mount	[Placeholder description]	0	True
+133	Spider	[Placeholder description]	0	True
+134	Twins	[Placeholder description]	0	True
+135	Pirate	[Placeholder description]	0	True
+136	Mini Minotaur	[Placeholder description]	0	True
+137	Slime	[Placeholder description]	0	True
+138	Minecart	[Placeholder description]	0	True
+139	Sharknado	[Placeholder description]	0	True
+140 UFO	[Placeholder description]	0	True
+141	UFO	[Placeholder description]	0	True
+142	Drill	[Placeholder description]	0	True
+143	Scutlix	[Placeholder description]	0	True
+144	Electrified	[Placeholder description]	0	True
+145	Moon Bite	[Placeholder description]	0	True
+146	Happy!	[Placeholder description]	0	True
+147	Banner	[Placeholder description]	0	True
+148	Feral Bite	[Placeholder description]	0	True
+149	Webbed	[Placeholder description]	0	True
+150	Bewitched	[Placeholder description]	0	True
+151	Life Drain	[Placeholder description]	0	True
+152	Magic Lantern	[Placeholder description]	0	True
+153	Shadowflame	[Placeholder description]	0	True
+154	Baby Face Monster	[Placeholder description]	0	True
+155	Crimson Heart	[Placeholder description]	0	True
+156	Stoned	[Placeholder description]	0	True
+157	Peace Candle	[Placeholder description]	0	True
+158 Star in a Bottle	[Placeholder description]	0	True
+159	Sharpened	[Placeholder description]	0	True
+160	Dazed	[Placeholder description]	0	True
+161	Deadly Sphere	[Placeholder description]	0	True
+162	Unicorn	[Placeholder description]	0	True
+163	Obstructed	[Placeholder description]	0	True
+164	Distorted	[Placeholder description]	0	True
+165	Dryad's Blessing	[Placeholder description]	0	True
+166	Minecart	[Placeholder description]	0	True
+167	Minecart	[Placeholder description]	0	True
+168	Cute Fishron	[Placeholder description]	0	True
+169	Penetrated	[Placeholder description]	0	True
+170	Solar Blaze	[Placeholder description]	0	True
+171	Solar Blaze	[Placeholder description]	0	True
+172	Solar Blaze	[Placeholder description]	0	True
+173	Life Nebula	[Placeholder description]	0	True
+174	Life Nebula	[Placeholder description]	0	True
+175	Life Nebula	[Placeholder description]	0	True
+176	Mana Nebula	[Placeholder description]	0	True
+177	Mana Nebula	[Placeholder description]	0	True
+178	Mana Nebula	[Placeholder description]	0	True
+179	Damage Nebula	[Placeholder description]	0	True
+180	Damage Nebula	[Placeholder description]	0	True
+181	Damage Nebula	[Placeholder description]	0	True
+182	Stardust Cell	[Placeholder description]	0	True
+183	Celled	[Placeholder description]	0	True
+184	Minecart	[Placeholder description]	0	True
+185	Minecart	[Placeholder description]	0	True
+186	Dryad's Bane	[Placeholder description]	0	True
+187	Stardust Guardian	[Placeholder description]	0	True
+188	Stardust Dragon	[Placeholder description]	0	True
+189 Daybroken	[Placeholder description]	0	True
+190	Suspicious Looking Eye	[Placeholder description]	0	True
